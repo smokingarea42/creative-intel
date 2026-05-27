@@ -54,12 +54,13 @@
     '\u706b\u5f71\u5fcd\u8005\u624b\u6e38': 'naruto',
     '\u738b\u8005\u8363\u8000': 'hok2',
     '\u548c\u5e73\u7cbe\u82f1': 'pubgm2',
-    '\u4e09\u89d2\u6d32\u884c\u52a8': 'deltaforce'
+    '\u4e09\u89d2\u6d32\u884c\u52a8': 'deltaforce',
+    'CFM': 'cfm'
   };
 
   // Category mapping
   const categoryMap = {
-    'FPS': ['Apex Legends', 'CS2', 'COD', 'CODM', 'Valorant', 'Fortnite', 'PUBG', 'Overwatch 2', 'Rainbow Six Siege', 'Destiny 2', 'The Finals', 'Marvel Rivals', '\u9006\u6218\u672a\u6765', '\u7a7f\u8d8a\u706b\u7ebf', '\u6697\u533a\u7a81\u56f4'],
+    'FPS': ['Apex Legends', 'CS2', 'COD', 'CODM', 'CFM', 'Valorant', 'Fortnite', 'PUBG', 'Overwatch 2', 'Rainbow Six Siege', 'Destiny 2', 'The Finals', 'Marvel Rivals', '\u9006\u6218\u672a\u6765', '\u7a7f\u8d8a\u706b\u7ebf', '\u6697\u533a\u7a81\u56f4', '\u4e09\u89d2\u6d32\u884c\u52a8', '\u548c\u5e73\u7cbe\u82f1'],
     'MOBA': ['Honor of Kings', 'League of Legends'],
     'RPG': ['Genshin Impact'],
     '\u52a8\u4f5c\u7ade\u6280': ['Naraka']
@@ -296,6 +297,7 @@
           <div class="card-header-right">
             <span class="card-game ${getGameClass(a.game)}">${a.game}</span>
             <span class="mechanism-tag">${a.mechanismType}</span>
+            <span class="activity-tag ${a.tag.includes('\u8ba8\u8bba') ? 'hot' : 'new'}">${a.tag}</span>
             <button class="fav-btn ${isFavorited('activities', a.id) ? 'active' : ''}" data-type="activities" data-id="${a.id}" title="\u6536\u85cf">\u2605</button>
           </div>
         </div>
