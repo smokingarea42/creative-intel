@@ -114,10 +114,12 @@
     renderFilters();
     if (currentTab === 'reports') {
       renderReports();
+      applyHighlights();
     } else if (currentTab === 'skins') {
       renderSkins();
     } else if (currentTab === 'favorites') {
       renderFavorites();
+      applyHighlights();
     }
   }
 
@@ -355,10 +357,149 @@
     });
   }
 
+  // ========== TEXT HIGHLIGHT SYSTEM ==========
+  let highlights = []; // { cardId, text }
+
+  function loadHighlights() {
+    try {
+      const saved = localStorage.getItem('creative-intel-highlights');
+      if (saved) highlights = JSON.parse(saved);
+    } catch (e) { /* ignore */ }
+  }
+  function saveHighlights() {
+    localStorage.setItem('creative-intel-highlights', JSON.stringify(highlights));
+  }
+
+  // Apply stored highlights to rendered report cards
+  function applyHighlights() {
+    document.querySelectorAll('.report-card').forEach(card => {
+      const cardId = card.querySelector('.fav-btn')?.dataset?.id;
+      if (!cardId) return;
+      const cardHighlights = highlights.filter(h => h.cardId === cardId);
+      if (cardHighlights.length === 0) return;
+
+      // Walk through highlightable areas
+      const areas = card.querySelectorAll('.card-highlights, .card-analysis, .card-insight');
+      areas.forEach(area => {
+        let html = area.innerHTML;
+        cardHighlights.forEach(h => {
+          // Escape special regex chars in the text
+          const escaped = h.text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+          const re = new RegExp(`(?!<[^>]*)(${escaped})(?![^<]*>)`, 'g');
+          html = html.replace(re, '<mark class="text-highlight">$1</mark>');
+        });
+        area.innerHTML = html;
+      });
+    });
+  }
+
+  // Floating highlight button
+  let hlBtn = null;
+
+  function createHighlightBtn() {
+    hlBtn = document.createElement('button');
+    hlBtn.className = 'highlight-popup-btn';
+    hlBtn.textContent = '\u2728 \u9ad8\u4eae';
+    hlBtn.style.display = 'none';
+    document.body.appendChild(hlBtn);
+
+    hlBtn.addEventListener('mousedown', (ev) => {
+      ev.preventDefault(); // prevent losing selection
+      ev.stopPropagation();
+      applyHighlightFromSelection();
+    });
+  }
+
+  function applyHighlightFromSelection() {
+    const sel = window.getSelection();
+    if (!sel || sel.isCollapsed) return;
+    const text = sel.toString().trim();
+    if (!text || text.length < 2) return;
+
+    // Find parent report card
+    let node = sel.anchorNode;
+    let card = null;
+    while (node && node !== document) {
+      if (node.classList && node.classList.contains('report-card')) { card = node; break; }
+      node = node.parentNode;
+    }
+    if (!card) return;
+
+    const cardId = card.querySelector('.fav-btn')?.dataset?.id;
+    if (!cardId) return;
+
+    // Check if already highlighted
+    const exists = highlights.find(h => h.cardId === cardId && h.text === text);
+    if (!exists) {
+      highlights.push({ cardId, text });
+      saveHighlights();
+    }
+
+    // Apply immediately without full re-render
+    applyHighlights();
+    sel.removeAllRanges();
+    hideHighlightBtn();
+  }
+
+  function showHighlightBtn(x, y) {
+    if (!hlBtn) return;
+    hlBtn.style.left = x + 'px';
+    hlBtn.style.top = y + 'px';
+    hlBtn.style.display = 'flex';
+  }
+
+  function hideHighlightBtn() {
+    if (hlBtn) hlBtn.style.display = 'none';
+  }
+
+  function initHighlightSystem() {
+    createHighlightBtn();
+
+    document.addEventListener('mouseup', (ev) => {
+      // Small delay to let selection finalize
+      setTimeout(() => {
+        const sel = window.getSelection();
+        if (!sel || sel.isCollapsed || sel.toString().trim().length < 2) {
+          hideHighlightBtn();
+          return;
+        }
+
+        // Check if selection is inside a report card
+        let node = sel.anchorNode;
+        let inCard = false;
+        while (node && node !== document) {
+          if (node.classList && node.classList.contains('report-card')) { inCard = true; break; }
+          node = node.parentNode;
+        }
+        if (!inCard) { hideHighlightBtn(); return; }
+
+        // Position the button near selection
+        const range = sel.getRangeAt(0);
+        const rect = range.getBoundingClientRect();
+        showHighlightBtn(
+          rect.left + rect.width / 2 - 36 + window.scrollX,
+          rect.top - 40 + window.scrollY
+        );
+      }, 10);
+    });
+
+    // Hide on click elsewhere
+    document.addEventListener('mousedown', (ev) => {
+      if (ev.target !== hlBtn && !hlBtn.contains(ev.target)) {
+        // Will hide after mouseup if selection is gone
+      }
+    });
+
+    // Also hide on scroll
+    document.addEventListener('scroll', () => hideHighlightBtn(), { passive: true });
+  }
+
   // Init
   document.addEventListener('DOMContentLoaded', () => {
     loadFavorites();
+    loadHighlights();
     initTabs();
+    initHighlightSystem();
     loadData();
   });
 })();
