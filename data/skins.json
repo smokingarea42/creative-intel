@@ -1,0 +1,63 @@
+[
+  {
+    "date": "2026-05-27",
+    "entries": [
+      {
+        "game": "Valorant",
+        "skinName": "Rogue 系列",
+        "type": "武器皮肤套装",
+        "brief": "5.25公布预告，主打战术精密风格，'Defy, advance, and go Rogue'",
+        "sourceUrl": "https://www.youtube.com/watch?v=b1u1kUdDOys",
+        "biliSearch": "https://search.bilibili.com/all?keyword=Valorant+Rogue+%E7%9A%AE%E8%82%A4&order=pubdate"
+      },
+      {
+        "game": "Valorant",
+        "skinName": "Kuronami 暗流系列（回归）",
+        "type": "武器皮肤套装",
+        "brief": "4.27上线回归，风暴与暗影主题",
+        "sourceUrl": "https://www.youtube.com/watch?v=pXqSRj-JEkA",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E6%97%A0%E7%95%8F%E5%A5%91%E7%BA%A6+Kuronami+%E7%9A%AE%E8%82%A4&order=pubdate"
+      },
+      {
+        "game": "Apex Legends",
+        "skinName": "Ash Prestige Skin（三阶段进化）",
+        "type": "神话级角色皮肤",
+        "brief": "S29 Overclocked赛季（5.5开季），三个进化阶段视觉完全不同，被评为游戏内最佳Prestige皮肤",
+        "sourceUrl": "https://boostmatch.gg/blog/apex-legends/articles/apex-legends-season-29-heirlooms-battle-pass-overclocked",
+        "biliSearch": "https://search.bilibili.com/all?keyword=Apex+S29+Ash+%E7%9A%AE%E8%82%A4+Prestige&order=pubdate"
+      },
+      {
+        "game": "Apex Legends",
+        "skinName": "Twin Razors 通用传家宝",
+        "type": "通用近战武器",
+        "brief": "S29里程碑活动终极奖励，双持激光拐棍造型，全角色可用，4色变体",
+        "sourceUrl": "https://boostmatch.gg/blog/apex-legends/articles/apex-legends-season-29-heirlooms-battle-pass-overclocked",
+        "biliSearch": "https://search.bilibili.com/all?keyword=Apex+S29+Twin+Razors+%E4%BC%A0%E5%AE%B6%E5%AE%9D&order=pubdate"
+      },
+      {
+        "game": "CS2",
+        "skinName": "Dead Hand Terminal（新手套+武器）",
+        "type": "终端箱体（手套+武器皮肤）",
+        "brief": "2026.3.11上线，首批新手套（2020年后首次），含AWP Queen's Gambit / AK-47 Crane Flight / M4A1-S Electrum等热门皮肤",
+        "sourceUrl": "https://community.skin.club/en/articles/cs2-new-cases",
+        "biliSearch": "https://search.bilibili.com/all?keyword=CS2+Dead+Hand+%E6%89%8B%E5%A5%97+%E7%9A%AE%E8%82%A4&order=pubdate"
+      },
+      {
+        "game": "COD",
+        "skinName": "Tracer Pack: Polar Scare / Force Quit / High Luxe Reactive",
+        "type": "商城热门Bundle",
+        "brief": "BO7 S3 Reloaded赛季商城热门，含Reactive反应式枪皮+干员皮肤",
+        "sourceUrl": "https://codmwstore.com/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=COD+BO7+%E7%9A%AE%E8%82%A4+%E5%95%86%E5%9F%8E+2026&order=pubdate"
+      },
+      {
+        "game": "Fortnite",
+        "skinName": "Heist Crew / Mandalorian / Overwatch联动 / Crimson Desert联动 / Kim Kardashian / Eminem / Batman",
+        "type": "每日商城轮换",
+        "brief": "5.27商城轮换，含多个IP联动系列",
+        "sourceUrl": "https://fnbr.co/shop",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E5%A0%A1%E5%9E%92%E4%B9%8B%E5%A4%9C+%E6%9C%80%E6%96%B0%E7%9A%AE%E8%82%A4+2026&order=pubdate"
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "2026-05-27-01",
+    "date": "2026-05-27",
+    "game": "Apex Legends",
+    "category": "FPS",
+    "title": "S29 Ash Prestige Skin — 三阶段进化设计拆解",
+    "highlights": "S29 \"Overclocked\" 赛季推出 Ash Prestige Skin（神话级皮肤），被多位早期体验者独立评价为"游戏内最佳Prestige皮肤"。",
+    "designAnalysis": "• Level 1：红色面部纹样 + 异星护甲基底，腿部开始呈半透明效果\n\n• Level 2：粉色眼瞳 + 邪恶守护者光环激活，整体风格与L1完全不同（不是简单亮度递增）\n\n• Level 3：光环升级、胸甲强化、腿部完全进化，全身护甲一体感极强",
+    "bsInsight": "• "阶段进化"而非"递增变亮"——每个等级都是视觉上完全不同的角色形象，极大提升玩家升级动力\n\n• 将Prestige皮肤与角色平衡调整捆绑发售（先削弱再出皮肤buff），制造话题性+购买冲动\n\n• 单皮肤无法用合成材料获取、绑定活动机制 → 人为稀缺性",
+    "sourceUrl": "https://boostmatch.gg/blog/apex-legends/articles/apex-legends-season-29-heirlooms-battle-pass-overclocked",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-05-27-02",
+    "date": "2026-05-27",
+    "game": "Apex Legends",
+    "category": "FPS",
+    "title": "S29 通用传家宝 Twin Razors — 全角色共享近战武器新范式",
+    "highlights": "Twin Razors 是 S29 里程碑活动的终极奖励，一把适配全英雄的通用（Universal）近战武器。双持拐棍造型+旋转激光刃，4色变体。",
+    "designAnalysis": "• 拐棍（Tonfa）造型 + 旋转能量刃，跑动/蹲伏/滑步/检视均有独立动画\n\n• 不绑定特定英雄故事线，所有角色通用 → 降低购买犹豫成本\n\n• 获取方式：绑定赛季Milestone Event包体（不能直接购买）→ 拉长参与周期",
+    "bsInsight": "• "通用近战皮肤"品类：一次购买全角色可用，降低决策门槛，适合中低付费层\n\n• 活动驱动获取（而非直接商城购买）→ 提升DAU和留存数据\n\n• 4色变体满足个性化，生产边际成本极低",
+    "sourceUrl": "https://boostmatch.gg/blog/apex-legends/articles/apex-legends-season-29-heirlooms-battle-pass-overclocked",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-05-27-03",
+    "date": "2026-05-27",
+    "game": "CS2",
+    "category": "FPS",
+    "title": "Dead Hand Terminal — 首批新手套自2020年以来的设计革新",
+    "highlights": "2026年3月上线的 Sealed Dead Hand Terminal 是CS2最新掉落箱体，包含17把武器皮肤+22双手套（2020年12月以来首次新增手套），采用全新"终端"开箱机制。",
+    "designAnalysis": "• 机制创新：玩家获得5个选项、可拒绝最多4次再决定 → "选择权"取代纯随机\n\n• 热门皮肤：AWP | Queen's Gambit、AK-47 | Crane Flight、M4A1-S | Electrum\n\n• 免费开启但确认领取需付费 → 降低体验门槛、提高转化率",
+    "bsInsight": "• "部分控制权"设计：不是完全随机也不是直接购买，给玩家"我有选择"的感知 → 降低抽卡负面情绪\n\n• 时隔5年首次新增手套 → 长期断供品类重启能制造巨大话题和市场波动\n\n• 终端机制和传统箱子共存，满足不同用户偏好",
+    "sourceUrl": "https://community.skin.club/en/articles/cs2-new-cases",
+    "imageUrl": ""
+  }
+]
