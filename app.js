@@ -112,11 +112,12 @@
 
   // Load data
   async function loadData() {
+    const bust = Date.now();
     try {
       const [reportsRes, skinsRes, activitiesRes] = await Promise.all([
-        fetch('data/reports.json'),
-        fetch('data/skins.json'),
-        fetch('data/activities.json')
+        fetch('data/reports.json?v=' + bust),
+        fetch('data/skins.json?v=' + bust),
+        fetch('data/activities.json?v=' + bust)
       ]);
       reportsData = await reportsRes.json();
       skinsData = await skinsRes.json();
