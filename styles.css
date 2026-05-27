@@ -486,6 +486,17 @@ body {
   border-radius: 6px;
   border-left: 3px solid #ff6b35;
 }
+.activity-card .card-title-main {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+.activity-card .card-title-sub {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-top: 4px;
+}
 .mechanism-tag {
   font-size: 11px;
   padding: 3px 8px;
