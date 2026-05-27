@@ -235,19 +235,20 @@ body {
   border-bottom: 1px solid var(--border-color);
 }
 .skin-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
 }
 .skin-item {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: 8px;
-  padding: 16px 20px;
+  padding: 0;
   display: flex;
-  align-items: flex-start;
-  gap: 16px;
+  flex-direction: column;
   transition: all 0.2s;
+  overflow: hidden;
+  position: relative;
 }
 .skin-item:hover {
   background: var(--bg-card-hover);
@@ -361,13 +362,11 @@ body {
 
 /* Skin Thumbnail */
 .skin-thumb {
-  width: 120px;
-  height: 68px;
-  border-radius: 6px;
+  width: 100%;
+  height: 200px;
   overflow: hidden;
   flex-shrink: 0;
   background: var(--bg-secondary);
-  border: 1px solid var(--border-color);
 }
 .skin-thumb img {
   width: 100%;
@@ -375,14 +374,21 @@ body {
   object-fit: cover;
 }
 
-/* Skin item with thumbnail adjustment */
-.skin-item {
-  position: relative;
+/* Skin item layout */
+.skin-item .skin-body {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 18px;
 }
+
+/* Skin item with thumbnail adjustment */
 .skin-item .fav-btn {
   position: absolute;
   top: 12px;
   right: 12px;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(4px);
 }
 
 /* Favorites Section */

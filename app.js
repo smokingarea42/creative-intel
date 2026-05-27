@@ -237,17 +237,19 @@
               return `
               <div class="skin-item">
                 ${thumb}
-                <span class="skin-game-tag ${getGameClass(e.game)}">${e.game}</span>
-                <div class="skin-info">
-                  <div class="skin-name">${e.skinName}</div>
-                  <div class="skin-type">${e.type}</div>
-                  <div class="skin-brief">${e.brief}</div>
-                  <div class="skin-links">
-                    <a class="skin-link source" href="${e.sourceUrl}" target="_blank" rel="noopener">\ud83c\udf10 \u6d77\u5916\u6765\u6e90</a>
-                    <a class="skin-link bili" href="${e.biliSearch}" target="_blank" rel="noopener">\ud83d\udcfa B\u7ad9\u641c\u7d22</a>
+                <button class="fav-btn ${isFavorited('skins', skinId) ? 'active' : ''}" data-type="skins" data-id="${skinId}" title="\u6536\u85cf">\u2605</button>
+                <div class="skin-body">
+                  <span class="skin-game-tag ${getGameClass(e.game)}">${e.game}</span>
+                  <div class="skin-info">
+                    <div class="skin-name">${e.skinName}</div>
+                    <div class="skin-type">${e.type}</div>
+                    <div class="skin-brief">${e.brief}</div>
+                    <div class="skin-links">
+                      <a class="skin-link source" href="${e.sourceUrl}" target="_blank" rel="noopener">\ud83c\udf10 \u6d77\u5916\u6765\u6e90</a>
+                      <a class="skin-link bili" href="${e.biliSearch}" target="_blank" rel="noopener">\ud83d\udcfa B\u7ad9\u641c\u7d22</a>
+                    </div>
                   </div>
                 </div>
-                <button class="fav-btn ${isFavorited('skins', skinId) ? 'active' : ''}" data-type="skins" data-id="${skinId}" title="\u6536\u85cf">\u2605</button>
               </div>`;
             }).join('')}
           </div>
@@ -286,6 +288,10 @@
           </div>
           <div class="card-title">${formatTitle(r.title)}</div>
           <div class="card-highlights">${r.highlights}</div>
+          <div class="card-section-title">\u8bbe\u8ba1\u62c6\u89e3</div>
+          <div class="card-analysis">${r.designAnalysis}</div>
+          <div class="card-section-title">\u5bf9BS\u542f\u53d1</div>
+          <div class="card-insight">${r.bsInsight}</div>
           <a class="card-source" href="${r.sourceUrl}" target="_blank" rel="noopener">\u6765\u6e90 \u2192</a>
         </div>
       `).join('')}</div>`;
@@ -313,17 +319,19 @@
         html += `
           <div class="skin-item">
             ${thumb}
-            <span class="skin-game-tag ${getGameClass(e.game)}">${e.game}</span>
-            <div class="skin-info">
-              <div class="skin-name">${e.skinName}</div>
-              <div class="skin-type">${e.type} \u00b7 ${e.date}</div>
-              <div class="skin-brief">${e.brief}</div>
-              <div class="skin-links">
-                <a class="skin-link source" href="${e.sourceUrl}" target="_blank" rel="noopener">\ud83c\udf10 \u6d77\u5916\u6765\u6e90</a>
-                <a class="skin-link bili" href="${e.biliSearch}" target="_blank" rel="noopener">\ud83d\udcfa B\u7ad9\u641c\u7d22</a>
+            <button class="fav-btn active" data-type="skins" data-id="${e.skinId}" title="\u53d6\u6d88\u6536\u85cf">\u2605</button>
+            <div class="skin-body">
+              <span class="skin-game-tag ${getGameClass(e.game)}">${e.game}</span>
+              <div class="skin-info">
+                <div class="skin-name">${e.skinName}</div>
+                <div class="skin-type">${e.type} \u00b7 ${e.date}</div>
+                <div class="skin-brief">${e.brief}</div>
+                <div class="skin-links">
+                  <a class="skin-link source" href="${e.sourceUrl}" target="_blank" rel="noopener">\ud83c\udf10 \u6d77\u5916\u6765\u6e90</a>
+                  <a class="skin-link bili" href="${e.biliSearch}" target="_blank" rel="noopener">\ud83d\udcfa B\u7ad9\u641c\u7d22</a>
+                </div>
               </div>
             </div>
-            <button class="fav-btn active" data-type="skins" data-id="${e.skinId}" title="\u53d6\u6d88\u6536\u85cf">\u2605</button>
           </div>`;
       });
       html += '</div>';
