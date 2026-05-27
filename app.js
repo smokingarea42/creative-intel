@@ -14,14 +14,19 @@
   function loadFavorites() {
     try {
       const saved = localStorage.getItem('creative-intel-favorites');
-      if (saved) favorites = JSON.parse(saved);
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        favorites.reports = parsed.reports || [];
+        favorites.skins = parsed.skins || [];
+        favorites.activities = parsed.activities || [];
+      }
     } catch (e) { /* ignore */ }
   }
   function saveFavorites() {
     localStorage.setItem('creative-intel-favorites', JSON.stringify(favorites));
   }
   function isFavorited(type, id) {
-    return favorites[type].includes(id);
+    return (favorites[type] || []).includes(id);
   }
   function toggleFavorite(type, id) {
     const idx = favorites[type].indexOf(id);
