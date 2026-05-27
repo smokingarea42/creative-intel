@@ -1,12 +1,33 @@
-// Creative Intel - App Logic
+// Creative Intel - App Logic v2
 (function () {
   'use strict';
 
   let reportsData = [];
   let skinsData = [];
-  let currentTab = 'reports'; // 'reports' | 'skins'
-  let currentCategory = 'all'; // 'all' | 'FPS' | 'MOBA' | 'RPG' | etc.
+  let currentTab = 'reports'; // 'reports' | 'skins' | 'favorites'
+  let currentCategory = 'all';
   let currentGame = 'all';
+  let favorites = { reports: [], skins: [] }; // stored in localStorage
+
+  // Load favorites from localStorage
+  function loadFavorites() {
+    try {
+      const saved = localStorage.getItem('creative-intel-favorites');
+      if (saved) favorites = JSON.parse(saved);
+    } catch (e) { /* ignore */ }
+  }
+  function saveFavorites() {
+    localStorage.setItem('creative-intel-favorites', JSON.stringify(favorites));
+  }
+  function isFavorited(type, id) {
+    return favorites[type].includes(id);
+  }
+  function toggleFavorite(type, id) {
+    const idx = favorites[type].indexOf(id);
+    if (idx === -1) { favorites[type].push(id); } else { favorites[type].splice(idx, 1); }
+    saveFavorites();
+    render();
+  }
 
   // Game class mapping (for CSS styling)
   const gameClassMap = {
@@ -27,7 +48,7 @@
     'Marvel Rivals': 'marvelrivals'
   };
 
-  // Category mapping - which games belong to which category
+  // Category mapping
   const categoryMap = {
     'FPS': ['Apex Legends', 'CS2', 'COD', 'Valorant', 'Fortnite', 'PUBG', 'Overwatch 2', 'Rainbow Six Siege', 'Destiny 2', 'The Finals', 'Marvel Rivals'],
     'MOBA': ['Honor of Kings', 'League of Legends'],
@@ -46,22 +67,22 @@
     return '\u5176\u4ed6';
   }
 
-  // Get all categories present in current data
   function getActiveCategories(data) {
     const cats = new Set();
-    if (currentTab === 'reports') {
-      data.forEach(r => cats.add(r.category || getGameCategory(r.game)));
+    if (currentTab === 'reports' || currentTab === 'favorites') {
+      const list = currentTab === 'favorites' ? data.filter(r => isFavorited('reports', r.id)) : data;
+      list.forEach(r => cats.add(r.category || getGameCategory(r.game)));
     } else {
       data.forEach(day => day.entries.forEach(e => cats.add(getGameCategory(e.game))));
     }
     return Array.from(cats);
   }
 
-  // Get all games for a given category in current data
   function getActiveGames(data, category) {
     const games = new Set();
-    if (currentTab === 'reports') {
-      data.forEach(r => {
+    if (currentTab === 'reports' || currentTab === 'favorites') {
+      const list = currentTab === 'favorites' ? data.filter(r => isFavorited('reports', r.id)) : data;
+      list.forEach(r => {
         const cat = r.category || getGameCategory(r.game);
         if (category === 'all' || cat === category) games.add(r.game);
       });
@@ -89,24 +110,28 @@
     render();
   }
 
-  // Render
   function render() {
     renderFilters();
     if (currentTab === 'reports') {
       renderReports();
-    } else {
+    } else if (currentTab === 'skins') {
       renderSkins();
+    } else if (currentTab === 'favorites') {
+      renderFavorites();
     }
   }
 
-  // Render two-tier filters
+  // Two-tier filters
   function renderFilters() {
     const container = document.getElementById('filters');
+    if (currentTab === 'favorites') {
+      container.innerHTML = '';
+      return;
+    }
     const data = currentTab === 'reports' ? reportsData : skinsData;
     const activeCategories = getActiveCategories(data);
     const activeGames = getActiveGames(data, currentCategory);
 
-    // Tier 1: Category filter
     let html = '<div class="filter-row filter-categories">';
     html += `<button class="filter-btn category-btn ${currentCategory === 'all' ? 'active' : ''}" data-category="all">\u5168\u90e8\u54c1\u7c7b</button>`;
     activeCategories.forEach(cat => {
@@ -114,7 +139,6 @@
     });
     html += '</div>';
 
-    // Tier 2: Game filter (only show if there are multiple games)
     if (activeGames.length > 1) {
       html += '<div class="filter-row filter-games">';
       html += `<button class="filter-btn game-btn ${currentGame === 'all' ? 'active' : ''}" data-game="all">\u5168\u90e8\u6e38\u620f</button>`;
@@ -126,16 +150,13 @@
 
     container.innerHTML = html;
 
-    // Event listeners - Category
     container.querySelectorAll('.category-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         currentCategory = btn.dataset.category;
-        currentGame = 'all'; // reset game filter when category changes
+        currentGame = 'all';
         render();
       });
     });
-
-    // Event listeners - Game
     container.querySelectorAll('.game-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         currentGame = btn.dataset.game;
@@ -144,12 +165,23 @@
     });
   }
 
-  // Filter logic helper
   function matchesFilter(game) {
     const cat = getGameCategory(game);
     if (currentCategory !== 'all' && cat !== currentCategory) return false;
     if (currentGame !== 'all' && game !== currentGame) return false;
     return true;
+  }
+
+  // Format title: split at dash into two lines
+  function formatTitle(title) {
+    const separators = [' \u2014 ', ' — ', ' - '];
+    for (const sep of separators) {
+      const idx = title.indexOf(sep);
+      if (idx > 0) {
+        return `<span class="card-title-main">${title.substring(0, idx)}</span><span class="card-title-sub">${title.substring(idx + sep.length)}</span>`;
+      }
+    }
+    return `<span class="card-title-main">${title}</span>`;
   }
 
   // Render report cards
@@ -166,9 +198,12 @@
       <div class="report-card">
         <div class="card-header">
           <span class="card-date">${r.date}</span>
-          <span class="card-game ${getGameClass(r.game)}">${r.game}</span>
+          <div class="card-header-right">
+            <span class="card-game ${getGameClass(r.game)}">${r.game}</span>
+            <button class="fav-btn ${isFavorited('reports', r.id) ? 'active' : ''}" data-type="reports" data-id="${r.id}" title="\u6536\u85cf">\u2605</button>
+          </div>
         </div>
-        <div class="card-title">${r.title}</div>
+        <div class="card-title">${formatTitle(r.title)}</div>
         <div class="card-highlights">${r.highlights}</div>
         <div class="card-section-title">\u8bbe\u8ba1\u62c6\u89e3</div>
         <div class="card-analysis">${r.designAnalysis}</div>
@@ -177,6 +212,8 @@
         <a class="card-source" href="${r.sourceUrl}" target="_blank" rel="noopener">\u6765\u6e90 \u2192</a>
       </div>
     `).join('')}</div>`;
+
+    bindFavButtons();
   }
 
   // Render skins archive
@@ -192,8 +229,12 @@
         <div class="skin-date-group">
           <div class="skin-date-header">\ud83d\udcc5 ${day.date}</div>
           <div class="skin-list">
-            ${entries.map(e => `
+            ${entries.map(e => {
+              const skinId = `${day.date}-${e.game}-${e.skinName}`;
+              const thumb = e.imageUrl ? `<div class="skin-thumb"><img src="${e.imageUrl}" alt="${e.skinName}" loading="lazy"></div>` : '';
+              return `
               <div class="skin-item">
+                ${thumb}
                 <span class="skin-game-tag ${getGameClass(e.game)}">${e.game}</span>
                 <div class="skin-info">
                   <div class="skin-name">${e.skinName}</div>
@@ -204,8 +245,9 @@
                     <a class="skin-link bili" href="${e.biliSearch}" target="_blank" rel="noopener">\ud83d\udcfa B\u7ad9\u641c\u7d22</a>
                   </div>
                 </div>
-              </div>
-            `).join('')}
+                <button class="fav-btn ${isFavorited('skins', skinId) ? 'active' : ''}" data-type="skins" data-id="${skinId}" title="\u6536\u85cf">\u2605</button>
+              </div>`;
+            }).join('')}
           </div>
         </div>
       `;
@@ -217,6 +259,86 @@
     }
 
     container.innerHTML = html;
+    bindFavButtons();
+  }
+
+  // Render favorites
+  function renderFavorites() {
+    const container = document.getElementById('content');
+    let html = '';
+
+    // Favorite reports
+    const favReports = reportsData.filter(r => isFavorited('reports', r.id));
+    html += '<h2 class="fav-section-title">\ud83d\udccc \u6536\u85cf\u7684\u60c5\u62a5</h2>';
+    if (favReports.length === 0) {
+      html += '<p class="fav-empty">\u6682\u65e0\u6536\u85cf\u7684\u60c5\u62a5</p>';
+    } else {
+      html += `<div class="cards-grid">${favReports.map(r => `
+        <div class="report-card">
+          <div class="card-header">
+            <span class="card-date">${r.date}</span>
+            <div class="card-header-right">
+              <span class="card-game ${getGameClass(r.game)}">${r.game}</span>
+              <button class="fav-btn active" data-type="reports" data-id="${r.id}" title="\u53d6\u6d88\u6536\u85cf">\u2605</button>
+            </div>
+          </div>
+          <div class="card-title">${formatTitle(r.title)}</div>
+          <div class="card-highlights">${r.highlights}</div>
+          <a class="card-source" href="${r.sourceUrl}" target="_blank" rel="noopener">\u6765\u6e90 \u2192</a>
+        </div>
+      `).join('')}</div>`;
+    }
+
+    // Favorite skins
+    html += '<h2 class="fav-section-title" style="margin-top:40px;">\ud83c\udfa8 \u6536\u85cf\u7684\u76ae\u80a4</h2>';
+    const favSkinIds = favorites.skins;
+    let favSkins = [];
+    skinsData.forEach(day => {
+      day.entries.forEach(e => {
+        const skinId = `${day.date}-${e.game}-${e.skinName}`;
+        if (favSkinIds.includes(skinId)) {
+          favSkins.push({ ...e, date: day.date, skinId });
+        }
+      });
+    });
+
+    if (favSkins.length === 0) {
+      html += '<p class="fav-empty">\u6682\u65e0\u6536\u85cf\u7684\u76ae\u80a4</p>';
+    } else {
+      html += '<div class="skin-list">';
+      favSkins.forEach(e => {
+        const thumb = e.imageUrl ? `<div class="skin-thumb"><img src="${e.imageUrl}" alt="${e.skinName}" loading="lazy"></div>` : '';
+        html += `
+          <div class="skin-item">
+            ${thumb}
+            <span class="skin-game-tag ${getGameClass(e.game)}">${e.game}</span>
+            <div class="skin-info">
+              <div class="skin-name">${e.skinName}</div>
+              <div class="skin-type">${e.type} \u00b7 ${e.date}</div>
+              <div class="skin-brief">${e.brief}</div>
+              <div class="skin-links">
+                <a class="skin-link source" href="${e.sourceUrl}" target="_blank" rel="noopener">\ud83c\udf10 \u6d77\u5916\u6765\u6e90</a>
+                <a class="skin-link bili" href="${e.biliSearch}" target="_blank" rel="noopener">\ud83d\udcfa B\u7ad9\u641c\u7d22</a>
+              </div>
+            </div>
+            <button class="fav-btn active" data-type="skins" data-id="${e.skinId}" title="\u53d6\u6d88\u6536\u85cf">\u2605</button>
+          </div>`;
+      });
+      html += '</div>';
+    }
+
+    container.innerHTML = html;
+    bindFavButtons();
+  }
+
+  // Bind favorite button clicks
+  function bindFavButtons() {
+    document.querySelectorAll('.fav-btn').forEach(btn => {
+      btn.addEventListener('click', (ev) => {
+        ev.stopPropagation();
+        toggleFavorite(btn.dataset.type, btn.dataset.id);
+      });
+    });
   }
 
   // Tab switching
@@ -235,6 +357,7 @@
 
   // Init
   document.addEventListener('DOMContentLoaded', () => {
+    loadFavorites();
     initTabs();
     loadData();
   });
