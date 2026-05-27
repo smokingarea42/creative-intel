@@ -34,6 +34,7 @@
     'Apex Legends': 'apex',
     'CS2': 'cs2',
     'COD': 'cod',
+    'CODM': 'codm',
     'Valorant': 'valorant',
     'Fortnite': 'fortnite',
     'PUBG': 'pubg',
@@ -45,12 +46,15 @@
     'Naraka': 'naraka',
     'Destiny 2': 'destiny',
     'The Finals': 'thefinals',
-    'Marvel Rivals': 'marvelrivals'
+    'Marvel Rivals': 'marvelrivals',
+    '\u9006\u6218\u672a\u6765': 'nzwl',
+    '\u7a7f\u8d8a\u706b\u7ebf': 'cf',
+    '\u6697\u533a\u7a81\u56f4': 'aqtw'
   };
 
   // Category mapping
   const categoryMap = {
-    'FPS': ['Apex Legends', 'CS2', 'COD', 'Valorant', 'Fortnite', 'PUBG', 'Overwatch 2', 'Rainbow Six Siege', 'Destiny 2', 'The Finals', 'Marvel Rivals'],
+    'FPS': ['Apex Legends', 'CS2', 'COD', 'CODM', 'Valorant', 'Fortnite', 'PUBG', 'Overwatch 2', 'Rainbow Six Siege', 'Destiny 2', 'The Finals', 'Marvel Rivals', '\u9006\u6218\u672a\u6765', '\u7a7f\u8d8a\u706b\u7ebf', '\u6697\u533a\u7a81\u56f4'],
     'MOBA': ['Honor of Kings', 'League of Legends'],
     'RPG': ['Genshin Impact'],
     '\u52a8\u4f5c\u7ade\u6280': ['Naraka']
@@ -176,7 +180,7 @@
 
   // Format title: split at dash into two lines
   function formatTitle(title) {
-    const separators = [' \u2014 ', ' â€” ', ' - '];
+    const separators = [' \u2014 ', ' â€?', ' - '];
     for (const sep of separators) {
       const idx = title.indexOf(sep);
       if (idx > 0) {
