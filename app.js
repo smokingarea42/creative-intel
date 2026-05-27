@@ -386,23 +386,41 @@
       const cardHighlights = highlights.filter(h => h.cardId === cardId);
       if (cardHighlights.length === 0) return;
 
-      // Walk through highlightable areas
+      // Only highlight within these specific areas
       const areas = card.querySelectorAll('.card-highlights, .card-analysis, .card-insight');
       areas.forEach(area => {
-        let html = area.innerHTML;
+        let html = area.textContent; // use textContent to avoid nesting issues
+        // Rebuild: escape HTML first
+        html = area.innerHTML;
+        // Remove existing marks first to avoid double-wrapping
+        html = html.replace(/<mark class="text-highlight"[^>]*>(.*?)<\/mark>/g, '$1');
         cardHighlights.forEach(h => {
-          // Escape special regex chars in the text
           const escaped = h.text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-          const re = new RegExp(`(?!<[^>]*)(${escaped})(?![^<]*>)`, 'g');
-          html = html.replace(re, '<mark class="text-highlight">$1</mark>');
+          const re = new RegExp(escaped, 'g');
+          html = html.replace(re, `<mark class="text-highlight" data-card="${cardId}" data-text="${h.text.replace(/"/g, '&quot;')}">${h.text}</mark>`);
         });
         area.innerHTML = html;
+      });
+    });
+
+    // Bind click on highlights to show remove button
+    document.querySelectorAll('.text-highlight').forEach(mark => {
+      mark.addEventListener('click', (ev) => {
+        ev.stopPropagation();
+        const rect = mark.getBoundingClientRect();
+        showRemoveBtn(
+          rect.left + rect.width / 2 - 40 + window.scrollX,
+          rect.top - 36 + window.scrollY,
+          mark.dataset.card,
+          mark.dataset.text
+        );
       });
     });
   }
 
   // Floating highlight button
   let hlBtn = null;
+  let removeBtn = null;
 
   function createHighlightBtn() {
     hlBtn = document.createElement('button');
@@ -412,10 +430,45 @@
     document.body.appendChild(hlBtn);
 
     hlBtn.addEventListener('mousedown', (ev) => {
-      ev.preventDefault(); // prevent losing selection
+      ev.preventDefault();
       ev.stopPropagation();
       applyHighlightFromSelection();
     });
+
+    // Remove button
+    removeBtn = document.createElement('button');
+    removeBtn.className = 'highlight-remove-btn';
+    removeBtn.textContent = '\u2716 \u53d6\u6d88\u9ad8\u4eae';
+    removeBtn.style.display = 'none';
+    document.body.appendChild(removeBtn);
+
+    removeBtn.addEventListener('mousedown', (ev) => {
+      ev.preventDefault();
+      ev.stopPropagation();
+      const cardId = removeBtn.dataset.card;
+      const text = removeBtn.dataset.text;
+      removeHighlight(cardId, text);
+    });
+  }
+
+  function removeHighlight(cardId, text) {
+    highlights = highlights.filter(h => !(h.cardId === cardId && h.text === text));
+    saveHighlights();
+    hideRemoveBtn();
+    applyHighlights();
+  }
+
+  function showRemoveBtn(x, y, cardId, text) {
+    if (!removeBtn) return;
+    removeBtn.style.left = x + 'px';
+    removeBtn.style.top = y + 'px';
+    removeBtn.style.display = 'flex';
+    removeBtn.dataset.card = cardId;
+    removeBtn.dataset.text = text;
+  }
+
+  function hideRemoveBtn() {
+    if (removeBtn) removeBtn.style.display = 'none';
   }
 
   function applyHighlightFromSelection() {
@@ -436,14 +489,12 @@
     const cardId = card.querySelector('.fav-btn')?.dataset?.id;
     if (!cardId) return;
 
-    // Check if already highlighted
     const exists = highlights.find(h => h.cardId === cardId && h.text === text);
     if (!exists) {
       highlights.push({ cardId, text });
       saveHighlights();
     }
 
-    // Apply immediately without full re-render
     applyHighlights();
     sel.removeAllRanges();
     hideHighlightBtn();
@@ -460,11 +511,31 @@
     if (hlBtn) hlBtn.style.display = 'none';
   }
 
+  // Check if selection is entirely within allowed highlightable areas
+  function isSelectionInHighlightableArea(sel) {
+    const allowedClasses = ['card-highlights', 'card-analysis', 'card-insight'];
+
+    function isInAllowed(node) {
+      while (node && node !== document) {
+        if (node.classList) {
+          for (const cls of allowedClasses) {
+            if (node.classList.contains(cls)) return true;
+          }
+          // If we hit the card boundary without finding an allowed area, stop
+          if (node.classList.contains('report-card')) return false;
+        }
+        node = node.parentNode;
+      }
+      return false;
+    }
+
+    return isInAllowed(sel.anchorNode) && isInAllowed(sel.focusNode);
+  }
+
   function initHighlightSystem() {
     createHighlightBtn();
 
     document.addEventListener('mouseup', (ev) => {
-      // Small delay to let selection finalize
       setTimeout(() => {
         const sel = window.getSelection();
         if (!sel || sel.isCollapsed || sel.toString().trim().length < 2) {
@@ -481,7 +552,12 @@
         }
         if (!inCard) { hideHighlightBtn(); return; }
 
-        // Position the button near selection
+        // Only show highlight btn if selection is within highlightable areas
+        if (!isSelectionInHighlightableArea(sel)) {
+          hideHighlightBtn();
+          return;
+        }
+
         const range = sel.getRangeAt(0);
         const rect = range.getBoundingClientRect();
         showHighlightBtn(
@@ -491,15 +567,17 @@
       }, 10);
     });
 
-    // Hide on click elsewhere
+    // Hide remove btn on click elsewhere
     document.addEventListener('mousedown', (ev) => {
-      if (ev.target !== hlBtn && !hlBtn.contains(ev.target)) {
-        // Will hide after mouseup if selection is gone
+      if (removeBtn && ev.target !== removeBtn && !removeBtn.contains(ev.target)) {
+        hideRemoveBtn();
       }
     });
 
-    // Also hide on scroll
-    document.addEventListener('scroll', () => hideHighlightBtn(), { passive: true });
+    document.addEventListener('scroll', () => {
+      hideHighlightBtn();
+      hideRemoveBtn();
+    }, { passive: true });
   }
 
   // Init
