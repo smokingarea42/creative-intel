@@ -140,7 +140,7 @@
   // Two-tier filters
   function renderFilters() {
     const container = document.getElementById('filters');
-    if (currentTab === 'favorites') {
+    if (currentTab === 'favorites' || currentTab === 'activities') {
       container.innerHTML = '';
       return;
     }
