@@ -185,14 +185,15 @@ body {
 }
 .card-title-main {
   display: block;
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
 }
 .card-title-sub {
   display: block;
-  font-size: 14px;
-  font-weight: 500;
-  color: var(--text-secondary);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
   margin-top: 4px;
 }
 .card-highlights {
