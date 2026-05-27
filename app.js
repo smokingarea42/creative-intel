@@ -385,6 +385,33 @@
       html += '</div>';
     }
 
+    // Favorite activities
+    html += '<h2 class="fav-section-title" style="margin-top:40px;">\ud83d\udcb0 \u6536\u85cf\u7684\u6d3b\u52a8</h2>';
+    const favActivities = activitiesData.filter(a => isFavorited('activities', a.id));
+    if (favActivities.length === 0) {
+      html += '<p class="fav-empty">\u6682\u65e0\u6536\u85cf\u7684\u6d3b\u52a8</p>';
+    } else {
+      html += `<div class="cards-grid">${favActivities.map(a => `
+        <div class="report-card activity-card">
+          <div class="card-header">
+            <span class="card-date">${a.date}</span>
+            <div class="card-header-right">
+              <span class="card-game ${getGameClass(a.game)}">${a.game}</span>
+              <span class="mechanism-tag">${a.mechanismType}</span>
+              <button class="fav-btn active" data-type="activities" data-id="${a.id}" title="\u53d6\u6d88\u6536\u85cf">\u2605</button>
+            </div>
+          </div>
+          <div class="card-title">${formatTitle(a.title)}</div>
+          <div class="activity-heat">${a.heat}</div>
+          <div class="card-section-title">\u6838\u5fc3\u673a\u5236</div>
+          <div class="card-analysis">${a.mechanism.replace(/\n/g, '<br>')}</div>
+          <div class="card-section-title">\u7b56\u5212\u89c6\u89d2</div>
+          <div class="card-insight">${a.insight.replace(/\n/g, '<br>')}</div>
+          <a class="card-source" href="${a.sourceUrl}" target="_blank" rel="noopener">\u89c6\u9891\u6765\u6e90 \u2192</a>
+        </div>
+      `).join('')}</div>`;
+    }
+
     container.innerHTML = html;
     bindFavButtons();
   }
