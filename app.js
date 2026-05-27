@@ -4,10 +4,11 @@
 
   let reportsData = [];
   let skinsData = [];
-  let currentTab = 'reports'; // 'reports' | 'skins' | 'favorites'
+  let activitiesData = [];
+  let currentTab = 'reports'; // 'reports' | 'skins' | 'activities' | 'favorites'
   let currentCategory = 'all';
   let currentGame = 'all';
-  let favorites = { reports: [], skins: [] }; // stored in localStorage
+  let favorites = { reports: [], skins: [], activities: [] }; // stored in localStorage
 
   // Load favorites from localStorage
   function loadFavorites() {
@@ -49,7 +50,11 @@
     'Marvel Rivals': 'marvelrivals',
     '\u9006\u6218\u672a\u6765': 'nzwl',
     '\u7a7f\u8d8a\u706b\u7ebf': 'cf',
-    '\u6697\u533a\u7a81\u56f4': 'aqtw'
+    '\u6697\u533a\u7a81\u56f4': 'aqtw',
+    '\u706b\u5f71\u5fcd\u8005\u624b\u6e38': 'naruto',
+    '\u738b\u8005\u8363\u8000': 'hok2',
+    '\u548c\u5e73\u7cbe\u82f1': 'pubgm2',
+    '\u4e09\u89d2\u6d32\u884c\u52a8': 'deltaforce'
   };
 
   // Category mapping
@@ -102,12 +107,14 @@
   // Load data
   async function loadData() {
     try {
-      const [reportsRes, skinsRes] = await Promise.all([
+      const [reportsRes, skinsRes, activitiesRes] = await Promise.all([
         fetch('data/reports.json'),
-        fetch('data/skins.json')
+        fetch('data/skins.json'),
+        fetch('data/activities.json')
       ]);
       reportsData = await reportsRes.json();
       skinsData = await skinsRes.json();
+      activitiesData = await activitiesRes.json();
     } catch (e) {
       console.error('Failed to load data:', e);
     }
@@ -121,6 +128,8 @@
       applyHighlights();
     } else if (currentTab === 'skins') {
       renderSkins();
+    } else if (currentTab === 'activities') {
+      renderActivities();
     } else if (currentTab === 'favorites') {
       renderFavorites();
       applyHighlights();
@@ -180,7 +189,7 @@
 
   // Format title: split at dash into two lines
   function formatTitle(title) {
-    const separators = [' \u2014 ', ' â€?', ' - '];
+    const separators = [' \u2014 ', ' ï¿½?', ' - '];
     for (const sep of separators) {
       const idx = title.indexOf(sep);
       if (idx > 0) {
@@ -270,7 +279,40 @@
     bindFavButtons();
   }
 
-  // Render favorites
+  // Render activities
+  function renderActivities() {
+    const container = document.getElementById('content');
+    let filtered = activitiesData;
+
+    if (filtered.length === 0) {
+      container.innerHTML = '<p style="color:var(--text-muted);text-align:center;padding:60px 0;">\u6682\u65e0\u6570\u636e</p>';
+      return;
+    }
+
+    container.innerHTML = `<div class="cards-grid">${filtered.map(a => `
+      <div class="report-card activity-card">
+        <div class="card-header">
+          <span class="card-date">${a.date}</span>
+          <div class="card-header-right">
+            <span class="card-game ${getGameClass(a.game)}">${a.game}</span>
+            <span class="mechanism-tag">${a.mechanismType}</span>
+            <button class="fav-btn ${isFavorited('activities', a.id) ? 'active' : ''}" data-type="activities" data-id="${a.id}" title="\u6536\u85cf">\u2605</button>
+          </div>
+        </div>
+        <div class="card-title">${formatTitle(a.title)}</div>
+        <div class="activity-heat">${a.heat}</div>
+        <div class="card-section-title">\u6838\u5fc3\u673a\u5236</div>
+        <div class="card-analysis">${a.mechanism.replace(/\n/g, '<br>')}</div>
+        <div class="card-section-title">\u4e3a\u4ec0\u4e48\u706b</div>
+        <div class="card-analysis">${a.whyHot.replace(/\n/g, '<br>')}</div>
+        <div class="card-section-title">\u7b56\u5212\u89c6\u89d2</div>
+        <div class="card-insight">${a.insight.replace(/\n/g, '<br>')}</div>
+        <a class="card-source" href="${a.sourceUrl}" target="_blank" rel="noopener">\u89c6\u9891\u6765\u6e90 \u2192</a>
+      </div>
+    `).join('')}</div>`;
+
+    bindFavButtons();
+  }
   function renderFavorites() {
     const container = document.getElementById('content');
     let html = '';
