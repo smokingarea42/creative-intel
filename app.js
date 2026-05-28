@@ -266,7 +266,7 @@
                   <span class="skin-game-tag ${getGameClass(e.game)}">${e.game}</span>
                   <div class="skin-info">
                     <div class="skin-name">${e.skinName}</div>
-                    <div class="skin-type">${e.type}</div>
+                    <div class="skin-type">${e.type}${e.releaseDate ? ' · ' + e.releaseDate : ''}</div>
                     <div class="skin-brief">${e.brief}</div>
                     <div class="skin-links">
                       <a class="skin-link source" href="${e.sourceUrl}" target="_blank" rel="noopener">\ud83c\udf10 \u6d77\u5916\u6765\u6e90</a>

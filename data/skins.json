@@ -4,17 +4,19 @@
     "entries": [
       {
         "game": "Valorant",
-        "skinName": "Rogue 系列（5.27正式上线）",
+        "skinName": "Rogue 系列",
         "type": "武器皮肤套装·战术精密风格",
-        "brief": "已正式上架商店，冷灰+暗红配色，金属磨砂质感，主打「克制美学」路线。含击杀特效+独立检视动画",
+        "releaseDate": "2026.5.26上线",
+        "brief": "已正式上架商店，冷灰+暗红配色，金属磨砂质感，主打【克制美学】路线。含击杀特效+独立检视动画",
         "sourceUrl": "https://www.youtube.com/watch?v=b1u1kUdDOys",
         "biliSearch": "https://search.bilibili.com/all?keyword=Valorant+Rogue+%E7%9A%AE%E8%82%A4+%E4%B8%8A%E7%BA%BF&order=pubdate",
         "imageUrl": "https://i.ytimg.com/vi/b1u1kUdDOys/maxresdefault.jpg"
       },
       {
         "game": "CODM",
-        "skinName": "奎治-碧罗天（5.29上线）",
+        "skinName": "奎治-碧罗天（神话级角色）",
         "type": "神话级角色皮肤·战斗共生设计",
+        "releaseDate": "2026.5.29上线",
         "brief": "灵体伴随全程战斗，处决/危急/逆风多场景独立互动动画。情感化叙事包装纯视觉付费内容",
         "sourceUrl": "https://www.bilibili.com/video/BV1VnVA6YEMx/",
         "biliSearch": "https://search.bilibili.com/all?keyword=CODM+%E5%A5%8E%E6%B2%BB+%E7%A2%A7%E7%BD%97%E5%A4%A9&order=pubdate",
@@ -22,9 +24,10 @@
       },
       {
         "game": "三角洲行动",
-        "skinName": "S2星陨赛季 Battle Pass 全奖励",
+        "skinName": "S2星陨赛季 Battle Pass",
         "type": "赛季通行证奖励·写实军事风",
-        "brief": "S2 Starfall赛季更新，通行证含多套写实军事风格武器涂装+干员皮肤，新增Hackclaw传说级皮肤",
+        "releaseDate": "2025.1.18赛季上线",
+        "brief": "Starfall赛季通行证含多套写实军事风格武器涂装+干员皮肤，新增Hackclaw传说级皮肤",
         "sourceUrl": "https://www.youtube.com/watch?v=NxBAf8OG-G0",
         "biliSearch": "https://search.bilibili.com/all?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8A%A8+S2+%E7%9A%AE%E8%82%A4+%E8%B5%9B%E5%AD%A3&order=pubdate",
         "imageUrl": "https://i.ytimg.com/vi/NxBAf8OG-G0/maxresdefault.jpg"
@@ -33,6 +36,7 @@
         "game": "和平精英",
         "skinName": "和平精英×三丽鸥联动第二弹",
         "type": "IP联动限定·可爱风格跨界",
+        "releaseDate": "上线时间待定（已爆料）",
         "brief": "三丽鸥联动第二弹，美乐蒂/Hello Kitty主题套装+载具皮肤，拓展女性用户群体",
         "sourceUrl": "https://www.bilibili.com/video/BV15MDUY8EyK/",
         "biliSearch": "https://search.bilibili.com/all?keyword=%E5%92%8C%E5%B9%B3%E7%B2%BE%E8%8B%B1+%E4%B8%89%E4%B8%BD%E9%B8%A5+%E8%81%94%E5%8A%A8&order=pubdate",
@@ -42,6 +46,7 @@
         "game": "永劫无间",
         "skinName": "永劫无间×三丽鸥家族联动",
         "type": "IP联动限定·可爱风格跨界",
+        "releaseDate": "2025.4.1上线",
         "brief": "胡桃×凯蒂猫、玉玲珑×酷洛米、殷紫萍×大耳狗、席拉×美乐蒂，含全新技能特效挂饰",
         "sourceUrl": "https://www.bilibili.com/video/BV1Nvo2YREBG/",
         "biliSearch": "https://search.bilibili.com/all?keyword=%E6%B0%B8%E5%8A%AB%E6%97%A0%E9%97%B4+%E4%B8%89%E4%B8%BD%E9%B8%A5+%E8%81%94%E5%8A%A8&order=pubdate",
@@ -56,6 +61,7 @@
         "game": "逆战未来",
         "skinName": "炼狱蝎王-粉墨重华（典藏武器）",
         "type": "典藏级武器皮肤·实机展示",
+        "releaseDate": "2026.4.7赛季上线",
         "brief": "S2樱之渊赛季，13.6万播放，二次元风格枪械·检视动画超3分钟·回盾特效彩蛋",
         "sourceUrl": "https://www.bilibili.com/video/BV18NSdBcEEW/",
         "biliSearch": "https://search.bilibili.com/all?keyword=%E9%80%86%E6%88%98%E6%9C%AA%E6%9D%A5+%E7%82%BC%E7%8B%B1%E8%9D%8E%E7%8E%8B+%E7%B2%89%E5%A2%A8%E9%87%8D%E5%8D%8E&order=pubdate",
@@ -63,9 +69,10 @@
       },
       {
         "game": "Valorant",
-        "skinName": "Kuronami 暗流系列（回归）",
-        "type": "武器皮肤套装",
-        "brief": "4.27上线回归，风暴与暗影主题，日式美学",
+        "skinName": "Kuronami 2.0 暗流系列",
+        "type": "武器皮肤套装·日式美学",
+        "releaseDate": "2026.4.29上线",
+        "brief": "V26 Act Three上线回归，风暴与暗影主题，含Phantom/Operator/Guardian/Ghost及双形态近战武器",
         "sourceUrl": "https://www.youtube.com/watch?v=pXqSRj-JEkA",
         "biliSearch": "https://search.bilibili.com/all?keyword=Valorant+Kuronami+%E7%9A%AE%E8%82%A4&order=pubdate",
         "imageUrl": "https://i.ytimg.com/vi/pXqSRj-JEkA/maxresdefault.jpg"
@@ -74,7 +81,8 @@
         "game": "CODM",
         "skinName": "Tracer Pack: Polar Scare（极地惊惧）",
         "type": "商城热门Bundle",
-        "brief": "BO7 S3赛季商城热门，冰雪极地主题干员+追踪弹效果枪皮",
+        "releaseDate": "BO7 S3赛季商城在售",
+        "brief": "冰雪极地主题干员+追踪弹效果枪皮，商城热门Bundle",
         "sourceUrl": "https://www.youtube.com/watch?v=dDO4-ZlgRTs",
         "biliSearch": "https://search.bilibili.com/all?keyword=COD+Polar+Scare+%E7%9A%AE%E8%82%A4&order=pubdate",
         "imageUrl": "https://i.ytimg.com/vi/dDO4-ZlgRTs/maxresdefault.jpg"
