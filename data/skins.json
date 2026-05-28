@@ -1,5 +1,55 @@
 [
   {
+    "date": "2026-05-27",
+    "entries": [
+      {
+        "game": "CODM",
+        "skinName": "奎治-碧罗天（神话级角色）",
+        "type": "神话级角色皮肤·全面升级效果",
+        "brief": "5.29上线，"战斗共生"设计——弟弟灵体伴随战斗全程，处决/危急/逆风时刻均有独立互动动画",
+        "sourceUrl": "https://www.bilibili.com/video/BV1VnVA6YEMx/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=CODM+%E5%A5%8E%E6%B2%BB+%E7%A2%A7%E7%BD%97%E5%A4%A9&order=pubdate",
+        "imageUrl": "https://i1.hdslb.com/bfs/archive/28af17ab49e84d34d9731aa133b37533bbe59c35.jpg"
+      },
+      {
+        "game": "逆战未来",
+        "skinName": "炼狱蝎王-粉墨重华（典藏武器）",
+        "type": "典藏级武器皮肤·实机展示",
+        "brief": "S2樱之渊赛季，13.6万播放，二次元风格枪械·检视动画超3分钟·回盾特效彩蛋",
+        "sourceUrl": "https://www.bilibili.com/video/BV18NSdBcEEW/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E9%80%86%E6%88%98%E6%9C%AA%E6%9D%A5+%E7%82%BC%E7%8B%B1%E8%9D%8E%E7%8E%8B+%E7%B2%89%E5%A2%A8%E9%87%8D%E5%8D%8E&order=pubdate",
+        "imageUrl": "https://i2.hdslb.com/bfs/archive/63c169c08c5d5161ca63210a84139635c4db67ef.jpg"
+      },
+      {
+        "game": "Valorant",
+        "skinName": "Rogue 系列（最新发布）",
+        "type": "武器皮肤套装",
+        "brief": "5.25公布预告，战术精密风格，包含击杀特效+独立检视动画",
+        "sourceUrl": "https://www.youtube.com/watch?v=b1u1kUdDOys",
+        "biliSearch": "https://search.bilibili.com/all?keyword=Valorant+Rogue+%E7%9A%AE%E8%82%A4&order=pubdate",
+        "imageUrl": "https://i.ytimg.com/vi/b1u1kUdDOys/maxresdefault.jpg"
+      },
+      {
+        "game": "Valorant",
+        "skinName": "Kuronami 暗流系列（回归）",
+        "type": "武器皮肤套装",
+        "brief": "4.27上线回归，风暴与暗影主题，日式美学",
+        "sourceUrl": "https://www.youtube.com/watch?v=pXqSRj-JEkA",
+        "biliSearch": "https://search.bilibili.com/all?keyword=Valorant+Kuronami+%E7%9A%AE%E8%82%A4&order=pubdate",
+        "imageUrl": "https://i.ytimg.com/vi/pXqSRj-JEkA/maxresdefault.jpg"
+      },
+      {
+        "game": "CODM",
+        "skinName": "Tracer Pack: Polar Scare（极地惊惧）",
+        "type": "商城热门Bundle",
+        "brief": "BO7 S3赛季商城热门，冰雪极地主题干员+追踪弹效果枪皮",
+        "sourceUrl": "https://www.youtube.com/watch?v=dDO4-ZlgRTs",
+        "biliSearch": "https://search.bilibili.com/all?keyword=COD+Polar+Scare+%E7%9A%AE%E8%82%A4&order=pubdate",
+        "imageUrl": "https://i.ytimg.com/vi/dDO4-ZlgRTs/maxresdefault.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-05-28",
     "entries": [
       {
@@ -21,31 +71,31 @@
         "imageUrl": "https://i1.hdslb.com/bfs/archive/28af17ab49e84d34d9731aa133b37533bbe59c35.jpg"
       },
       {
-        "game": "Delta Force",
-        "skinName": "三角洲行动 S2赛季通行证皮肤",
+        "game": "三角洲行动",
+        "skinName": "S2星陨赛季 Battle Pass 全奖励",
         "type": "赛季通行证奖励·写实军事风",
-        "brief": "S2赛季更新中，通行证含多套写实军事风格武器涂装+干员皮肤，延续「可信军事感」定位",
-        "sourceUrl": "https://search.bilibili.com/all?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8A%A8+S2+%E7%9A%AE%E8%82%A4&order=pubdate",
-        "biliSearch": "https://search.bilibili.com/all?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8A%A8+S2+%E7%9A%AE%E8%82%A4&order=pubdate",
-        "imageUrl": ""
+        "brief": "S2 Starfall赛季更新，通行证含多套写实军事风格武器涂装+干员皮肤，新增Hackclaw传说级皮肤",
+        "sourceUrl": "https://www.youtube.com/watch?v=NxBAf8OG-G0",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8A%A8+S2+%E7%9A%AE%E8%82%A4+%E8%B5%9B%E5%AD%A3&order=pubdate",
+        "imageUrl": "https://i.ytimg.com/vi/NxBAf8OG-G0/maxresdefault.jpg"
       },
       {
         "game": "和平精英",
-        "skinName": "和平精英×三丽鸥联动皮肤",
+        "skinName": "和平精英×三丽鸥联动第二弹",
         "type": "IP联动限定·可爱风格跨界",
-        "brief": "5月底联动上线，Hello Kitty/布丁狗/美乐蒂主题套装+降落伞+载具皮肤，目标女性用户拓展",
-        "sourceUrl": "https://search.bilibili.com/all?keyword=%E5%92%8C%E5%B9%B3%E7%B2%BE%E8%8B%B1+%E4%B8%89%E4%B8%BD%E9%B8%A5+%E8%81%94%E5%8A%A8&order=pubdate",
+        "brief": "三丽鸥联动第二弹，美乐蒂/Hello Kitty主题套装+载具皮肤，拓展女性用户群体",
+        "sourceUrl": "https://www.bilibili.com/video/BV15MDUY8EyK/",
         "biliSearch": "https://search.bilibili.com/all?keyword=%E5%92%8C%E5%B9%B3%E7%B2%BE%E8%8B%B1+%E4%B8%89%E4%B8%BD%E9%B8%A5+%E8%81%94%E5%8A%A8&order=pubdate",
-        "imageUrl": ""
+        "imageUrl": "https://i.ytimg.com/vi/XLa2WLvPpFU/maxresdefault.jpg"
       },
       {
-        "game": "PUBG Mobile",
-        "skinName": "PUBG Mobile × 鬼灭之刃 联动第三弹",
-        "type": "IP联动限定·日系动漫",
-        "brief": "柱系列角色套装持续上新，炎柱/蛇柱/恋柱等角色皮肤陆续解锁，每周更新一个保持热度",
-        "sourceUrl": "https://search.bilibili.com/all?keyword=PUBG+Mobile+%E9%AC%BC%E7%81%AD%E4%B9%8B%E5%88%83+%E8%81%94%E5%8A%A8&order=pubdate",
-        "biliSearch": "https://search.bilibili.com/all?keyword=PUBG+Mobile+%E9%AC%BC%E7%81%AD%E4%B9%8B%E5%88%83+%E8%81%94%E5%8A%A8&order=pubdate",
-        "imageUrl": ""
+        "game": "永劫无间",
+        "skinName": "永劫无间×三丽鸥家族联动",
+        "type": "IP联动限定·可爱风格跨界",
+        "brief": "胡桃×凯蒂猫、玉玲珑×酷洛米、殷紫萍×大耳狗、席拉×美乐蒂，含全新技能特效挂饰",
+        "sourceUrl": "https://www.bilibili.com/video/BV1Nvo2YREBG/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E6%B0%B8%E5%8A%AB%E6%97%A0%E9%97%B4+%E4%B8%89%E4%B8%BD%E9%B8%A5+%E8%81%94%E5%8A%A8&order=pubdate",
+        "imageUrl": "https://i.ytimg.com/vi/E5CJIapA12E/maxresdefault.jpg"
       }
     ]
   }
