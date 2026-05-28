@@ -122,6 +122,10 @@
       reportsData = await reportsRes.json();
       skinsData = await skinsRes.json();
       activitiesData = await activitiesRes.json();
+      // Sort by date descending (newest first)
+      reportsData.sort((a, b) => b.date.localeCompare(a.date));
+      activitiesData.sort((a, b) => b.date.localeCompare(a.date));
+      skinsData.sort((a, b) => b.date.localeCompare(a.date));
     } catch (e) {
       console.error('Failed to load data:', e);
     }
@@ -307,7 +311,7 @@
             <button class="fav-btn ${isFavorited('activities', a.id) ? 'active' : ''}" data-type="activities" data-id="${a.id}" title="\u6536\u85cf">\u2605</button>
           </div>
         </div>
-        <div class="card-title">${formatTitle(a.title)}</div>
+        <div class="card-title activity-title">${formatTitle(a.title)}</div>
         <div class="activity-heat">${a.heat}</div>
         <div class="card-section-title">\u6838\u5fc3\u673a\u5236</div>
         <div class="card-analysis">${a.mechanism.replace(/\n/g, '<br>')}</div>

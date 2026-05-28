@@ -1,41 +1,5 @@
 [
   {
-    "id": "2026-05-27-01",
-    "date": "2026-05-27",
-    "game": "CODM",
-    "category": "FPS",
-    "title": "CODM 神话级角色「奎治-碧罗天」 — 战斗共生设计：叙事型皮肤的付费进化",
-    "highlights": "5.29上线，【战斗共生】设计——弟弟灵体全程伴随战斗，处决/危急/逆风时刻各有独立互动动画。不是简单换皮，而是把角色叙事嵌入到战斗反馈的每个节点。",
-    "designAnalysis": "• 灵体伴随系统：击杀/受伤/处决分别触发不同的NPC联动动画\n\n• 【情感化设计】路线：用兄弟情叙事包装纯视觉付费内容\n\n• 神话级定位：全面升级效果展示（非单纯模型换色）",
-    "bsInsight": "叙事绑定型皮肤的核心问题是【看一次就够了】——第一次处决动画惊艳，第十次就是等待。CODM通过多场景差异化缓解，但长期留存价值取决于社交展示频率。对BS来说这种设计适合赛季旗舰款做话题引爆，但不适合批量复制——情感叙事的边际效用递减极快。",
-    "sourceUrl": "https://www.bilibili.com/video/BV1VnVA6YEMx/",
-    "imageUrl": "https://i1.hdslb.com/bfs/archive/28af17ab49e84d34d9731aa133b37533bbe59c35.jpg"
-  },
-  {
-    "id": "2026-05-27-02",
-    "date": "2026-05-27",
-    "game": "逆战未来",
-    "category": "FPS",
-    "title": "逆战未来「炼狱蝎王-粉墨重华」典藏武器 — 二次元风格枪械的设计边界与争议",
-    "highlights": "S2樱之渊赛季典藏武器，13.6万播放。检视动画超3分钟（极端长度），二次元美术风格强烈，回盾时触发隐藏特效彩蛋。社区反馈两极分化。",
-    "designAnalysis": "• 极端长度检视动画（3min+）：把武器检视做成【微型动画短片】\n\n• 隐藏彩蛋机制：回盾触发独占特效，增加发现乐趣\n\n• 强二次元风格：粉+黑配色，与PVE射击游戏氛围形成张力",
-    "bsInsight": "检视动画超长是逆战未来的差异化卖点，但本质是PVE场景允许玩家【停下来欣赏】——这在PVP高强度对抗游戏里不成立。BS如果要借鉴【隐藏彩蛋特效】思路，更适合绑定击杀/连杀等高光时刻而非检视。另外二次元风格在全球市场需要考虑文化适配。",
-    "sourceUrl": "https://www.bilibili.com/video/BV18NSdBcEEW/",
-    "imageUrl": "https://i2.hdslb.com/bfs/archive/63c169c08c5d5161ca63210a84139635c4db67ef.jpg"
-  },
-  {
-    "id": "2026-05-27-03",
-    "date": "2026-05-27",
-    "game": "Valorant",
-    "category": "FPS",
-    "title": "Valorant「Rogue」皮肤系列 — 精密战术风格：枪皮美学的【做减法】",
-    "highlights": "5.25公布预告，【Defy, advance, and go Rogue】。战术精密风格，克制的设计语言，没有花哨粒子，强调线条和机能感。",
-    "designAnalysis": "• 视觉做减法：冷灰+暗红配色，金属磨砂质感，零多余装饰\n\n• 动画精度高但克制：击杀特效简洁有力，不遮挡视野\n\n• 品牌系列化运营：Rogue作为新IP线投放，测试市场反应",
-    "bsInsight": "Valorant的高价皮肤已经证明【视觉克制≠低付费意愿】——核心用户反而厌倦过度设计。但前提是用户群已经经历了特效审美疲劳期。BS当前阶段可能还没到这个拐点，更适合先用高密度特效建立品牌认知，再逐步推出【精简高端线】做价格分层。",
-    "sourceUrl": "https://www.youtube.com/watch?v=b1u1kUdDOys",
-    "imageUrl": "https://i.ytimg.com/vi/b1u1kUdDOys/maxresdefault.jpg"
-  },
-  {
     "id": "2026-05-28-01",
     "date": "2026-05-28",
     "game": "Mo.co (Supercell)",
@@ -70,5 +34,41 @@
     "bsInsight": "Castle Busters证明了一个关键假设：男性用户在「简化版射击/炮兵」品类中愿意为PvP竞争力付费。但$0.74的RPD说明浅层变现设计的天花板。对BS启示是：核心竞技用户的付费驱动力不是「变强」（会引发P2W争议）而是「展示」和「表达」——这也是为什么装饰性变现在射击品类仍然是最安全且天花板最高的路径。",
     "sourceUrl": "https://mobilegamer.biz/data-digest-anime-gtas-debut-tencent-games-10bn-quarter-us-top-grossing-and-ad-charts-more/",
     "imageUrl": ""
+  },
+  {
+    "id": "2026-05-27-01",
+    "date": "2026-05-27",
+    "game": "CODM",
+    "category": "FPS",
+    "title": "CODM 神话级角色「奎治-碧罗天」 — 战斗共生设计：叙事型皮肤的付费进化",
+    "highlights": "5.29上线，【战斗共生】设计——弟弟灵体全程伴随战斗，处决/危急/逆风时刻各有独立互动动画。不是简单换皮，而是把角色叙事嵌入到战斗反馈的每个节点。",
+    "designAnalysis": "• 灵体伴随系统：击杀/受伤/处决分别触发不同的NPC联动动画\n\n• 【情感化设计】路线：用兄弟情叙事包装纯视觉付费内容\n\n• 神话级定位：全面升级效果展示（非单纯模型换色）",
+    "bsInsight": "叙事绑定型皮肤的核心问题是【看一次就够了】——第一次处决动画惊艳，第十次就是等待。CODM通过多场景差异化缓解，但长期留存价值取决于社交展示频率。对BS来说这种设计适合赛季旗舰款做话题引爆，但不适合批量复制——情感叙事的边际效用递减极快。",
+    "sourceUrl": "https://www.bilibili.com/video/BV1VnVA6YEMx/",
+    "imageUrl": "https://i1.hdslb.com/bfs/archive/28af17ab49e84d34d9731aa133b37533bbe59c35.jpg"
+  },
+  {
+    "id": "2026-05-27-02",
+    "date": "2026-05-27",
+    "game": "逆战未来",
+    "category": "FPS",
+    "title": "逆战未来「炼狱蝎王-粉墨重华」典藏武器 — 二次元风格枪械的设计边界与争议",
+    "highlights": "S2樱之渊赛季典藏武器，13.6万播放。检视动画超3分钟（极端长度），二次元美术风格强烈，回盾时触发隐藏特效彩蛋。社区反馈两极分化。",
+    "designAnalysis": "• 极端长度检视动画（3min+）：把武器检视做成【微型动画短片】\n\n• 隐藏彩蛋机制：回盾触发独占特效，增加发现乐趣\n\n• 强二次元风格：粉+黑配色，与PVE射击游戏氛围形成张力",
+    "bsInsight": "检视动画超长是逆战未来的差异化卖点，但本质是PVE场景允许玩家【停下来欣赏】——这在PVP高强度对抗游戏里不成立。BS如果要借鉴【隐藏彩蛋特效】思路，更适合绑定击杀/连杀等高光时刻而非检视。另外二次元风格在全球市场需要考虑文化适配。",
+    "sourceUrl": "https://www.bilibili.com/video/BV18NSdBcEEW/",
+    "imageUrl": "https://i2.hdslb.com/bfs/archive/63c169c08c5d5161ca63210a84139635c4db67ef.jpg"
+  },
+  {
+    "id": "2026-05-27-03",
+    "date": "2026-05-27",
+    "game": "Valorant",
+    "category": "FPS",
+    "title": "Valorant「Rogue」皮肤系列 — 精密战术风格：枪皮美学的【做减法】",
+    "highlights": "5.25公布预告，【Defy, advance, and go Rogue】。战术精密风格，克制的设计语言，没有花哨粒子，强调线条和机能感。",
+    "designAnalysis": "• 视觉做减法：冷灰+暗红配色，金属磨砂质感，零多余装饰\n\n• 动画精度高但克制：击杀特效简洁有力，不遮挡视野\n\n• 品牌系列化运营：Rogue作为新IP线投放，测试市场反应",
+    "bsInsight": "Valorant的高价皮肤已经证明【视觉克制≠低付费意愿】——核心用户反而厌倦过度设计。但前提是用户群已经经历了特效审美疲劳期。BS当前阶段可能还没到这个拐点，更适合先用高密度特效建立品牌认知，再逐步推出【精简高端线】做价格分层。",
+    "sourceUrl": "https://www.youtube.com/watch?v=b1u1kUdDOys",
+    "imageUrl": "https://i.ytimg.com/vi/b1u1kUdDOys/maxresdefault.jpg"
   }
 ]
