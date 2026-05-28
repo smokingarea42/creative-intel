@@ -662,11 +662,17 @@
   }
 
   // Init
-  document.addEventListener('DOMContentLoaded', () => {
+  function init() {
     loadFavorites();
     loadHighlights();
     initTabs();
     initHighlightSystem();
     loadData();
-  });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
 })();
