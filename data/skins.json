@@ -1,51 +1,51 @@
 [
   {
-    "date": "2026-05-27",
+    "date": "2026-05-28",
     "entries": [
       {
+        "game": "Valorant",
+        "skinName": "Rogue 系列（5.27正式上线）",
+        "type": "武器皮肤套装·战术精密风格",
+        "brief": "已正式上架商店，冷灰+暗红配色，金属磨砂质感，主打「克制美学」路线。含击杀特效+独立检视动画",
+        "sourceUrl": "https://www.youtube.com/watch?v=b1u1kUdDOys",
+        "biliSearch": "https://search.bilibili.com/all?keyword=Valorant+Rogue+%E7%9A%AE%E8%82%A4+%E4%B8%8A%E7%BA%BF&order=pubdate",
+        "imageUrl": "https://i.ytimg.com/vi/b1u1kUdDOys/maxresdefault.jpg"
+      },
+      {
         "game": "CODM",
-        "skinName": "\u5941\u6cbb-\u78a7\u7f57\u5929\uff08\u795e\u8bdd\u7ea7\u89d2\u8272\uff09",
-        "type": "\u795e\u8bdd\u7ea7\u89d2\u8272\u76ae\u80a4\u00b7\u5168\u9762\u5347\u7ea7\u6548\u679c",
-        "brief": "5.29\u4e0a\u7ebf\uff0c\u201c\u6218\u6597\u5171\u751f\u201d\u8bbe\u8ba1\u2014\u2014\u5f1f\u5f1f\u7075\u4f53\u4f34\u968f\u6218\u6597\u5168\u7a0b\uff0c\u5904\u51b3/\u5371\u6025/\u9006\u98ce\u65f6\u523b\u5747\u6709\u72ec\u7acb\u4e92\u52a8\u52a8\u753b",
+        "skinName": "奎治-碧罗天（5.29上线）",
+        "type": "神话级角色皮肤·战斗共生设计",
+        "brief": "灵体伴随全程战斗，处决/危急/逆风多场景独立互动动画。情感化叙事包装纯视觉付费内容",
         "sourceUrl": "https://www.bilibili.com/video/BV1VnVA6YEMx/",
         "biliSearch": "https://search.bilibili.com/all?keyword=CODM+%E5%A5%8E%E6%B2%BB+%E7%A2%A7%E7%BD%97%E5%A4%A9&order=pubdate",
         "imageUrl": "https://i1.hdslb.com/bfs/archive/28af17ab49e84d34d9731aa133b37533bbe59c35.jpg"
       },
       {
-        "game": "\u9006\u6218\u672a\u6765",
-        "skinName": "\u70bc\u72f1\u880e\u738b-\u7c89\u58a8\u91cd\u534e\uff08\u5178\u85cf\u6b66\u5668\uff09",
-        "type": "\u5178\u85cf\u7ea7\u6b66\u5668\u76ae\u80a4\u00b7\u5b9e\u673a\u5c55\u793a",
-        "brief": "S2\u6a31\u4e4b\u6e0a\u8d5b\u5b63\uff0c13.6\u4e07\u64ad\u653e\uff0c\u4e8c\u6b21\u5143\u98ce\u683c\u67aa\u68b0\u00b7\u68c0\u89c6\u52a8\u753b\u8d853\u5206\u949f\u00b7\u56de\u76fe\u7279\u6548\u5f69\u86cb",
-        "sourceUrl": "https://www.bilibili.com/video/BV18NSdBcEEW/",
-        "biliSearch": "https://search.bilibili.com/all?keyword=%E9%80%86%E6%88%98%E6%9C%AA%E6%9D%A5+%E7%82%BC%E7%8B%B1%E8%9D%8E%E7%8E%8B+%E7%B2%89%E5%A2%A8%E9%87%8D%E5%8D%8E&order=pubdate",
-        "imageUrl": "https://i2.hdslb.com/bfs/archive/63c169c08c5d5161ca63210a84139635c4db67ef.jpg"
+        "game": "Delta Force",
+        "skinName": "三角洲行动 S2赛季通行证皮肤",
+        "type": "赛季通行证奖励·写实军事风",
+        "brief": "S2赛季更新中，通行证含多套写实军事风格武器涂装+干员皮肤，延续「可信军事感」定位",
+        "sourceUrl": "https://search.bilibili.com/all?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8A%A8+S2+%E7%9A%AE%E8%82%A4&order=pubdate",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8A%A8+S2+%E7%9A%AE%E8%82%A4&order=pubdate",
+        "imageUrl": ""
       },
       {
-        "game": "Valorant",
-        "skinName": "Rogue \u7cfb\u5217\uff08\u6700\u65b0\u53d1\u5e03\uff09",
-        "type": "\u6b66\u5668\u76ae\u80a4\u5957\u88c5",
-        "brief": "5.25\u516c\u5e03\u9884\u544a\uff0c\u6218\u672f\u7cbe\u5bc6\u98ce\u683c\uff0c\u5305\u542b\u51fb\u6740\u7279\u6548+\u72ec\u7acb\u68c0\u89c6\u52a8\u753b",
-        "sourceUrl": "https://www.youtube.com/watch?v=b1u1kUdDOys",
-        "biliSearch": "https://search.bilibili.com/all?keyword=Valorant+Rogue+%E7%9A%AE%E8%82%A4&order=pubdate",
-        "imageUrl": "https://i.ytimg.com/vi/b1u1kUdDOys/maxresdefault.jpg"
+        "game": "和平精英",
+        "skinName": "和平精英×三丽鸥联动皮肤",
+        "type": "IP联动限定·可爱风格跨界",
+        "brief": "5月底联动上线，Hello Kitty/布丁狗/美乐蒂主题套装+降落伞+载具皮肤，目标女性用户拓展",
+        "sourceUrl": "https://search.bilibili.com/all?keyword=%E5%92%8C%E5%B9%B3%E7%B2%BE%E8%8B%B1+%E4%B8%89%E4%B8%BD%E9%B8%A5+%E8%81%94%E5%8A%A8&order=pubdate",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E5%92%8C%E5%B9%B3%E7%B2%BE%E8%8B%B1+%E4%B8%89%E4%B8%BD%E9%B8%A5+%E8%81%94%E5%8A%A8&order=pubdate",
+        "imageUrl": ""
       },
       {
-        "game": "Valorant",
-        "skinName": "Kuronami \u6697\u6d41\u7cfb\u5217\uff08\u56de\u5f52\uff09",
-        "type": "\u6b66\u5668\u76ae\u80a4\u5957\u88c5",
-        "brief": "4.27\u4e0a\u7ebf\u56de\u5f52\uff0c\u98ce\u66b4\u4e0e\u6697\u5f71\u4e3b\u9898\uff0c\u65e5\u5f0f\u7f8e\u5b66",
-        "sourceUrl": "https://www.youtube.com/watch?v=pXqSRj-JEkA",
-        "biliSearch": "https://search.bilibili.com/all?keyword=Valorant+Kuronami+%E7%9A%AE%E8%82%A4&order=pubdate",
-        "imageUrl": "https://i.ytimg.com/vi/pXqSRj-JEkA/maxresdefault.jpg"
-      },
-      {
-        "game": "CODM",
-        "skinName": "Tracer Pack: Polar Scare\uff08\u6781\u5730\u60ca\u60e7\uff09",
-        "type": "\u5546\u57ce\u70ed\u95e8Bundle",
-        "brief": "BO7 S3\u8d5b\u5b63\u5546\u57ce\u70ed\u95e8\uff0c\u51b0\u96ea\u6781\u5730\u4e3b\u9898\u5e72\u5458+\u8ffd\u8e2a\u5f39\u6548\u679c\u67aa\u76ae",
-        "sourceUrl": "https://www.youtube.com/watch?v=dDO4-ZlgRTs",
-        "biliSearch": "https://search.bilibili.com/all?keyword=COD+Polar+Scare+%E7%9A%AE%E8%82%A4&order=pubdate",
-        "imageUrl": "https://i.ytimg.com/vi/dDO4-ZlgRTs/maxresdefault.jpg"
+        "game": "PUBG Mobile",
+        "skinName": "PUBG Mobile × 鬼灭之刃 联动第三弹",
+        "type": "IP联动限定·日系动漫",
+        "brief": "柱系列角色套装持续上新，炎柱/蛇柱/恋柱等角色皮肤陆续解锁，每周更新一个保持热度",
+        "sourceUrl": "https://search.bilibili.com/all?keyword=PUBG+Mobile+%E9%AC%BC%E7%81%AD%E4%B9%8B%E5%88%83+%E8%81%94%E5%8A%A8&order=pubdate",
+        "biliSearch": "https://search.bilibili.com/all?keyword=PUBG+Mobile+%E9%AC%BC%E7%81%AD%E4%B9%8B%E5%88%83+%E8%81%94%E5%8A%A8&order=pubdate",
+        "imageUrl": ""
       }
     ]
   }
