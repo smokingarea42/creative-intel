@@ -1,13 +1,78 @@
 [
   {
+    "date": "2026-05-29",
+    "entries": [
+      {
+        "game": "CODM (国际版)",
+        "skinName": "祖国人 Homelander（黑袍纠察队联动）",
+        "type": "联动传说角色·转盘限定",
+        "releaseDate": "2026.5.27上线",
+        "brief": "S5赛季Revenge联动《黑袍纠察队》最终季，祖国人作为三转盘之一的核心角色上线。含专属超能力模式体验、联动武器皮肤",
+        "sourceUrl": "https://www.bilibili.com/video/BV1B89NB1EPt/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=CODM+%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F+%E7%A5%96%E5%9B%BD%E4%BA%BA+Homelander&order=pubdate",
+        "imageUrl": "https://i1.hdslb.com/bfs/archive/60aea4617b0d797255322daf1f2a8f8817b3f39b.jpg"
+      },
+      {
+        "game": "CODM (国际版)",
+        "skinName": "星光 Starlight / 玄色 Black Noir（黑袍纠察队联动）",
+        "type": "联动传说角色·转盘限定",
+        "releaseDate": "2026.5.27起陆续上线",
+        "brief": "S5赛季第二、三个联动转盘角色，配合阵营活动和双COD Points促销同步推出",
+        "sourceUrl": "https://www.callofduty.com/blog/2026/05/call-of-duty-mobile-season-5-2026-revenge-the-boys",
+        "biliSearch": "https://search.bilibili.com/all?keyword=CODM+%E6%98%9F%E5%85%89+%E7%8E%84%E8%89%B2+%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F&order=pubdate",
+        "imageUrl": "https://i1.hdslb.com/bfs/archive/60aea4617b0d797255322daf1f2a8f8817b3f39b.jpg"
+      },
+      {
+        "game": "三角洲行动",
+        "skinName": "岁岁鸭·御窑典藏（景德镇御窑博物院联动）",
+        "type": "文化联动·大红级数字藏品",
+        "releaseDate": "2026.8月【宝藏月】上线（已官宣）",
+        "brief": "SPARK2026发布会官宣，首件数字藏品为明成化素三彩鸭形香熏。检视动画高度还原文物原貌，鸭嘴升腾烟气。大红最高等级定位",
+        "sourceUrl": "https://www.bilibili.com/video/BV1P7GX6RE6F/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8A%A8+%E6%99%AF%E5%BE%B7%E9%95%87+%E5%BE%A1%E7%AA%91+%E5%B2%81%E5%B2%81%E9%B8%AD&order=pubdate",
+        "imageUrl": "https://i2.hdslb.com/bfs/archive/3e7bc76cebc007c07c97dda3d469b4734f3f05f3.jpg"
+      },
+      {
+        "game": "和平精英",
+        "skinName": "终焉极影（2026PEL夏季赛主题套装）",
+        "type": "赛事主题套装·赛博暗黑风",
+        "releaseDate": "2026.5.26上线",
+        "brief": "2026PEL夏季赛官方主题套装，冷酷暗黑融合赛博科技风格。含赛事手册皮肤【橙浪派对】，DBS终焉极影武器可通过赛事活动兑换",
+        "sourceUrl": "https://www.bilibili.com/video/BV1JPGB6MEHN/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E5%92%8C%E5%B9%B3%E7%B2%BE%E8%8B%B1+%E7%BB%88%E7%84%89%E6%9E%81%E5%BD%B1+PEL%E5%A4%8F%E5%AD%A3%E8%B5%9B&order=pubdate",
+        "imageUrl": "https://i0.hdslb.com/bfs/archive/7e1d62651b69159cd5385e4f1d7fc4140c5b56e8.jpg"
+      },
+      {
+        "game": "和平精英",
+        "skinName": "最终圣卫者-帕修斯（新神装）",
+        "type": "神装级角色皮肤",
+        "releaseDate": "2026.6.1上线",
+        "brief": "继辉羽雀灵-初翊后的最新神装，6月1日上线。配合7周年夏日版本和刺激之夜活动",
+        "sourceUrl": "https://www.bilibili.com/video/BV1nVLyzjEAe/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E5%92%8C%E5%B9%B3%E7%B2%BE%E8%8B%B1+%E6%9C%80%E7%BB%88%E5%9C%A3%E5%8D%AB%E8%80%85+%E5%B8%95%E4%BF%AE%E6%96%AF+%E7%A5%9E%E8%A3%85&order=pubdate",
+        "imageUrl": ""
+      },
+      {
+        "game": "PUBG",
+        "skinName": "17SHOU怪兽系列（主播联名）",
+        "type": "主播联名皮肤·潮酷风",
+        "releaseDate": "2026.5.27上线",
+        "brief": "PUBG端游与知名主播17shou联名的怪兽系列皮肤，潮酷出街时尚风格，售卖至8月26日",
+        "sourceUrl": "https://pubg.com/zh-cn/news/10041",
+        "biliSearch": "https://search.bilibili.com/all?keyword=PUBG+17shou+%E6%80%AA%E5%85%BD%E7%B3%BB%E5%88%97+%E7%9A%AE%E8%82%A4&order=pubdate",
+        "imageUrl": ""
+      }
+    ]
+  },
+  {
     "date": "2026-05-28",
     "entries": [
       {
         "game": "Valorant",
         "skinName": "Rogue 系列",
         "type": "武器皮肤套装·战术精密风格",
-        "releaseDate": "2026.5.26上线",
-        "brief": "已正式上架商店，冷灰+暗红配色，金属磨砂质感，主打【克制美学】路线。含击杀特效+独立检视动画",
+        "releaseDate": "2026.5.28上线",
+        "brief": "Patch 12.10正式上架，8700VP套装价格。含Vandal/Operator等四把Exclusive级枪皮+首款Push Dagger近战武器。冷灰+暗红配色，金属磨砂质感",
         "sourceUrl": "https://www.youtube.com/watch?v=b1u1kUdDOys",
         "biliSearch": "https://search.bilibili.com/all?keyword=Valorant+Rogue+%E7%9A%AE%E8%82%A4+%E4%B8%8A%E7%BA%BF&order=pubdate",
         "imageUrl": "https://i.ytimg.com/vi/b1u1kUdDOys/maxresdefault.jpg"
