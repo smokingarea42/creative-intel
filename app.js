@@ -152,11 +152,11 @@
   // Two-tier filters
   function renderFilters() {
     const container = document.getElementById('filters');
-    if (currentTab === 'favorites' || currentTab === 'activities') {
+    if (currentTab !== 'skins') {
       container.innerHTML = '';
       return;
     }
-    const data = currentTab === 'reports' ? reportsData : skinsData;
+    const data = skinsData;
     const activeCategories = getActiveCategories(data);
     const activeGames = getActiveGames(data, currentCategory);
 
@@ -215,7 +215,7 @@
   // Render report cards
   function renderReports() {
     const container = document.getElementById('content');
-    let filtered = reportsData.filter(r => matchesFilter(r.game));
+    let filtered = reportsData;
 
     if (filtered.length === 0) {
       container.innerHTML = '<p style="color:var(--text-muted);text-align:center;padding:60px 0;">\u6682\u65e0\u6570\u636e</p>';
