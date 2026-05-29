@@ -1,5 +1,41 @@
 [
   {
+    "id": "2026-05-30-01",
+    "date": "2026-05-30",
+    "game": "Take-Two / Zynga",
+    "category": "行业趋势",
+    "title": "Zynga创历史最佳季度 + AI生成UA广告成本归零 — 移动游戏变现的【效率革命】信号",
+    "highlights": "Take-Two FY2026 Q4财报：Zynga录得史上最高季度净预订。移动端Q4净预订$8.29亿（+14% YoY），占比52%，全年移动端$33亿（+15% YoY）。Toon Blast增长25%+，Color Block Jam增长15%。CEO Zelnick透露：某工作室已使用AI生成真人UA广告，制作成本为零（此前外包单条$2.5万-$10万），整个营销团队仅2人。D2C直销渠道被点名为利润增长驱动力。",
+    "designAnalysis": "• 移动端占比过半且持续增长：证明休闲/中度品类仍有极大变现空间\n\n• AI生成UA广告=营销效率质变：制作成本从$10万/条降至$0，释放的预算可投入更多创意测试\n\n• D2C渠道降低平台抽成：绕过Apple/Google 30%佣金，直接提升利润率\n\n• Toon Blast +25%：老游戏通过持续运营和皮肤更新仍能大幅增长",
+    "bsInsight": "Take-Two这份财报有两个对BS直接相关的信号：1) AI生成UA广告已从实验走向实战——2人团队+AI产出的广告素材质量足以上线投放，这意味着BS的UA团队可以用AI工具大幅提升素材测试速度和数量，降低单条素材成本后做更多A/B测试；2) D2C（Web Shop）成为利润增长引擎——绕开平台30%抽成的趋势已经从讨论变成财报数字，BS应该评估Web Shop的优先级，尤其在海外市场。这两个趋势叠加=【更便宜地获客+更高效地变现】，是结构性竞争优势。",
+    "sourceUrl": "https://mobilegamer.biz/zynga-hits-all-time-high-as-mobile-dominates-take-two-financials/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-05-30-02",
+    "date": "2026-05-30",
+    "game": "Ubisoft (R6 Mobile / Division Resurgence)",
+    "category": "FPS",
+    "title": "Rainbow Six Mobile & Division Resurgence 双双慢热 — 3A射击IP手游化的【变现陷阱】",
+    "highlights": "Ubisoft FY25/26财报：移动端净预订€2900万（~$3370万），占比从16%暴跌至7%。Rainbow Six Mobile和Division Resurgence均被官方定义为【慢热】，CFO称收入【低于预期】。移动端唯一亮点是Invincible: Guarding the Globe（+50% YoY）。整体公司净预订€15.3亿（-17% YoY），CEO称今年是公司【低谷】。",
+    "designAnalysis": "• 移动占比从16%→7%：两款射击大作不仅没拉增量，反而拖累了比例\n\n• 3A IP≠手游成功：Rainbow Six的战术深度和Division的开放世界在手机上都面临操作/体验折损\n\n• Invincible反而增长：轻量IP+匹配品类（英雄格斗）比硬核射击更适合移动端\n\n• 与腾讯合作重组：Ubisoft把赌注押在腾讯的分发能力上",
+    "bsInsight": "R6 Mobile和Division Resurgence的慢热是FPS手游化的重要反面教材。核心问题不是【IP不够强】而是【体验迁移不成功】——R6的5v5战术配合在触屏上大打折扣，Division的PvE刷子体验在移动端与太多竞品重叠。对BS的启示是：1) 移动FPS的成功路径不是复制端游体验，而是为移动端重新设计核心循环（BS已经在做这个）；2) Ubisoft移动端占比暴跌说明【靠IP吃饭】在手游市场不够用——持续的运营活动和商业化创新才是维持收入的关键；3) Invincible的逆势增长证明【品类匹配度】比IP知名度更重要。",
+    "sourceUrl": "https://mobilegamer.biz/slow-start-for-rainbow-six-and-the-division-on-mobile-as-ubisoft-hits-fiscal-low-point/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-05-30-03",
+    "date": "2026-05-30",
+    "game": "Fortnite (Epic Games)",
+    "category": "FPS/TPS",
+    "title": "Fortnite全球回归iOS App Store — Epic vs Apple终局战：移动端FPS/TPS分发格局的【结构性转折】",
+    "highlights": "Fortnite正式在全球（除澳大利亚）回归iOS App Store。此前一年仅在美国可用。Epic公开声明此举是为迫使Apple公开佣金结构，称【一旦Apple被迫展示成本，各国政府不会允许Apple的垃圾费用继续存在】。Tim Sweeney发推称这是【Epic vs Apple的最终战役】。Epic继续挑战Apple对替代应用商店和支付竞争的限制。澳大利亚市场因法律诉讼未决暂缓回归。",
+    "designAnalysis": "• 全球回归=移动端收入全面恢复：Fortnite此前损失了数年的iOS收入\n\n• D2C支付挑战Apple税：Epic已在游戏内推Epic Direct Payment，绕开30%抽成\n\n• 监管套利策略：利用各国反垄断法差异逐市场突破\n\n• 澳大利亚测试案例：如果法院判决有利，可能成为全球模板",
+    "bsInsight": "Fortnite回归iOS的最大影响不是Fortnite本身——而是它正在撬动的分发格局变化。如果Epic最终成功将Apple佣金从30%压低（日本/EU/UK已有立法），所有移动游戏的利润结构都会改变。对BS的具体影响：1) 短期——Fortnite iOS回归会重新争夺移动FPS/TPS用户时间，需要关注用户活跃数据变化；2) 中期——D2C/Web Shop如果成为行业标配，BS需要同步布局自有支付渠道；3) 长期——平台佣金下降=同样的收入利润率更高，或者可以把省下来的钱投入更激进的获客。这是一个影响所有移动游戏公司P&L的结构性变量。",
+    "sourceUrl": "https://mobilegamer.biz/fortnite-has-now-relaunched-on-the-app-store-worldwide/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-05-29-01",
     "date": "2026-05-29",
     "game": "CODM (国际版)",
