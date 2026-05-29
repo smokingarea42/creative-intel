@@ -66,9 +66,11 @@
   // Category mapping
   const categoryMap = {
     'FPS': ['Apex Legends', 'CS2', 'COD', 'CODM', 'CFM', 'Valorant', 'Fortnite', 'PUBG', 'Overwatch 2', 'Rainbow Six Siege', 'Destiny 2', 'The Finals', 'Marvel Rivals', '\u9006\u6218\u672a\u6765', '\u7a7f\u8d8a\u706b\u7ebf', '\u6697\u533a\u7a81\u56f4', '\u4e09\u89d2\u6d32\u884c\u52a8', '\u548c\u5e73\u7cbe\u82f1'],
-    'MOBA': ['Honor of Kings', 'League of Legends'],
+    'MOBA': ['Honor of Kings', 'League of Legends', 'MLBB', 'MLBB (Mobile Legends)', 'Mobile Legends'],
     'RPG': ['Genshin Impact'],
-    '\u52a8\u4f5c\u7ade\u6280': ['Naraka']
+    '\u4f11\u95f2/\u7b56\u7565': ['Monopoly Go', 'Monopoly Go (Scopely)'],
+    '\u5f00\u653e\u4e16\u754c': ['Neverness to Everness', 'Neverness to Everness (\u6c38\u65e0\u6b62\u5883)'],
+    '\u52a8\u4f5c\u7ade\u6280': ['Naraka', '\u6c38\u52ab\u65e0\u95f4']
   };
 
   function getGameClass(game) {
