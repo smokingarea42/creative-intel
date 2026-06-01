@@ -4,33 +4,43 @@
     "entries": [
       {
         "game": "三角洲行动",
-        "skinName": "AKM突击步枪-古墓奇兵（Lara Croft联动）",
-        "type": "联动活动武器皮肤·IP联名",
+        "skinName": "劳拉·克劳馥传奇外观（古墓丽影联动）",
+        "type": "联动活动传奇外观·IP联名",
         "releaseDate": "2026.5.1上线（活动至6.13）",
-        "brief": "劳拉训练营活动奖励，通过5x5棋盘任务获取活动代币兑换。古墓丽影IP联动限定武器皮肤",
-        "sourceUrl": "https://www.playdeltaforce.com/zh-tw/",
+        "brief": "官方联动古墓丽影IP，劳拉训练营活动通过5x5棋盘任务获取代币兑换。传奇级外观含专属动作和语音",
+        "sourceUrl": "https://www.youtube.com/watch?v=i8reEfAi3UA",
         "biliSearch": "https://search.bilibili.com/all?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8A%A8+%E5%8F%A4%E5%A2%93%E4%B8%BD%E5%BD%B1+%E5%8A%B3%E6%8B%89+%E7%9A%AE%E8%82%A4&order=pubdate",
-        "imageUrl": ""
+        "imageUrl": "https://i.ytimg.com/vi/i8reEfAi3UA/maxresdefault.jpg"
+      },
+      {
+        "game": "CODM (国际版)",
+        "skinName": "S5黄道军械库系列Lucky Draw（Zodiac Armory）",
+        "type": "幸运转盘·限定武器系列",
+        "releaseDate": "2026.6.1上线",
+        "brief": "S5 Revenge赛季新增黄道军械库系列转盘，含黄道主题传说级武器皮肤+干员。配合The Boys联动同步推出",
+        "sourceUrl": "https://www.youtube.com/watch?v=688z6dDlJUc",
+        "biliSearch": "https://search.bilibili.com/all?keyword=CODM+S5+Zodiac+Armory+%E8%BD%AC%E7%9B%98&order=pubdate",
+        "imageUrl": "https://i.ytimg.com/vi/688z6dDlJUc/maxresdefault.jpg"
       },
       {
         "game": "和平精英",
-        "skinName": "全职高手联动角色皮肤（筹备中）",
-        "type": "IP联动·电竞题材",
-        "releaseDate": "【待定】（已官宣筹备中）",
-        "brief": "SPARK2026发布会官宣与阅文合作，全职高手联动进入筹备阶段，电竞热血氛围与海岛探索玩法融合",
-        "sourceUrl": "https://gp.qq.com/gicp/news/684/18793217.html",
-        "biliSearch": "https://search.bilibili.com/all?keyword=%E5%92%8C%E5%B9%B3%E7%B2%BE%E8%8B%B1+%E5%85%A8%E8%81%8C%E9%AB%98%E6%89%8B+%E8%81%94%E5%8A%A8&order=pubdate",
-        "imageUrl": ""
+        "skinName": "最终圣卫者·帕修斯（新神装）",
+        "type": "神级角色皮肤·6周年限定",
+        "releaseDate": "2026.6.1上线",
+        "brief": "继缘羽鸢灵·初绽后的最新神装，6月1日上线。配合7周年夏日版本和刺激之夜活动同步推出",
+        "sourceUrl": "https://www.bilibili.com/video/BV1BPMSzGEQx/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E5%92%8C%E5%B9%B3%E7%B2%BE%E8%8B%B1+%E6%9C%80%E7%BB%88%E5%9C%A3%E5%8D%AB%E8%80%85+%E5%B8%95%E4%BF%AE%E6%96%AF+%E7%A5%9E%E8%A3%85&order=pubdate",
+        "imageUrl": "http://i0.hdslb.com/bfs/archive/4fed84e681ccf8b3e5c3edab8fa07dfdd6ea9f06.jpg"
       },
       {
-        "game": "和平精英",
-        "skinName": "吞噬星空联动限定（暑期）",
-        "type": "IP联动·科幻题材",
-        "releaseDate": "2026年暑期上线（已官宣）",
-        "brief": "SPARK2026发布会官宣，宇宙级冒险元素融入海岛，专属联动场景+限定道具+特色玩法",
-        "sourceUrl": "https://gp.qq.com/gicp/news/684/18793217.html",
-        "biliSearch": "https://search.bilibili.com/all?keyword=%E5%92%8C%E5%B9%B3%E7%B2%BE%E8%8B%B1+%E5%90%9E%E5%99%AC%E6%98%9F%E7%A9%BA+%E8%81%94%E5%8A%A8&order=pubdate",
-        "imageUrl": ""
+        "game": "Valorant",
+        "skinName": "Rogue系列武器皮肤（含Push Dagger近战）",
+        "type": "Exclusive级武器套装·战术精密风",
+        "releaseDate": "2026.5.28上线（在售中）",
+        "brief": "Patch 12.10上架，7100VP套装含Vandal/Operator等四把Exclusive级枪皮+首款Push Dagger近战武器",
+        "sourceUrl": "https://www.youtube.com/watch?v=b1u1kUdDOys",
+        "biliSearch": "https://search.bilibili.com/all?keyword=Valorant+Rogue+%E7%9A%AE%E8%82%A4+%E4%B8%8A%E7%BA%BF&order=pubdate",
+        "imageUrl": "https://i.ytimg.com/vi/b1u1kUdDOys/maxresdefault.jpg"
       }
     ]
   },
