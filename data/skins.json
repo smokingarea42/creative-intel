@@ -1,5 +1,40 @@
 [
   {
+    "date": "2026-06-01",
+    "entries": [
+      {
+        "game": "三角洲行动",
+        "skinName": "AKM突击步枪-古墓奇兵（Lara Croft联动）",
+        "type": "联动活动武器皮肤·IP联名",
+        "releaseDate": "2026.5.1上线（活动至6.13）",
+        "brief": "劳拉训练营活动奖励，通过5x5棋盘任务获取活动代币兑换。古墓丽影IP联动限定武器皮肤",
+        "sourceUrl": "https://www.playdeltaforce.com/zh-tw/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8A%A8+%E5%8F%A4%E5%A2%93%E4%B8%BD%E5%BD%B1+%E5%8A%B3%E6%8B%89+%E7%9A%AE%E8%82%A4&order=pubdate",
+        "imageUrl": ""
+      },
+      {
+        "game": "和平精英",
+        "skinName": "全职高手联动角色皮肤（筹备中）",
+        "type": "IP联动·电竞题材",
+        "releaseDate": "【待定】（已官宣筹备中）",
+        "brief": "SPARK2026发布会官宣与阅文合作，全职高手联动进入筹备阶段，电竞热血氛围与海岛探索玩法融合",
+        "sourceUrl": "https://gp.qq.com/gicp/news/684/18793217.html",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E5%92%8C%E5%B9%B3%E7%B2%BE%E8%8B%B1+%E5%85%A8%E8%81%8C%E9%AB%98%E6%89%8B+%E8%81%94%E5%8A%A8&order=pubdate",
+        "imageUrl": ""
+      },
+      {
+        "game": "和平精英",
+        "skinName": "吞噬星空联动限定（暑期）",
+        "type": "IP联动·科幻题材",
+        "releaseDate": "2026年暑期上线（已官宣）",
+        "brief": "SPARK2026发布会官宣，宇宙级冒险元素融入海岛，专属联动场景+限定道具+特色玩法",
+        "sourceUrl": "https://gp.qq.com/gicp/news/684/18793217.html",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E5%92%8C%E5%B9%B3%E7%B2%BE%E8%8B%B1+%E5%90%9E%E5%99%AC%E6%98%9F%E7%A9%BA+%E8%81%94%E5%8A%A8&order=pubdate",
+        "imageUrl": ""
+      }
+    ]
+  },
+  {
     "date": "2026-05-30",
     "entries": [
       {
@@ -27,7 +62,7 @@
         "skinName": "首月Gacha角色池（多角色上线）",
         "type": "Gacha限定角色·开放世界RPG",
         "releaseDate": "2026.4.21上线",
-        "brief": "完美世界Hotta Studio开发的【动漫GTA】，首月收入$1470万。Gacha系统+汽车收集+房产经营，日收入峰值$100万（5月7日）",
+        "brief": "完美世界Hotta Studio开发的【动漫GTA】，首月收入$1470万。Gacha系统+汽车收集+房产经营，日收入峰值$100万",
         "sourceUrl": "https://mobilegamer.biz/data-digest-anime-gtas-debut-tencent-games-10bn-quarter-us-top-grossing-and-ad-charts-more/",
         "biliSearch": "https://search.bilibili.com/all?keyword=%E6%B0%B8%E6%97%A0%E6%AD%A2%E5%A2%83+%E8%A7%92%E8%89%B2+%E6%8A%BD%E5%8D%A1&order=pubdate",
         "imageUrl": ""
@@ -62,7 +97,7 @@
         "skinName": "岁岁鸭·御窑典藏（景德镇御窑博物院联动）",
         "type": "文化联动·大红级数字藏品",
         "releaseDate": "2026.8月【宝藏月】上线（已官宣）",
-        "brief": "SPARK2026发布会官宣，首件数字藏品为明成化素三彩鸭形香熏。检视动画高度还原文物原貌，鸭嘴升腾烟气。大红最高等级定位",
+        "brief": "SPARK2026发布会官宣，首件数字藏品为明成化素三彩鸭形香熏。检视动画高度还原文物原貌，大红最高等级定位",
         "sourceUrl": "https://www.bilibili.com/video/BV1P7GX6RE6F/",
         "biliSearch": "https://search.bilibili.com/all?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8A%A8+%E6%99%AF%E5%BE%B7%E9%95%87+%E5%BE%A1%E7%AA%91+%E5%B2%81%E5%B2%81%E9%B8%AD&order=pubdate",
         "imageUrl": "https://i2.hdslb.com/bfs/archive/3e7bc76cebc007c07c97dda3d469b4734f3f05f3.jpg"
@@ -72,7 +107,7 @@
         "skinName": "终焉极影（2026PEL夏季赛主题套装）",
         "type": "赛事主题套装·赛博暗黑风",
         "releaseDate": "2026.5.26上线",
-        "brief": "2026PEL夏季赛官方主题套装，冷酷暗黑融合赛博科技风格。含赛事手册皮肤【橙浪派对】，DBS终焉极影武器可通过赛事活动兑换",
+        "brief": "2026PEL夏季赛官方主题套装，冷酷暗黑融合赛博科技风格。含赛事手册皮肤和DBS武器可通过赛事活动兑换",
         "sourceUrl": "https://www.bilibili.com/video/BV1JPGB6MEHN/",
         "biliSearch": "https://search.bilibili.com/all?keyword=%E5%92%8C%E5%B9%B3%E7%B2%BE%E8%8B%B1+%E7%BB%88%E7%84%89%E6%9E%81%E5%BD%B1+PEL%E5%A4%8F%E5%AD%A3%E8%B5%9B&order=pubdate",
         "imageUrl": "https://i0.hdslb.com/bfs/archive/7e1d62651b69159cd5385e4f1d7fc4140c5b56e8.jpg"
@@ -85,7 +120,7 @@
         "brief": "继辉羽雀灵-初翊后的最新神装，6月1日上线。配合7周年夏日版本和刺激之夜活动",
         "sourceUrl": "https://www.bilibili.com/video/BV1BPMSzGEQx/",
         "biliSearch": "https://search.bilibili.com/all?keyword=%E5%92%8C%E5%B9%B3%E7%B2%BE%E8%8B%B1+%E6%9C%80%E7%BB%88%E5%9C%A3%E5%8D%AB%E8%80%85+%E5%B8%95%E4%BF%AE%E6%96%AF+%E7%A5%9E%E8%A3%85&order=pubdate",
-        "imageUrl": "https://i0.hdslb.com/bfs/archive/4fed84e681ccf8b3e5c3edab8fa07dfdd6ea9f06.jpg"
+        "imageUrl": "http://i0.hdslb.com/bfs/archive/4fed84e681ccf8b3e5c3edab8fa07dfdd6ea9f06.jpg"
       },
       {
         "game": "PUBG",
@@ -107,7 +142,7 @@
         "skinName": "Rogue 系列",
         "type": "武器皮肤套装·战术精密风格",
         "releaseDate": "2026.5.28上线",
-        "brief": "Patch 12.10正式上架，8700VP套装价格。含Vandal/Operator等四把Exclusive级枪皮+首款Push Dagger近战武器。冷灰+暗红配色，金属磨砂质感",
+        "brief": "Patch 12.10正式上架，8700VP套装价格。含Vandal/Operator等四把Exclusive级枪皮+首款Push Dagger近战武器",
         "sourceUrl": "https://www.youtube.com/watch?v=b1u1kUdDOys",
         "biliSearch": "https://search.bilibili.com/all?keyword=Valorant+Rogue+%E7%9A%AE%E8%82%A4+%E4%B8%8A%E7%BA%BF&order=pubdate",
         "imageUrl": "https://i.ytimg.com/vi/b1u1kUdDOys/maxresdefault.jpg"
