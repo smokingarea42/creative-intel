@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-06-02-01",
+    "date": "2026-06-02",
+    "game": "Monopoly Go (Scopely)",
+    "title": "Monopoly Go×辛普森一家 — 8周联动+动画短片+明星配音：IP Live Ops的天花板级案例",
+    "highlights": "6月3日启动、至7月29日结束的辛普森一家联动（休闲品类×影视IP）。每两周一个新章节、辛普森编剧团队亲自写剧本、Will Ferrell配音Mr. Monopoly vs Harry Shearer配音Mr Burns动画短片。游戏月流水约亿、历史营销支出超亿。",
+    "designAnalysis": "- 8周超长联动窗口：每2周新章节保持新鲜感，让玩家持续回流而非一次性消耗\\n- 明星配音动画短片：把营销素材做成内容产品，社交传播价值超过广告本身\\n- 全场景改造（Springfield主题玩法/runs/heists/stickers）：IP不止是皮肤，而是重做整个游戏体验\\n- 去年Star Wars联动已验证模式：多季度大IP轮转是持续的收入引擎",
+    "bsInsight": "Monopoly Go证明了一件事：IP联动的价值不在于“贴皮”而在于“重做体验”。每两周新章节的节奏设计、明星配音动画短片的社交传播、辛普森编剧团队的内容质量保证——这些都是“月流水亿”的基础设施。BS做联动应思考的核心问题是：如何让IP渗透到玩法层而不仅仅是商店层。",
+    "sourceUrl": "https://mobilegamer.biz/the-simpsons-are-taking-over-monopoly-go/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-02-02",
+    "date": "2026-06-02",
+    "game": "Call of Duty (Activision)",
+    "title": "COD: Modern Warfare 4官宣10月23日发售 — 端游新作对CODM手游生态的连锁影响",
+    "highlights": "MW4官客10月23日发售，登陆PS5/Xbox Series/PC/Switch 2，不支持PS4/Xbox One。朝鲜半岛背景、全新DMZ模式、多人在线。这是COD系列首次完全放弃上一代主机。",
+    "designAnalysis": "- 端手游共享宇宙观（FPS品类）：新端游发售=CODM流量周期性下滑，但也=联动素材来源\\n- Switch 2首发COD：任天堂生态支持意味着FPS手游将面临便携主机端的分流\\n- 全新DMZ模式对标“暂经”类型：端游在做手游擅长的事\\n- 完全抛弃上一代：高画质内容可直接复用为手游素材库",
+    "bsInsight": "MW4 10月发售意味着Q4手游FPS用户会被分流——这是BS做Q3大型活动和年度旗舰皮肤的窗口期。另外MW4的DMZ模式证明COD认为“暂经”玩法有巨大商业价值，这个方向值得BS关注。",
+    "sourceUrl": "https://www.callofduty.com/blog/2026/05/call-of-duty-modern-warfare-4-announcement",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-02-03",
+    "date": "2026-06-02",
+    "game": "Block Blast (Hungry Studio)",
+    "title": "Block Blast被Google Play下架又恢复 — 7000万DAU/3亿MAU的“UA依赖型”增长警示",
+    "highlights": "全球下载量第一的拼图手游（休闲品类）被Google Play短暂下架后恢复。该游戏7000万DAU、3亿MAU、每周运行50+个A/B测试（97%失败率）。VP公开承认“增长重度依赖UA”。",
+    "designAnalysis": "- 极致A/B测试驱动：50+/周的测试量级是休闲品类的核心方法论\\n- UA依赖的脆弱性：一旦渠道断裂（70万DAU的盘子瞬间暴露风险\\n- 2025年下载量全球第一但流水不匹配：典型的“有量无价”问题\\n- 平台合规风险是所有手游的悬顶之剑",
+    "bsInsight": "Block Blast的教训很清晰：纯靠UA生存的游戏，一旦渠道出问题就是灾难性的。对BS的启示是：多元化用户来源（自然量+社交裂变+付费买量）比单一依赖任何一个渠道更健康。另外每周50+A/B测试的精神值得学习。",
+    "sourceUrl": "https://mobilegamer.biz/block-blast-has-disappeared-from-googles-play-store/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-01-01",
     "date": "2026-06-01",
     "game": "Take-Two/Zynga",
