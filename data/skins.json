@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-06-03",
+    "entries": [
+      {
+        "game": "PUBG Mobile",
+        "skinName": "aespa成员专属套装（Karina/Giselle/Winter/NingNing）",
+        "type": "K-Pop联动限定·成员主题套装",
+        "releaseDate": "2026.6.1上线（活动至6.30）",
+        "brief": "第三轮aespa联动，四位成员独立套装+签名舞蹈表情+语音包+武器皮肤+收集册系统",
+        "sourceUrl": "https://www.ldshop.gg/blog/pubg-mobile/pubg-x-aespa-collaboration.html",
+        "biliSearch": "https://search.bilibili.com/all?keyword=PUBG+Mobile+aespa+%E8%81%94%E5%8A%A8+%E7%9A%AE%E8%82%A4&order=pubdate",
+        "imageUrl": ""
+      },
+      {
+        "game": "PUBG Mobile",
+        "skinName": "Honor Series荣誉系列Ultimate Sets（双形态合体套装）",
+        "type": "Ultimate级套装·首款双形态设计",
+        "releaseDate": "2026.6.5上线（活动至9.1）",
+        "brief": "PUBG Mobile史上首款Combined Form双形态套装，含可变形UMP45枪皮+星光银河载具/滑翔伞皮肤",
+        "sourceUrl": "https://www.topuplive.com/news/pubg-mobile-new-honor-series-ultimate-sets.html",
+        "biliSearch": "https://search.bilibili.com/all?keyword=PUBG+Mobile+Honor+Series+Ultimate+%E5%A5%97%E8%A3%85&order=pubdate",
+        "imageUrl": ""
+      },
+      {
+        "game": "和平精英",
+        "skinName": "全职高手联动军需（叶修/苏沐橙/唐柔等6套角色皮肤）",
+        "type": "国产动漫IP联动·军需限定",
+        "releaseDate": "2026.6.1上线",
+        "brief": "6套角色皮肤品质媲美神装，含叶修千机伞形态武器。战令同步推出全职高手主题套装+M4枪皮",
+        "sourceUrl": "https://www.bilibili.com/video/BV1shGm66EKX/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E5%92%8C%E5%B9%B3%E7%B2%BE%E8%8B%B1+%E5%85%A8%E8%81%8C%E9%AB%98%E6%89%8B+%E8%81%94%E5%8A%A8+%E7%9A%AE%E8%82%A4&order=pubdate",
+        "imageUrl": "http://i2.hdslb.com/bfs/archive/99dad5e5e04c58de38b3f6b37e1e85ce9e660049.jpg"
+      },
+      {
+        "game": "王者荣耀",
+        "skinName": "铠·无双限定主题新皮肤",
+        "type": "无双限定·S40赛季",
+        "releaseDate": "2026.6.5上线",
+        "brief": "S40新赛季重磅无双限定皮肤（MOBA品类），配合五大活动福利+碎片商店更新同步推出",
+        "sourceUrl": "https://www.bilibili.com/video/BV1ce72ztEqr/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80+%E9%93%A0+%E6%97%A0%E5%8F%8C%E9%99%90%E5%AE%9A&order=pubdate",
+        "imageUrl": "http://i2.hdslb.com/bfs/archive/4dd2a339998139906fbb61482dafe257e271f690.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-06-01",
     "entries": [
       {

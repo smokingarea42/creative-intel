@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-06-03-01",
+    "date": "2026-06-03",
+    "game": "PUBG Mobile (Krafton)",
+    "title": "PUBG Mobile×aespa第三轮联动 — K-Pop×射击BR的【粉丝经济变现】公式：成员粒壮主线",
+    "highlights": "6月1日全球上线（射击BR品类），至6月30日。四位aespa成员专属套装、签名舞蹈表情、语音包、武器皮肤、收集册系统。第三次联动（PC 2025.7→手游 2026.1→手游 2026.6），已形成固定联动节奏。",
+    "designAnalysis": "- 成员粒度拆分：4个成员=4个独立付费点，粉丝【要集齐】心理驱动复购\\n- 舞蹈表情+语音包做社交展示层：买了要在战场秀出来\\n- 收集册系统制造完整度强迫：只买一套【不完整】的痛苦\\n- 年度化联动节奏：每半年一次，让IP保持活跃度",
+    "bsInsight": "PUBG Mobile证明了K-Pop联动的核心变现逻辑是【粉丝收集欲】而非【游戏内实用性】。每个成员独立拆卖、切分不同粉丝群体的心理地盘。BS如果做明星/团体联动，核心策略是【人物粒度的拆分售卖】+【收集完整度强迫】。",
+    "sourceUrl": "https://www.ldshop.gg/blog/pubg-mobile/pubg-x-aespa-collaboration.html",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-03-02",
+    "date": "2026-06-03",
+    "game": "Atari / Hipster Whale",
+    "title": "Atari  Road开发商 — 经典IP+手游工作室的【价值重估】时刻",
+    "highlights": "Atari以+ Whale（休闲品类）。Crossy Road累计3.4亿下载，过去12个月/。创始人Matt Hall将领导Atari手游业务，开发Netflix/Amazon/AirConsole项目。",
+    "designAnalysis": "- 6.3x EBITDA估值：对有稳定收入的手游工作室来说是合理价格\\n- 经典IP×手游工作室的合并逻辑：Atari有IP但缺手游开发能力\\n- Netflix/Amazon游戏平台入口：新分发渠道正在形成\\n- 车载游戏市场信号：AirConsole合作暗示新的游戏消费场景",
+    "bsInsight": "这笔交易的核心信号：有稳定用户基础和成熟开发能力的手游工作室，即使收入规模不大，在当前市场仍然有明确价值。另外Netflix/Amazon游戏平台开始成为真实的变现渠道——这对BS意味着未来可能有更多平台合作机会。",
+    "sourceUrl": "https://mobilegamer.biz/atari-acquires-crossy-road-maker-hipster-whale-for-an-initial-29-3m/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-03-03",
+    "date": "2026-06-03",
+    "game": "和平精英",
+    "title": "和平精英×全职高手联动 — 国产射击手游×国产动漫IP的【军需+战令】双线变现设计",
+    "highlights": "和平精英×全职高手联动上线（射击BR品类）。军需含6套角色皮肤（叶修/苏沐橙/唐柔等），粉装品质媲体级神装。战令同步推出全职高手主题套装+M4枪皮+赠送MG36。B站多视频评价【皮肤品质媲美神装】。",
+    "designAnalysis": "- 军需+战令双线变现：军需做重度付费，战令做轻度付费+回流\\n- 6套角色皮肤覆盖多角色：男女用户都有对应的角色可选\\n- 国产动漫IP无版权费红利：成本控制优于海外IP\\n- 《全职高手》电竞属性天然契合射击游戏用户圈层",
+    "bsInsight": "这个联动的设计思路很清晰：军需做重度付费（拆卖多套角色皮肤），战令做轻度付费+回流工具。国产动漫IP的版权成本优势是隐藏的大利好。BS如果做国产IP联动，应优先看电竞/射击属性的IP，而非泛大众口碑IP。",
+    "sourceUrl": "https://www.bilibili.com/video/BV1shGm66EKX/",
+    "imageUrl": "http://i2.hdslb.com/bfs/archive/99dad5e5e04c58de38b3f6b37e1e85ce9e660049.jpg"
+  },
+  {
     "id": "2026-06-02-01",
     "date": "2026-06-02",
     "game": "Monopoly Go (Scopely)",
