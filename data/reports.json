@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-06-04-01",
+    "date": "2026-06-04",
+    "game": "Supercell / King / Sybo",
+    "title": "EU拟立法限制F2P虚拟货币 — Supercell/King/Sybo联合抨击：【每局弹窗40次确认框】将让游戏不可玩",
+    "highlights": "Supercell CEO Paananen、King总裁Todd Green、Sybo CEO联合发声反对EU拟议的虚拟货币监管方案。提案要求：每次花费/购买虚拟货币时弹出确认框、强制显示真实货币价值。Paananen估计典型Supercell游戏一局将触发~40次弹窗。King同周发布报告：EU手游市场年规模€60亿、支撑6.3万岗位。",
+    "designAnalysis": "- 虚拟货币是F2P核心变现基建：强制折算真实价格会打破【钻石/金币】心理账户隔离\n- 每次花费弹窗=摩擦力指数级增加：直接抵冲冲动消费和小额微交易\n- 欧洲占全球手游收入~20%：监管落地将影响所有进入EU市场的游戏\n- 类似cookie弹窗设计：我们已知道cookie弹窗让用户体验多么糟糕",
+    "bsInsight": "EU监管如果落地，所有出海欧洲的手游都需要重新设计付费流程。对BS的直接影响：欧洲服的商店UI/购买流程可能需要做区域化适配。但更重要的是：这个趋势强化了DTC Web Shop的价值——绕过平台的独立渠道可能更容易规避监管摸擦力。",
+    "sourceUrl": "https://mobilegamer.biz/supercell-king-and-sybo-bosses-hit-out-at-scary-eu-proposals/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-04-02",
+    "date": "2026-06-04",
+    "game": "Zynga (Mark Pincus)",
+    "title": "Zynga创始人Mark Pincus新书【Proven Better New】 — 从复制到创新的产品方法论：Supercell就是这么做的",
+    "highlights": "Pincus 6月23日出版新书《Life at the Speed of Play》，公开核心方法论：Proven（已验证有效的）+ Better（确定性改进）+ New（高风险创新）。Hay Day=“FarmVille for mobile”，FarmVille 6周做完、4天破100万DAU。核心观点：“只有大师才敢复制”。",
+    "designAnalysis": "- Proven：找到已被用户验证的每一个像素级设计，原样复制\n- Better：只改〈10/10用户都会说Yes」的部分，其他不动\n- New：隔离测试你的创新点，因为【所有New都会失败】\n- 自尊心是复制的最大障碍：越初级的团队越抵触复制",
+    "bsInsight": "Pincus的方法论对商业化设计极其适用：先看竞品哪个付费节点已被验证有效（Proven），再找确定性改进点（Better），最后只在一个维度创新（New）。BS的商城设计应该先拆解CODM/Valorant的付费流程原样，而不是一上来就“创新”。",
+    "sourceUrl": "https://mobilegamer.biz/zynga-founder-mark-pincus-says-only-a-master-craftsman-can-spot-excellence-and-be-comfortable-copying-it/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-04-03",
+    "date": "2026-06-04",
+    "game": "行业数据",
+    "title": "4月全球手游收入$45.1亿（-1.4% YoY） — 下载量继续萎缩但ARPU在涨：存量变现时代确认",
+    "highlights": "Sensor Tower数据：4月全球手游IAP收入$45.1亿（-1.4% YoY，-3.7% MoM）。下载量持续走低至2019年以来最低水平。King报告：EU手游市场年规模€60亿，全球收入€75.3亿，预计2028年突破€80亿。手游占全球游戏收入55%。",
+    "designAnalysis": "- 收入微降但下载量大降=ARPU在显著提升：存量用户付费深度增加\n- 休闲品类持续领跑增长：简单循环+深度变现天花板极高\n- 手游占比突码55%：移动端已是游戏行业绝对主力\n- EU市场年增速约+6%：仍有稳健增长空间",
+    "bsInsight": "全球手游收入已进入【存量博弈期】——下载量持续下降意味着每个新用户更贵，但现有用户愿意花更多钱。BS的商业化策略应明确偏向【提升单用户价值】而非【拉新做大盘】，而提升LTV的核心手段是更好的内容分层和更精细的价格分带。",
+    "sourceUrl": "https://mobilegamer.biz/data-digest-kings-6bn-eu-report-playstack-sold-more-ua-finance-aprils-top-games-more/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-03-01",
     "date": "2026-06-03",
     "game": "PUBG Mobile (Krafton)",

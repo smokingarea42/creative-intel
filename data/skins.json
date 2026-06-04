@@ -1,5 +1,40 @@
 [
   {
+    "date": "2026-06-04",
+    "entries": [
+      {
+        "game": "Valorant",
+        "skinName": "VCT 2026赛事系列皮肤（Team Capsules + Season Capsule + Champions Collection）",
+        "type": "赛事限定系列·战队胶囊+赛季胶囊+冠军系列",
+        "releaseDate": "2026.6月陆续上线（已官宣）",
+        "brief": "Riot确认VCT 2026三大类皮肤：战队胶囊（各战队定制）、赛季胶囊、冠军系列（FPS品类赛事变现标杆）。收入分成模式绑定战队生态",
+        "sourceUrl": "https://www.youtube.com/watch?v=JC8tyxGvGBU",
+        "biliSearch": "https://search.bilibili.com/all?keyword=Valorant+VCT+2026+%E7%9A%AE%E8%82%A4+%E8%83%B6%E5%9B%8A&order=pubdate",
+        "imageUrl": "https://i.ytimg.com/vi/JC8tyxGvGBU/maxresdefault.jpg"
+      },
+      {
+        "game": "CODM (国际版)",
+        "skinName": "S5赛季中期更新 — 新Lucky Draw+限时双倍COD Points",
+        "type": "赛季中期·新转盘波次",
+        "releaseDate": "2026.6.3起陆续上线",
+        "brief": "S5 Revenge赛季进入中期，新一波Lucky Draw上架（FPS品类）。双倍COD Points促销持续中，配合The Boys联动事件制造购买紧迫感",
+        "sourceUrl": "https://www.callofduty.com/blog/2026/05/call-of-duty-mobile-season-5-2026-revenge-the-boys",
+        "biliSearch": "https://search.bilibili.com/all?keyword=CODM+S5+%E6%96%B0%E8%BD%AC%E7%9B%98+6%E6%9C%88&order=pubdate",
+        "imageUrl": "https://i1.hdslb.com/bfs/archive/60aea4617b0d797255322daf1f2a8f8817b3f39b.jpg"
+      },
+      {
+        "game": "和平精英",
+        "skinName": "吞噬星空联动皮肤（已官宣预告）",
+        "type": "国产动漫IP联动·预告确认",
+        "releaseDate": "【待定】（SPARK2026发布会官宣，具体日期未公布）",
+        "brief": "SPARK2026确认和平精英×吞噬星空联动（射击BR品类），“以热血，赴星空”。继全职高手后的又一国产动漫重磅联动",
+        "sourceUrl": "https://www.bilibili.com/video/BV1ZwGm68EUh/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E5%92%8C%E5%B9%B3%E7%B2%BE%E8%8B%B1+%E5%90%9E%E5%99%AC%E6%98%9F%E7%A9%BA+%E8%81%94%E5%8A%A8&order=pubdate",
+        "imageUrl": ""
+      }
+    ]
+  },
+  {
     "date": "2026-06-03",
     "entries": [
       {
