@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-06-05-01",
+    "date": "2026-06-05",
+    "game": "Pokemon Champions (TPC)",
+    "title": "【Pokemon Champions 6.17登陆移动端】—— Switch→手机的【三层订阅+BP】混合变现架构",
+    "highlights": "Pokemon Champions 6月17日登陆iOS/Android（竞技类品）。4月Switch首发后跨平台，支持任天堂账号进度同步。F2P+三层付费：战令.99、月会员.99、年会员.99。客户端2.2GB。",
+    "designAnalysis": "- 三层变现分带清晰：BP做轻度付费、月会员做中度、年会员做重度锁定\\n- Switch→手机进度同步：已有付费用户零成本迁移，降低移动端获客成本\\n- 年会员.99≈买断制→订阅制转型：全年锁定用户LTV\\n- Pokemon IP自带流量：不需要买量就有自然下载",
+    "bsInsight": "三层订阅架构是BS可以参考的方向：战令做轻度、月卡做中度、年卡做重度。关键是每层的价值感知必须有明确区隔，而非简单的“给更多东西”。Switch进度同步的设计思路也很巧——已付费用户零成本迁移手机=减少了“重头开始”的心理阬值。",
+    "sourceUrl": "https://mobilegamer.biz/pokemon-champions-is-coming-to-mobile-on-june-17/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-05-02",
+    "date": "2026-06-05",
+    "game": "行业数据 (GameLook)",
+    "title": "【2026年移动游戏变现趋势报告】—— 83%头部手游采用5-7种变现策略组合，Top100年收入逼近亿",
+    "highlights": "GameLook报告：2025年Top100手游收入逼近亿，占全球手游57%，预计2026年突破亿。其中83%产品采用5-7种变现机制组合。Archero 2上线一周年累计.5亿，问鼎混合休闲收入榜冠军。",
+    "designAnalysis": "- 中重度手游变现机制最均衡：货币包/运营活动/宝箱/新手礼包接近100%采用\\n- 混合休闲剥离抽卡但保留核心付费：广告成为并行变现引擎\\n- Archero 2的金字塔分层：低门槛拉新+中档位稳收+高客单价冲高\\n- 激励视频广告绑定核心痛点：战斗复活=高转化低抵触",
+    "bsInsight": "83%头部游戏用的是5-7种变现策略组合而非单一模式。BS应盘点自己的变现机制数量：BP+商城+抽奖+节日活动+…如果不足5种，说明还有空间。Archero 2的激励视频绑定“复活”痛点的设计思路，对FPS可能的变体是：绑定“封禁救活”或“语音包冷却”类玩法权益。",
+    "sourceUrl": "http://www.gamelook.com.cn/2026/02/587403/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-05-03",
+    "date": "2026-06-05",
+    "game": "Valorant (Riot)",
+    "title": "【Valorant Run it Back 2026】—— 粉丝投票返场+新型Flex道具：用“怀旧经济”+“社交小物件”双驱动做商城活动",
+    "highlights": "Riot官宣Run it Back 2026 bundle（FPS品类），回归Evori、Nocturnum等粉丝票选的经典线。新增Flex道具——指尖陀螺（fidget spinner），这是此前未见的全新社交类道具品类。",
+    "designAnalysis": "- 粉丝票选返场：社区参与感+已验证需求=低风险高回报\\n- Flex道具新品类：指尖陀螺纯社交展示，拓展了付费内容类型\\n- 怀旧+新品捆绑：老用户为怀旧付费，顺带尝鲜新品类\\n- 周期性返场活动成为固定变现窗口",
+    "bsInsight": "Run it Back的核心逻辑是【用确定性需求做稳定收入】——返场皮肤是已被证明有需求的产品，比新品风险低得多。BS应该建立定期返场机制（季度/半年），并在返场波次捆绑新品类道具做尝鲜。Flex道具这种“无功能社交小物件”在年轻用户中需求很大。",
+    "sourceUrl": "https://esports.gg/news/valorant/run-it-back-2026-bundle/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-04-01",
     "date": "2026-06-04",
     "game": "Supercell / King / Sybo",
