@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-06-08-01",
+    "date": "2026-06-08",
+    "game": "Valorant (Riot)",
+    "title": "【Valorant Champions 2026上海冠军赛皮肤泄露】—— 50%收入分成+限时窗口：赛事变现的【确定性公式】",
+    "highlights": "Champions 2026 Bundle泄露（FPS品类），黑底+金边+红光特效，8月23日-9月12日限时发售。50%收入直接分给参赛战队。配合上海线下赛事制造稀缺+话题双重驱动。",
+    "designAnalysis": "- 50%分成绑定战队生态：玩家为支持战队付费，动机从【好看】升级为【信仰】\n- 20天限时窗口极度克制：稀缺性>折扣力度\n- 黑金红色系是赛事皮肤固定视觉锚点：连续多年建立品类认知\n- 线下赛事+线上皮肤时间同步：观赛情绪直接转化为购买冲动",
+    "bsInsight": "Valorant Champions系列证明了赛事皮肤的核心卖点是【社群归属感】而非视觉品质。50%分成的公开透明让玩家觉得花钱有意义。BS如果做赛事联动皮肤，关键是让用户感觉在支持生态而非单纯消费——分成比例公开化是低成本高信任的设计。",
+    "sourceUrl": "https://gameriv.com/valorant-champions-2026-bundle-first-look-price-release-date-and-more/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-08-02",
+    "date": "2026-06-08",
+    "game": "CODM (Activision)",
+    "title": "【CODM S6高达联动赛季】—— IP联动×Double CP×新BR地图：三引擎同步拉满的赛季开幕策略",
+    "highlights": "CODM Season 6【Gundams Arrive】6月底上线（FPS品类）。高达联动角色皮肤+机甲武器蓝图，新BR地图Coastal City（高楼垂直战斗），Double CP全赛季有效，Attack of the Undead等经典模式回归。玩家投票决定CX-9和3-Line Rifle皮肤。",
+    "designAnalysis": "- 三引擎并行：IP联动做话题、Double CP做付费转化、新地图做留存\n- 玩家投票决定皮肤（Your Season Your Vote）：社区参与感+预热期免费营销\n- Double CP全赛季：不限时=降低决策焦虑，但拉长付费窗口\n- 高达IP触达核心男性25-35用户：与CODM用户画像高度重合",
+    "bsInsight": "CODM的赛季策略是【多引擎同步点火】——IP做曝光、促销做转化、内容做留存，三者缺一不可。BS赛季更新如果只有内容没有促销引擎，付费转化会打折。另外Your Season Your Vote让玩家投票选皮肤的机制成本极低但参与感极强，值得直接借鉴。",
+    "sourceUrl": "https://www.fragster.com/cod-mobile-season-6-battle-pass-rewards-release-date-double-cp-event-and-more/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-08-03",
+    "date": "2026-06-08",
+    "game": "三角洲行动 (腾讯)",
+    "title": "【三角洲行动6月足球狂欢+DFIW电竞预测】—— 体育赛事节点×电竞预测：低成本高参与的【事件变现】组合拳",
+    "highlights": "Delta Force 6月3日更新推出Soccer Frenzy活动（FPS品类），绑定足球赛事热点。同步上线DFIW电竞邀请赛预测活动：玩家预测比赛结果赢取稀有奖励。Pro武器试用+限时挑战组合驱动回流。Operation Sentinel新赛季进行中。",
+    "designAnalysis": "- 足球赛事热点借势：低IP成本+高社会热度=免费流量\n- 电竞预测博彩化：预测结果的赌博心理驱动每日登录\n- Pro武器试用=试驾营销：体验后购买转化率远高于盲买\n- 赛事节点+电竞节点双打：一个月内制造两个参与峰值",
+    "bsInsight": "Delta Force的思路是【用真实世界事件做游戏内活动钩子】——足球赛事和电竞比赛都是免费的话题源。BS完全可以在世界杯/奥运/重大赛事期间推出主题活动，核心成本只是美术资源。电竞预测的博彩心理驱动日活效果很强，但需注意合规边界。",
+    "sourceUrl": "https://soren.com/en/news/delta-force--1/2026-06-03-delta-force-june-update-soccer-events-and-dfiw",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-05-01",
     "date": "2026-06-05",
     "game": "Pokemon Champions (TPC)",
