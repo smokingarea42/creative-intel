@@ -4,33 +4,33 @@
     "entries": [
       {
         "game": "Valorant",
-        "skinName": "Rogue系列 + Masters London Watch&Earn掉落 + Pride Month免费装饰",
-        "type": "赛事观赛奖励+常规系列+节日免费",
-        "releaseDate": "2026.6.6-6.21",
-        "brief": "Rogue系列主打战术精准风格。Masters London期间Watch&Earn观赛掉落限定物品。Pride Month免费兑换码获取彩虹装饰",
-        "sourceUrl": "https://playvalorant.com/en-us/news/",
-        "biliSearch": "https://search.bilibili.com/all?keyword=Valorant+Rogue+%E7%9A%AE%E8%82%A4+Masters+London&order=pubdate",
+        "skinName": "Give Back V26 Bundle（Prime Vandal/Reaver OP/Mystbloom Sheriff/Primordium Phantom/XERØFANG Knife）",
+        "type": "慈善返场合集·投票选择",
+        "releaseDate": "2026.6月（泄露确认）",
+        "brief": "Riot年度慈善返场活动，粉丝投票决定返场阵容。含FPS品类最经典的Prime Vandal和Reaver OP，部分收入捐赠Riot Social Impact Fund",
+        "sourceUrl": "https://gameriv.com/valorant-give-back-v26-bundle-all-skins-price-release-date-and-more/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=Valorant+Give+Back+V26+%E8%BF%94%E5%9C%BA&order=pubdate",
         "imageUrl": ""
       },
       {
-        "game": "Fortnite",
-        "skinName": "C7S3 Battle Pass全套（John Wick/Guardian/Voidblade等8角色）",
-        "type": "赛季战令+IP联动",
-        "releaseDate": "2026.6.6起",
-        "brief": "Chapter 7 Season 3 Runners BP含8大板块x2页奖励，John Wick联动角色领衔。800 V-Bucks定价+Launch Week限时bonus",
-        "sourceUrl": "https://www.sportskeeda.com/fortnite/all-fortnite-chapter-7-season-3-battle-pass-rewards",
-        "biliSearch": "https://search.bilibili.com/all?keyword=Fortnite+C7S3+%E6%88%98%E4%BB%A4+John+Wick+%E7%9A%AE%E8%82%A4&order=pubdate",
+        "game": "PUBG Mobile",
+        "skinName": "4.4版本新线Lucky Spin + Crate系列（6月新波次）",
+        "type": "幸运转盘+箱子·常规更新",
+        "releaseDate": "2026.6月陆续上线",
+        "brief": "4.4版本进行中，6-7月将陆续上线新Lucky Spin、载具皮肤、武器涂装等。aespa联动仍在进行中",
+        "sourceUrl": "https://gamingonphone.com/news/pubg-mobile-upcoming-new-skins-events-cosmetics-2026-leaks/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=PUBG+Mobile+4.4+%E6%96%B0%E7%9A%AE%E8%82%A4+6%E6%9C%88&order=pubdate",
         "imageUrl": ""
       },
       {
-        "game": "CODM",
-        "skinName": "NieR: Automata联动物品+Zoo新地图",
-        "type": "IP联动+限定活动",
-        "releaseDate": "2026.6月",
-        "brief": "CODM x NieR: Automata联动，含联动角色皮肤和武器蓝图。同步上线Zoo地图",
-        "sourceUrl": "https://www.pocketgamer.com/",
-        "biliSearch": "https://search.bilibili.com/all?keyword=CODM+NieR+%E8%81%94%E5%8A%A8+%E7%9A%AE%E8%82%A4&order=pubdate",
-        "imageUrl": ""
+        "game": "原神",
+        "skinName": "5.7版本新角色卡池（丝柯克+火神）",
+        "type": "版本更新·Gacha新角色",
+        "releaseDate": "2026.6.4起",
+        "brief": "原神5.7版本「空月之歌·旋舞」上线，RPG品类。新角色丝柯克+火神复刻卡池，送角色活动+多线福利同步开启",
+        "sourceUrl": "https://www.bilibili.com/video/BV18sTuzkEBx/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E5%8E%9F%E7%A5%9E+5.7+%E5%8D%A1%E6%B1%A0+%E4%B8%9D%E6%9F%AF%E5%85%8B&order=pubdate",
+        "imageUrl": "http://i0.hdslb.com/bfs/archive/9ad222ed2d1f8099276472833a8cd3d2239a8524.jpg"
       }
     ]
   },
