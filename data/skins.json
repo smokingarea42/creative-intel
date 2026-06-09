@@ -1,5 +1,40 @@
 [
   {
+    "date": "2026-06-09",
+    "entries": [
+      {
+        "game": "Valorant",
+        "skinName": "Rogue系列 + Masters London Watch&Earn掉落 + Pride Month免费装饰",
+        "type": "赛事观赛奖励+常规系列+节日免费",
+        "releaseDate": "2026.6.6-6.21",
+        "brief": "Rogue系列主打战术精准风格。Masters London期间Watch&Earn观赛掉落限定物品。Pride Month免费兑换码获取彩虹装饰",
+        "sourceUrl": "https://playvalorant.com/en-us/news/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=Valorant+Rogue+%E7%9A%AE%E8%82%A4+Masters+London&order=pubdate",
+        "imageUrl": ""
+      },
+      {
+        "game": "Fortnite",
+        "skinName": "C7S3 Battle Pass全套（John Wick/Guardian/Voidblade等8角色）",
+        "type": "赛季战令+IP联动",
+        "releaseDate": "2026.6.6起",
+        "brief": "Chapter 7 Season 3 Runners BP含8大板块x2页奖励，John Wick联动角色领衔。800 V-Bucks定价+Launch Week限时bonus",
+        "sourceUrl": "https://www.sportskeeda.com/fortnite/all-fortnite-chapter-7-season-3-battle-pass-rewards",
+        "biliSearch": "https://search.bilibili.com/all?keyword=Fortnite+C7S3+%E6%88%98%E4%BB%A4+John+Wick+%E7%9A%AE%E8%82%A4&order=pubdate",
+        "imageUrl": ""
+      },
+      {
+        "game": "CODM",
+        "skinName": "NieR: Automata联动物品+Zoo新地图",
+        "type": "IP联动+限定活动",
+        "releaseDate": "2026.6月",
+        "brief": "CODM x NieR: Automata联动，含联动角色皮肤和武器蓝图。同步上线Zoo地图",
+        "sourceUrl": "https://www.pocketgamer.com/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=CODM+NieR+%E8%81%94%E5%8A%A8+%E7%9A%AE%E8%82%A4&order=pubdate",
+        "imageUrl": ""
+      }
+    ]
+  },
+  {
     "date": "2026-06-08",
     "entries": [
       {

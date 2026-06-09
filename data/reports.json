@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-06-09-01",
+    "date": "2026-06-09",
+    "game": "Fortnite (Epic)",
+    "title": "【Fortnite C7S3 Sprites精灵系统】—— 将随机性养成嵌入核心玩法循环：BP之外的【长期投资感】设计",
+    "highlights": "Chapter 7 Season 3 Runners 6/6上线，BP售800 V-Bucks。全新Sprites系统：10种精灵提供被动buff（开箱概率提升/击杀回血/伤害翻倍），可跨局携带形成长期养成。Launch Week 7天限时bonus。",
+    "designAnalysis": "- 精灵跨局携带=创造沉没成本：玩家为保留buff持续游玩\n- 随机性buff嵌入玩法而非商城：付费感知降低但参与时长提升\n- Launch Week限时bonus制造首周FOMO\n- 800 V-Bucks低价BP+精灵系统组合：轻付费入口+重度养成深度",
+    "bsInsight": "精灵系统的核心创新是把【随机奖励感】从商城抽奖移到了玩法循环里——玩家为buff投入的是时间而非金钱，但时间投入会转化为付费粘性。BS如果做类似被动buff收集系统，关键是让buff来源绑定游戏行为而非直接售卖，这样付费转化更自然。",
+    "sourceUrl": "https://www.sportskeeda.com/fortnite/all-fortnite-chapter-7-season-3-battle-pass-rewards",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-09-02",
+    "date": "2026-06-09",
+    "game": "鸣潮 (库洛)",
+    "title": "【鸣潮3.4 Cyberpunk Edgerunners联动】—— 免费5星做钩子+四层时间错峰：二游联动的【DAU漏斗+防疲劳】范本",
+    "highlights": "鸣潮3.4联动Cyberpunk Edgerunners 6/8上线。Lucy（5星付费）+Rebecca（5星免费送）双角色。全新Night City梦境地图+Boss。活动矩阵四层错峰：主线即开、赛车6/11、登录6/18、谜题6/25。",
+    "designAnalysis": "- 免费5星Rebecca做DAU钩子：零付费门槛拉全量用户进入联动\n- 付费5星Lucy做深度变现：核心用户为IP情怀付费\n- 四层时间错峰防内容疲劳：一个月持续有新东西\n- Night City梦境地图做沉浸感：联动不只是皮肤而是完整体验",
+    "bsInsight": "鸣潮的联动设计精髓是【免费角色是流量入口，付费角色是变现终点】——Rebecca免费送让所有人都进来玩联动内容，玩着玩着自然想抽Lucy。BS如果做IP联动，应该学这个思路：免费送一个能用的联动物品拉人进活动，再用限定付费物品收割。",
+    "sourceUrl": "https://www.sportskeeda.com/esports/wuthering-waves-3-4-update-patch-notes-new-characters-events-cyberpunk-edgerunners-collab",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-09-03",
+    "date": "2026-06-09",
+    "game": "Valorant (Riot)",
+    "title": "【Valorant Masters London商业化组合拳】—— Watch&Earn+Pick Ems+限定Merch：赛事期间的【多触点变现矩阵】",
+    "highlights": "Masters London 6/6-21举办。Watch and Earn观赛掉落机制、Fan Fest线下活动、限定Merch周边、Pick Ems比赛预测。同步上线Rogue战术精准风格皮肤系列+Pride Month免费兑换码。",
+    "designAnalysis": "- Watch&Earn用免费掉落锁定观赛时长：广告价值>掉落成本\n- Pick Ems预测驱动每日回访：赌博心理+社交比拼\n- 线下Fan Fest+线上活动双轨：触达不同用户群\n- Pride免费码做品牌好感度：零成本ESG营销",
+    "bsInsight": "Riot的赛事商业化是【不直接卖东西，而是用免费机制锁时长再间接变现】——Watch&Earn本质是用小额掉落换取数十万小时观赛数据和广告曝光。BS赛事期间与其硬推限定皮肤，不如先用观赛奖励把用户拉进来，再在赛事高潮节点推限定。",
+    "sourceUrl": "https://playvalorant.com/en-us/news/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-08-01",
     "date": "2026-06-08",
     "game": "Valorant (Riot)",
