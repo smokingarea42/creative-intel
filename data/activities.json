@@ -1,5 +1,33 @@
 [
   {
+    "id": "2026-06-10-act-01",
+    "date": "2026-06-10",
+    "game": "Marathon (Bungie)",
+    "title": "【Marathon服务器宕机补偿7个Sponsored Kits】—— 提取射击FPS的【宕机补偿变现化】设计：用免费道具缓解不满+制造回流",
+    "heat": "🔥 服务器宕机事件 | 社区补偿议论活跃 | 7个套装免费发放",
+    "tag": "🏆 讨论度高",
+    "mechanismType": "宕机补偿+免费道具发放",
+    "mechanism": "- 6月2日服务器故障影响6小时，导致玩家合同/进度丢失\\n- 补偿方案：受影响时段登录的玩家自动获得7个Sponsored Kits\\n- 通过邮箱分两次发放，含多个品牌合作套装（CyberAcme/NuCal/MIDA等）\\n- 无需手动申请，只要登录过即自动到账",
+    "whyHot": "- 提取射击中服务器宕机=直接损失玩家劳动成果，不满度极高\\n- 7个套装的补偿力度算大方，社区评价较正面\\n- Sponsored Kits含品牌合作元素，补偿本身也是营销素材",
+    "insight": "- 宕机补偿的核心是【把危机变成触达机会】：玩家回来领补偿=一次免费回流\\n- Sponsored Kits本身就是品牌合作产品，发补偿=给品牌方免费曝光\\n- BS可借鉴：任何服务器问题后都应有标准化补偿预案，补偿物包含商店优惠券可顺势做转化",
+    "sourceUrl": "https://gameriv.com/marathon-servers-back-online-as-bungie-gives-players-7-free-sponsored-kits/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-10-act-02",
+    "date": "2026-06-10",
+    "game": "Marvel Rivals (NetEase)",
+    "title": "【Marvel Rivals限时商店轮转+零停机热更】—— 英雄射击品类的【周化商店运营】节奏：每次补丁=一次商店事件",
+    "heat": "🔥 6.4补丁热更 | Iron Samurai武士系列新皮 | 28天限时窗口",
+    "tag": "🌟 最新活动",
+    "mechanismType": "限时商店轮转+补丁捆绑",
+    "mechanism": "- 每次补丁同步上架新商店内容，玩家更新客户端后直接看到新皮肤\\n- 限时28天窗口（6.5-7.3）：中等紧迫感\\n- Iron Samurai+Mandy Celestine分别覆盖硬核/休闲用户审美\\n- Emoji Bundle附加包做加购模块",
+    "whyHot": "- Marvel Rivals日活持续走高，S8赛季进行中\\n- 零停机更新=玩家不被打断，额外补丁心智低\\n- 武士风格对东亚市场有特别吸引力",
+    "insight": "- 【补丁=商店事件】的运营节奏让每次更新都有变现价值\\n- 28天窗口比7天更转化率可能更高：给犹豫型用户足够决策时间\\n- BS应考虑将每次版本更新与商店新内容捆绑，让更新本身成为变现触点",
+    "sourceUrl": "https://gameriv.com/marvel-rivals-june-4-patch-notes-new-store-bundles-black-cat-fix-rogue-update-and-no-downtime/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-09-act-01",
     "date": "2026-06-09",
     "game": "原神",

@@ -1,5 +1,40 @@
 [
   {
+    "date": "2026-06-10",
+    "entries": [
+      {
+        "game": "Marvel Rivals",
+        "skinName": "Iron Man: Iron Samurai Bundle + Mantis: Mandy Celestine Bundle",
+        "type": "限时商店·英雄皮肤套装",
+        "releaseDate": "2026.6.5",
+        "brief": "Iron Samurai武士风格重甲造型（英雄射击品类），Mantis彩色清新风格。限时28天（6.5-7.3），含表情包附加套装",
+        "sourceUrl": "https://gameriv.com/marvel-rivals-june-4-patch-notes-new-store-bundles-black-cat-fix-rogue-update-and-no-downtime/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=Marvel+Rivals+Iron+Samurai+%E7%9A%AE%E8%82%A4&order=pubdate",
+        "imageUrl": ""
+      },
+      {
+        "game": "三角洲行动",
+        "skinName": "回响-尼罗鳄新的的皮肤（预计6月下旬上线）",
+        "type": "角色皮肤·常规更新",
+        "releaseDate": "2026.6月下旬（待定）",
+        "brief": "三角洲行动S9赛季新角色皮肤（FPS品类），尼罗鳄主题激进风格，配合新赛季内容更新上线",
+        "sourceUrl": "https://www.bilibili.com/video/BV1ZHEQ69EK1/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8A%A8+%E5%B0%BC%E7%BD%97%E9%B3%84+%E7%9A%AE%E8%82%A4&order=pubdate",
+        "imageUrl": "http://i1.hdslb.com/bfs/archive/173b60f88efc8034fe8a7a84d1d4c6f62e0e9bb5.jpg"
+      },
+      {
+        "game": "和平精英",
+        "skinName": "吞噬星空联动皆肤（罗峰/萃火等角色套装）",
+        "type": "国产动漫IP联动·军需限定",
+        "releaseDate": "2026.6月上线",
+        "brief": "和平精英×吞噬星空联动（射击BR品类），「以热血，赴星空」主题，含角色皮肤+武器涂装，继全职高手后又一国产动漫IP联动",
+        "sourceUrl": "https://www.bilibili.com/video/BV1ygVC6aEDm/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E5%92%8C%E5%B9%B3%E7%B2%BE%E8%8B%B1+%E5%90%9E%E5%99%AC%E6%98%9F%E7%A9%BA+%E7%9A%AE%E8%82%A4&order=pubdate",
+        "imageUrl": "http://i1.hdslb.com/bfs/archive/36195c4347e586cc2736cda47656613ba4000778.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-06-09",
     "entries": [
       {

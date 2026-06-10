@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-06-10-01",
+    "date": "2026-06-10",
+    "game": "Summer Game Fest 2026",
+    "title": "【Summer Game Fest零手游现象】—— 手游行业集体缺席SGF的底层逻辑：UA ROI > 展会曝光，数据驱动的营销理性",
+    "highlights": "SGF 2026无任何手游独占展示（FPS/射击/休闲品类全部缺席）。仅Wuthering Waves和Fortnite作为多平台游戏出现。Monopoly Go月流水亿级、总部就在洛杉矶附近仍不参加。Supercell 2024年曾「求着进场」。",
+    "designAnalysis": "- SGF受众是硬核主机/PC玩家，对手游有天然偏见和蔑视\\n- 手游UA的ROI可量化，展会曝光的ROI无法量化——理性选择是不参加\\n- 主机厂商花大钱做展会营销，手游用同样预算做买量效果远好\\n- 手游不需要「被认可」：收入和用户量已经超过主机+PC之和",
+    "bsInsight": "这篇分析的核心启示：手游的营销应该100%数据驱动，不要被「行业存在感」的焦虑绑架。BS的营销预算应该全部投向可追踪ROI的渠道（UA/KOL/社交媒体），而非行业展会。品牌建设用游戏内事件（赛事/联动）做就够了。",
+    "sourceUrl": "https://mobilegamer.biz/there-were-no-mobile-games-at-summer-game-fest-and-for-good-reason/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-10-02",
+    "date": "2026-06-10",
+    "game": "Marvel Rivals (NetEase)",
+    "title": "【Marvel Rivals 6.4补丁：Iron Samurai+限时皮肤轮转】—— 英雄射击品类的「零停机热更+限时商店」变现节奏",
+    "highlights": "6月4日补丁无服务器停机直接热更（英雄射击品类）。新增Iron Man: Iron Samurai Bundle和Mantis: Mandy Celestine限时皮肤（6.5-7.3限时28天）。同步修复Black Cat/Rogue等英雄bug。NetEase运营。",
+    "designAnalysis": "- 零停机热更=玩家无感知更新，不打断在线时长和付费行为\\n- 限时28天窗口：足够长让犹豫型用户下单，足够短制造紧迫感\\n- Iron Samurai武士风格跨文化设计：亚洲+西方双市场吸引力\\n- 补丁+商店同步：修bug做留存，新皮肤做变现，一次更新双目标",
+    "bsInsight": "Marvel Rivals的运营节奏值得BS学习：每次补丁=功能修复+商店更新捆绑。玩家来看更新内容时顺便逛商店，转化路径最短。28天限时窗口是个好平衡点——BS目前的限时活动如果太短（3-7天）可能错过犹豫型用户。",
+    "sourceUrl": "https://gameriv.com/marvel-rivals-june-4-patch-notes-new-store-bundles-black-cat-fix-rogue-update-and-no-downtime/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-10-03",
+    "date": "2026-06-10",
+    "game": "Supercell",
+    "title": "【Supercell砍掉美国工作室项目】—— 3.5年研发归零：手游新品的「高淘汰率」与Creative资源沉没成本",
+    "highlights": "Supercell北美两个项目团队一个确认关闭（Steve Desilets领队，3.5年开发归零），另一个团队核心成员已全部离职。2022年高调宣布设立北美工作室，目标做「任天堂品质多平台游戏」。Supercell的文化允许团队「自主决定解散」。",
+    "designAnalysis": "- 3.5年研发周期归零=数千万美元沉没成本\\n- Supercell的Kill Culture：宁可砍掉不达标产品也不带病上线\\n- 北美扩张策略失败：文化差异+远程管理是隐性成本\\n- 「任天堂品质多平台」方向被证伪：手游还是要用手游方法论做",
+    "bsInsight": "Supercell的故事对所有游戏团队都是警示：新品研发的失败率极高（Supercell自己砍掉的项目远多于上线的）。对BS的启示是：已上线产品的Live Ops迭代确定性远高于做新品——把资源投向现有产品的内容更新和商业化优化，ROI更可控。",
+    "sourceUrl": "https://mobilegamer.biz/supercell-has-killed-one-of-its-us-game-projects-and-the-other-is-mia/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-09-01",
     "date": "2026-06-09",
     "game": "Valorant (Riot)",
