@@ -24,6 +24,8 @@
   }
   function saveFavorites() {
     localStorage.setItem('creative-intel-favorites', JSON.stringify(favorites));
+
+  }
   // Pasted images cache (keyed by skinId)
   var pastedImages = {};
   function loadPastedImages() {
@@ -39,8 +41,6 @@
   }
   function getPastedImage(skinId) {
     return pastedImages[skinId] || '';
-  }
-
   }
   function isFavorited(type, id) {
     return (favorites[type] || []).includes(id);
