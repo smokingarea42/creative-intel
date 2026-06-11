@@ -426,7 +426,7 @@
     } else {
       html += '<div class="skin-list">';
       favSkins.forEach(e => {
-        const thumb = skinThumbHtml(e.imageUrl, e.skinName, e.game, skinId);
+        const thumb = skinThumbHtml(e.imageUrl, e.skinName, e.game, e.skinId);
         html += `
           <div class="skin-item">
             ${thumb}
