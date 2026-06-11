@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-06-11-01",
+    "date": "2026-06-11",
+    "game": "Valorant (Riot)",
+    "title": "【Valorant Give Back V26今日上线】—— 慈善返场包的【投票+公益+顶级阵容】三合一公式：8100VP锁定FPS品类年度最强返场",
+    "highlights": "Give Back V26今日（6.11）正式上架，含Prime Vandal/Reaver OP/Mystbloom Sheriff/Primordium Phantom/XERØFANG Knife五把顶级皮肤。套装约8100VP（中国区5972VP），33%折扣。部分收入捐赠Riot Social Impact Fund。中国区预告已提前泄露。",
+    "designAnalysis": "- 五把全是历史票选TOP级皮肤：零需求验证风险，每一把都是已证明的爆款\\n- 8100VP定价对标7100VP的Rogue系列：慈善溢价+全明星阵容支撑更高客单价\\n- 限时14天窗口（6.11-6.24）：比常规皮肤更短，FOMO更强\\n- 附赠Player Card/Buddy/Spray三件套：增加套装完整感和收藏价值",
+    "bsInsight": "今日上线的Give Back V26证明了一个公式：【已验证爆款返场+慈善包装+限时窗口】是近乎零风险的变现事件。BS做返场活动应参考这个模板：让用户投票选返场内容（降低决策成本）、加入公益元素（提升购买正当性）、限时14天（制造紧迫但不过度压迫）。",
+    "sourceUrl": "https://www.talkesport.com/news/valorant/valorant-give-back-bundle-2026-leak/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-11-02",
+    "date": "2026-06-11",
+    "game": "行业数据 (Appmagic)",
+    "title": "【土耳其手游市场2025年增长6%至.74亿】—— 新兴市场的【下载萎缩+收入增长】悖论：ARPU提升是全球趋势的缩影",
+    "highlights": "土耳其2025年手游IAP收入.74亿（+6% YoY），连续三年增长。下载量-4%至18亿，连续三年下降。拼图+26.1%至、博彩+6.6%至、策略+9.2%至。PUBG Mobile是土耳其下载量和收入双冠军（）。土耳其开发商全球收入.6亿（+25.5%）。",
+    "designAnalysis": "- 下载量跌但收入涨=ARPU提升：全球手游进入存量深耕阶段的又一证据\\n- 射击品类下载是唯一微增的类别（+0.2%）：说明FPS在新兴市场仍有增量空间\\n- Royal Match收入-2.5%：头部休闲游戏触及天花板\\n- 土耳其开发商全球收入暴涨25.5%：拼图品类出海竞争力极强",
+    "bsInsight": "射击品类在土耳其是唯一下载正增长的类别——这意味着FPS在中东/MENA新兴市场仍有用户增量机会。但更重要的信号是：所有品类的收入增速>下载增速，说明提升存量用户付费深度比拉新更重要。BS在这些市场应优先做LTV优化而非买量。",
+    "sourceUrl": "https://mobilegamer.biz/data-digest-turkiye-us-asia-and-mena-market-stats-pokemon-go-ua-funding-and-more/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-11-03",
+    "date": "2026-06-11",
+    "game": "Xbox (Microsoft)",
+    "title": "【Xbox新CSO Matthew Ball公开承认：移动端收入和用户量最大】—— 但优先修复主机业务：平台巨头的【移动端后手】对手游意味着什么",
+    "highlights": "Xbox新任首席战略官Matthew Ball在The Game Business Live公开表示：【移动端拥有最多玩家和最高收入】。但他的第一优先级是修复Xbox主机业务，移动和PC扩张排在后面。Xbox年收入-450亿，但不如PC和移动增长快。Ball表示需要先赢回主机用户信任再向其他平台扩张。",
+    "designAnalysis": "- Xbox官方首次如此直白承认移动端>主机的收入现实：行业共识显性化\\n- 【先修复主机再做移动】的优先级暗示短期内Microsoft不会大举进入手游竞争\\n- 这对现有手游厂商是利好：少一个巨头竞争者的窗口期\\n- Ball的PC和移动增长愿景意味着中期（2028+）微软会进场",
+    "bsInsight": "Matthew Ball的发言确认了一个事实：即便是主机巨头也无法忽视移动端的收入优势。但Microsoft短期不会大举做手游=FPS手游赛道少了一个潜在巨头竞争者。BS应利用这个窗口期巩固用户基础——等Microsoft真正发力移动端时（预计2028+），市场格局会再次变化。",
+    "sourceUrl": "https://mobilegamer.biz/matthew-ball-knows-mobile-has-the-most-players-and-revenue-but-hes-got-to-fix-xboxs-console-business-first/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-10-01",
     "date": "2026-06-10",
     "game": "Summer Game Fest 2026",
