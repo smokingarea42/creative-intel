@@ -76,6 +76,32 @@
   function getGameClass(game) {
     return gameClassMap[game] || game.toLowerCase().replace(/[^a-z0-9]/g, '');
   }
+  // Sanitize image URL: upgrade HTTP -> HTTPS, handle empty
+  function sanitizeImageUrl(url) {
+    if (!url) return '';
+    if (url.startsWith('http://')) {
+      return url.replace('http://', 'https://');
+    }
+    return url;
+  }
+
+  // Generate skin thumbnail HTML with fallback
+  function skinThumbHtml(imageUrl, skinName, game) {
+    var safeUrl = sanitizeImageUrl(imageUrl);
+    var gameTag = getGameClass(game);
+    var shortName = skinName.length > 30 ? skinName.substring(0, 30) + '...' : skinName;
+    if (safeUrl) {
+      return '<div class="skin-thumb">' +
+        '<img src="' + safeUrl + '" alt="' + skinName + '" loading="lazy" referrerpolicy="no-referrer" crossorigin="anonymous"' +
+        ' onerror="this.style.display=\'none\';this.parentElement.classList.add(\'skin-thumb-fallback\');this.parentElement.setAttribute(\'data-game\',\'' + gameTag + '\')">' +
+        '<span class="skin-thumb-placeholder">' + shortName + '</span>' +
+        '</div>';
+    }
+    return '<div class="skin-thumb skin-thumb-fallback" data-game="' + gameTag + '">' +
+      '<span class="skin-thumb-placeholder">' + shortName + '</span>' +
+      '</div>';
+  }
+
 
   function getGameCategory(game) {
     for (const [cat, games] of Object.entries(categoryMap)) {
@@ -259,7 +285,7 @@
           <div class="skin-list">
             ${entries.map(e => {
               const skinId = `${day.date}-${e.game}-${e.skinName}`;
-              const thumb = e.imageUrl ? `<div class="skin-thumb"><img src="${e.imageUrl}" alt="${e.skinName}" loading="lazy"></div>` : '';
+              const thumb = skinThumbHtml(e.imageUrl, e.skinName, e.game);
               return `
               <div class="skin-item">
                 ${thumb}
@@ -375,7 +401,7 @@
     } else {
       html += '<div class="skin-list">';
       favSkins.forEach(e => {
-        const thumb = e.imageUrl ? `<div class="skin-thumb"><img src="${e.imageUrl}" alt="${e.skinName}" loading="lazy"></div>` : '';
+        const thumb = skinThumbHtml(e.imageUrl, e.skinName, e.game);
         html += `
           <div class="skin-item">
             ${thumb}
