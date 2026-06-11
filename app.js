@@ -24,6 +24,23 @@
   }
   function saveFavorites() {
     localStorage.setItem('creative-intel-favorites', JSON.stringify(favorites));
+  // Pasted images cache (keyed by skinId)
+  var pastedImages = {};
+  function loadPastedImages() {
+    try {
+      var saved = localStorage.getItem('creative-intel-pasted-images');
+      if (saved) { pastedImages = JSON.parse(saved); }
+    } catch(e) {}
+  }
+  function savePastedImages() {
+    try {
+      localStorage.setItem('creative-intel-pasted-images', JSON.stringify(pastedImages));
+    } catch(e) {}
+  }
+  function getPastedImage(skinId) {
+    return pastedImages[skinId] || '';
+  }
+
   }
   function isFavorited(type, id) {
     return (favorites[type] || []).includes(id);
@@ -86,18 +103,26 @@
   }
 
   // Generate skin thumbnail HTML with fallback
-  function skinThumbHtml(imageUrl, skinName, game) {
+  function skinThumbHtml(imageUrl, skinName, game, skinId) {
+    // Check for user-pasted image first
+    var pastedUrl = skinId ? getPastedImage(skinId) : '';
+    if (pastedUrl) {
+      return '<div class="skin-thumb skin-thumb-has-paste" data-skin-id="' + skinId + '">' +
+        '<img src="' + pastedUrl + '" alt="' + skinName + '" loading="lazy">' +
+        '<span class="skin-thumb-paste-hint">\u53cc\u51fb\u66ff\u6362\u56fe\u7247</span>' +
+        '</div>';
+    }
     var safeUrl = sanitizeImageUrl(imageUrl);
     var gameTag = getGameClass(game);
     var shortName = skinName.length > 30 ? skinName.substring(0, 30) + '...' : skinName;
     if (safeUrl) {
-      return '<div class="skin-thumb">' +
+      return '<div class="skin-thumb" data-skin-id="' + skinId + '">' +
         '<img src="' + safeUrl + '" alt="' + skinName + '" loading="lazy" referrerpolicy="no-referrer" crossorigin="anonymous"' +
         ' onerror="this.style.display=\'none\';this.parentElement.classList.add(\'skin-thumb-fallback\');this.parentElement.setAttribute(\'data-game\',\'' + gameTag + '\')">' +
         '<span class="skin-thumb-placeholder">' + shortName + '</span>' +
         '</div>';
     }
-    return '<div class="skin-thumb skin-thumb-fallback" data-game="' + gameTag + '">' +
+    return '<div class="skin-thumb skin-thumb-fallback" data-skin-id="' + skinId + '" data-game="' + gameTag + '">' +
       '<span class="skin-thumb-placeholder">' + shortName + '</span>' +
       '</div>';
   }
@@ -285,7 +310,7 @@
           <div class="skin-list">
             ${entries.map(e => {
               const skinId = `${day.date}-${e.game}-${e.skinName}`;
-              const thumb = skinThumbHtml(e.imageUrl, e.skinName, e.game);
+              const thumb = skinThumbHtml(e.imageUrl, e.skinName, e.game, skinId);
               return `
               <div class="skin-item">
                 ${thumb}
@@ -401,7 +426,7 @@
     } else {
       html += '<div class="skin-list">';
       favSkins.forEach(e => {
-        const thumb = skinThumbHtml(e.imageUrl, e.skinName, e.game);
+        const thumb = skinThumbHtml(e.imageUrl, e.skinName, e.game, skinId);
         html += `
           <div class="skin-item">
             ${thumb}
@@ -694,11 +719,85 @@
   }
 
   // Init
+  // Paste handler for manual image supplementation
+  function setupPasteHandler() {
+    var activeThumb = null;
+
+    // Double-click on thumbnail to activate paste mode
+    document.addEventListener('dblclick', function(ev) {
+      var thumb = ev.target.closest('.skin-thumb');
+      if (!thumb) return;
+      if (activeThumb && activeThumb !== thumb) {
+        activeThumb.classList.remove('skin-thumb-paste-active');
+      }
+      activeThumb = thumb;
+      thumb.classList.add('skin-thumb-paste-active');
+      ev.preventDefault();
+    });
+
+    // Click outside to deactivate
+    document.addEventListener('click', function(ev) {
+      if (activeThumb && !activeThumb.contains(ev.target)) {
+        activeThumb.classList.remove('skin-thumb-paste-active');
+        activeThumb = null;
+      }
+    });
+
+    // Handle paste event
+    document.addEventListener('paste', function(ev) {
+      if (!activeThumb) return;
+      var items = ev.clipboardData && ev.clipboardData.items;
+      if (!items) return;
+
+      for (var i = 0; i < items.length; i++) {
+        if (items[i].type.indexOf('image') !== -1) {
+          ev.preventDefault();
+          var blob = items[i].getAsFile();
+          var reader = new FileReader();
+          reader.onload = function(e) {
+            var dataUrl = e.target.result;
+            var skinId = activeThumb.getAttribute('data-skin-id');
+            if (skinId) {
+              pastedImages[skinId] = dataUrl;
+              savePastedImages();
+            }
+            activeThumb.classList.remove('skin-thumb-fallback', 'skin-thumb-paste-active');
+            activeThumb.classList.add('skin-thumb-has-paste');
+            var existingImg = activeThumb.querySelector('img');
+            if (existingImg) {
+              existingImg.src = dataUrl;
+              existingImg.style.display = '';
+            } else {
+              var img = document.createElement('img');
+              img.src = dataUrl;
+              img.loading = 'lazy';
+              activeThumb.insertBefore(img, activeThumb.firstChild);
+            }
+            var placeholder = activeThumb.querySelector('.skin-thumb-placeholder');
+            if (placeholder) placeholder.style.display = 'none';
+            var hint = activeThumb.querySelector('.skin-thumb-paste-hint');
+            if (!hint) {
+              hint = document.createElement('span');
+              hint.className = 'skin-thumb-paste-hint';
+              hint.textContent = '\u53cc\u51fb\u66ff\u6362\u56fe\u7247';
+              activeThumb.appendChild(hint);
+            }
+            activeThumb = null;
+          };
+          reader.readAsDataURL(blob);
+          return;
+        }
+      }
+    });
+  }
+
   function init() {
-    loadFavorites();
+    loadFavorites();    loadPastedImages();
+
     loadHighlights();
     initTabs();
     initHighlightSystem();
+    setupPasteHandler();
     loadData();
   }
 
