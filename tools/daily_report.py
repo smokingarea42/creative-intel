@@ -2,12 +2,8 @@
 # -*- coding: utf-8 -*-
 """
 Daily Creative Intel Report Generator
-Generates a new daily skin report and pushes to GitHub.
-
-Usage:
-  python daily_report.py              # Generate for today
-  python daily_report.py --dry-run    # Preview without saving
-  python daily_report.py --force      # Force regenerate even if today exists
+Auto-generates skin report from Bilibili search and pushes to GitHub.
+Scheduled via Windows Task Scheduler: weekdays 10:30 AM.
 """
 import json, os, sys, time, urllib2, urllib, re, subprocess, io
 from datetime import datetime
@@ -20,8 +16,8 @@ DATA_DIR = os.path.join(REPO_DIR, "data")
 LOG_FILE = os.path.join(REPO_DIR, "tools", "daily_report.log")
 
 def log(msg):
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    line = u"[{}] {}".format(timestamp, msg)
+    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    line = u"[{}] {}".format(ts, msg)
     print(line.encode("utf-8") if isinstance(line, unicode) else line)
     try:
         with io.open(LOG_FILE, "a", encoding="utf-8") as f:
@@ -30,11 +26,31 @@ def log(msg):
         pass
 
 def clean_html(text):
-    """Remove HTML tags from text."""
     if not text:
         return ""
-    text = re.sub(r"<[^>]+>", "", text)
-    return text.strip()
+    return re.sub(r"<[^>]+>", "", text).strip()
+
+def notify_done(today, count):
+    """Show Windows toast notification."""
+    try:
+        ps_script = (
+            u'Add-Type -AssemblyName System.Windows.Forms; '
+            u'$b = New-Object System.Windows.Forms.NotifyIcon; '
+            u'$b.Icon = [System.Drawing.SystemIcons]::Information; '
+            u'$b.BalloonTipIcon = "Info"; '
+            u'$b.BalloonTipTitle = "Creative Intel 日报已生成"; '
+            u'$b.BalloonTipText = "{} 日报已生成并推送! 共 {} 条新皮肤"; '
+            u'$b.Visible = $true; '
+            u'$b.ShowBalloonTip(10000); '
+            u'Start-Sleep -Seconds 12; '
+            u'$b.Dispose()'
+        ).format(today, count)
+        subprocess.call(
+            ["powershell", "-Command", ps_script.encode("utf-8")],
+            shell=True
+        )
+    except Exception as e:
+        log(u"Notification failed: {}".format(str(e)[:80]))
 
 SEARCH_QUERIES = [
     (u"Valorant", u"Valorant 新皮肤"),
@@ -52,31 +68,56 @@ SEARCH_QUERIES = [
 ]
 
 def bilibili_search(keyword, limit=2):
+    """Search Bilibili with retry for 412 errors."""
     encoded = urllib.quote(keyword.encode("utf-8"))
-    url = "https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword={}&order=pubdate&page=1".format(encoded)
-    headers = {"User-Agent": "Mozilla/5.0", "Referer": "https://www.bilibili.com/"}
-    req = urllib2.Request(url, headers=headers)
-    try:
-        resp = urllib2.urlopen(req, timeout=10)
-        data = json.loads(resp.read().decode("utf-8"))
-        if data.get("code") == 0:
-            results = data.get("data", {}).get("result", [])
-            entries = []
-            for v in results[:limit]:
-                pic = v.get("pic", "")
-                if pic.startswith("//"):
-                    pic = "https:" + pic
-                entries.append({
-                    "bvid": v.get("bvid", ""),
-                    "title": clean_html(v.get("title", "")),
-                    "description": clean_html(v.get("description", "")),
-                    "pic": pic,
-                    "author": v.get("author", ""),
-                    "url": "https://www.bilibili.com/video/" + v.get("bvid", ""),
-                })
-            return entries
-    except Exception as e:
-        log(u"  Search error for '{}': {}".format(keyword, str(e)[:100]))
+    url = ("https://api.bilibili.com/x/web-interface/search/type"
+           "?search_type=video&keyword={}&order=pubdate&page=1").format(encoded)
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/120.0.0.0 Safari/537.36"
+        ),
+        "Referer": "https://www.bilibili.com/",
+        "Accept-Language": "zh-CN,zh;q=0.9",
+    }
+    
+    for attempt in range(3):
+        try:
+            req = urllib2.Request(url, headers=headers)
+            resp = urllib2.urlopen(req, timeout=10)
+            data = json.loads(resp.read().decode("utf-8"))
+            if data.get("code") == 0:
+                results = data.get("data", {}).get("result", [])
+                entries = []
+                for v in results[:limit]:
+                    pic = v.get("pic", "")
+                    if pic.startswith("//"):
+                        pic = "https:" + pic
+                    entries.append({
+                        "bvid": v.get("bvid", ""),
+                        "title": clean_html(v.get("title", "")),
+                        "description": clean_html(v.get("description", "")),
+                        "pic": pic,
+                        "author": v.get("author", ""),
+                        "url": "https://www.bilibili.com/video/" + v.get("bvid", ""),
+                    })
+                return entries
+            else:
+                log(u"  API error for {}: code={}".format(keyword, data.get("code")))
+                return []
+        except urllib2.HTTPError as e:
+            if e.code == 412 and attempt < 2:
+                time.sleep(2)
+                continue
+            log(u"  HTTP {} for {}: {}".format(e.code, keyword, str(e)[:60]))
+            return []
+        except Exception as e:
+            if attempt < 2:
+                time.sleep(2)
+                continue
+            log(u"  Error for {}: {}".format(keyword, str(e)[:80]))
+            return []
     return []
 
 def generate_entry(game, keyword, result):
@@ -110,20 +151,17 @@ def main():
     log(u"=" * 50)
     log(u"Daily Report Generator - {}".format(today))
     
-    # Load existing data
     skins_path = os.path.join(DATA_DIR, "skins.json")
     with io.open(skins_path, "r", encoding="utf-8") as f:
         skins_data = json.loads(f.read())
     
     if today in [d["date"] for d in skins_data] and not force:
-        log(u"SKIP: {} already has entries (use --force to override)".format(today))
+        log(u"SKIP: {} already exists (use --force to override)".format(today))
         return
     
-    if force and today in [d["date"] for d in skins_data]:
-        log(u"FORCE: removing existing entries for {}".format(today))
+    if force:
         skins_data = [d for d in skins_data if d["date"] != today]
     
-    # Search Bilibili
     log(u"Searching Bilibili...")
     new_entries = []
     seen = set()
@@ -137,7 +175,7 @@ def main():
             if key not in seen:
                 seen.add(key)
                 new_entries.append(entry)
-        time.sleep(0.3)
+        time.sleep(0.5)
     
     if not new_entries:
         log(u"WARN: No content found, creating placeholder")
@@ -148,19 +186,18 @@ def main():
             "releaseDate": today,
             "brief": u"请在B站搜索最新游戏皮肤资讯后手动更新",
             "sourceUrl": "https://www.bilibili.com/",
-            "biliSearch": "https://search.bilibili.com/all?keyword=%E6%B8%B8%E6%88%8F+%E6%96%B0%E7%9A%AE%E8%82%A4&order=pubdate",
+            "biliSearch": "https://search.bilibili.com/all?keyword=游戏+新皮肤&order=pubdate",
             "imageUrl": "",
         })
     
     log(u"Generated {} unique entries".format(len(new_entries)))
     
     if dry_run:
-        log(u"*** DRY RUN - would add: ***")
+        log(u"*** DRY RUN ***")
         for e in new_entries:
             log(u"  [{}] {}".format(e["game"], e["skinName"][:60]))
         return
     
-    # Update skins.json
     new_day = {"date": today, "entries": new_entries}
     skins_data.insert(0, new_day)
     
@@ -168,7 +205,6 @@ def main():
         f.write(json.dumps(skins_data, ensure_ascii=False, indent=2))
     log(u"Updated skins.json")
     
-    # Git commit and push
     log(u"Committing and pushing...")
     os.chdir(REPO_DIR)
     safe = REPO_DIR.replace("\\", "/")
@@ -179,9 +215,10 @@ def main():
         subprocess.check_call(git + ["commit", "-m", "daily: auto report for {}".format(today)])
         subprocess.check_call(git + ["push", "origin", "main"])
         log(u"DONE: Report generated and pushed!")
+        notify_done(today, len(new_entries))
     except Exception as e:
         log(u"ERROR: Git failed - {}".format(str(e)[:100]))
-        log(u"File updated locally. Manual push needed.")
+        log(u"File updated locally, manual push needed.")
 
 if __name__ == "__main__":
     main()
