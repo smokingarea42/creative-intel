@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-06-15-01",
+    "date": "2026-06-15",
+    "game": "38-0-0 (独立开发)",
+    "title": "【AI一夜Vibe Code出英国iOS榜首游戏38-0-0】—— 零编程经验+Claude Code=病毒式传播：AI时代的【极速验证+社交裂变】游戏开发范式",
+    "highlights": "英国创业者Deniz Sancar用Claude Code一夜做出足球选秀游戏38-0-0，首周网站180万访问，登顶英国iOS免费榜（超Fortnite）。无任何编程经验，从网页版到App全程AI生成。变现模式：广告+.99去广告IAP。",
+    "designAnalysis": "- 【社交分享截图】是核心增长引擎：类Wordle的结果分享机制自带传播\\n- 世界杯热点窗口+英超IP组合=免费流量\\n- 极简开发成本（一晚）对比传统手游数月周期=ROI无限大\\n- 证明AI工具已能让非程序员独立完成从idea到上架全流程",
+    "bsInsight": "这个案例的核心启示不是【用AI做游戏】，而是【验证速度决定一切】。热点窗口稍纵即逝（世界杯），能在一夜内从想法到上架的人吃掉了全部红利。对BS的启示：活动/小游戏的开发周期如果能压缩到极致，就能抓住更多事件营销窗口。",
+    "sourceUrl": "https://mobilegamer.biz/the-uks-number-one-ios-game-38-0-0-was-built-overnight-by-an-amateur-using-claude-code/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-15-02",
+    "date": "2026-06-15",
+    "game": "三角洲行动 (Tencent)",
+    "title": "【三角洲S10核子裂变赛季6.26上线爆料汇总】—— FPS撤离品类的【环境威胁+BOSS扮演+通行证】多层变现设计",
+    "highlights": "三角洲行动S10【核子裂变】赛季6.26全平台上线（FPS撤离品类）。新增核电站辐射地图（9大分区+全域动态辐射机制）、白色风暴雪地图、新干员泽芮娅、BOSS扮演德木兰玩法、下挂榴弹发射器新配件。通行证含核电站辐射科技风皆肤。",
+    "designAnalysis": "- 环境威胁机制（辐射/严寒）创造消耗品需求→拉动商城消耗品销量\\n- BOSS扮演付费解锁：花哈夫币变身=将游戏内货币消耗渠道从【买装备】扩展到【买体验】\\n- 雪地图脚印追踪机制增加PvP紧张感，提升在线时长\\n- 赛季通行证绑定主题皆肤：新地图体验引流→通行证变现",
+    "bsInsight": "三角洲S10的核心设计是【环境威胁做消耗引擎】：辐射和严寒迫使玩家必须持续购买消耗品，这比纯皆肤变现更健康且更可持续。BS可参考：通过环境机制创造【必要性消耗】而非仅依赖皆肤外观吸引力。",
+    "sourceUrl": "https://www.gamersky.com/handbook/202606/2152098.shtml",
+    "imageUrl": "https://img1.gamersky.com/image2026/06/20260605_wjl_646_3/1119.jpg"
+  },
+  {
+    "id": "2026-06-15-03",
+    "date": "2026-06-15",
+    "game": "PUBG Mobile (Level Infinite)",
+    "title": "【PUBG Mobile×意大利Brainrot梳联动6.19上线】—— 射击BR品类首次联动网络梳：用5天生命周期的梳文化做短线UA爆发",
+    "highlights": "PUBG Mobile 4.4版本确认6.19上线意大利Brainrot梳联动（射击BR品类）。含病毒角色Tung Tung Tung Sahur、Bombardino Crocodilo等热梳形象。与aespa联动、世界杯足球活动并行，6月活动密度极高。",
+    "designAnalysis": "- 梳文化生命周期极短（5-15天热度），联动必须快速上线快速下架\\n- Brainrot梳的用户画像与PUBGM核心用户高度重合（年轻男性、社交媒体重度用户）\\n- 射击手游联动梳属业界首次：新鲜感本身就是传播素材\\n- 风险管理：小规模限时联动而非重度投入，控制下行风险",
+    "bsInsight": "PUBGM联动Brainrot梳的核心逻辑是【用极低成本内容捕捉瞬时流量】。梳IP不需要授权费、美术成本低、制作周期短。对BS的启示：建立【快速反应的轻量联动管线】，可以用最低资源投入追热点做日活峰值。",
+    "sourceUrl": "https://www.bluestacks.com/blog/news/pubg-mobile-latest-events-leaks-en.html",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-12-01",
     "date": "2026-06-12",
     "game": "Fortnite (Epic Games)",
