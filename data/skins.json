@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-06-16",
+    "entries": [
+      {
+        "game": "逆战未来",
+        "skinName": "逆战未来×浪浪山小妖怪联动皮肤（夜影之逝-降妖除魔+免费木葫芦挂饰）",
+        "type": "国产动画IP联动·累充+免费",
+        "releaseDate": "2026.6.1",
+        "brief": "S3赛季联动浪浪山小妖怪（FPS PVE品类），累充468获得夜影之逝-降妖除魔刀喷皮肤，登录免费送木葫芦挂饰",
+        "sourceUrl": "https://www.bilibili.com/video/BV1F7GU6uEQc/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E9%80%86%E6%88%98%E6%9C%AA%E6%9D%A5+%E6%B5%AA%E6%B5%AA%E5%B1%B1&order=pubdate",
+        "imageUrl": "http://i1.hdslb.com/bfs/archive/d93e201822728a820a0c35d08b801319ea657b65.jpg"
+      },
+      {
+        "game": "Fortnite",
+        "skinName": "Amazing Digital Circus联动（Pomni + Jax双皮肤）",
+        "type": "商城联动·网络动画IP",
+        "releaseDate": "2026.6.12",
+        "brief": "YouTube超50亿播放的网络动画IP（BR品类），Pomni和Jax各1500 V-Bucks含免费Back Bling",
+        "sourceUrl": "https://www.vice.com/en/article/amazing-digital-circus-fortnite-skins-revealed-by-epic-games-release-date-first-look/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=Fortnite+Amazing+Digital+Circus&order=pubdate",
+        "imageUrl": ""
+      },
+      {
+        "game": "CODM (国际版)",
+        "skinName": "S6高达联动机甲角色皮肤+武器蓝图（6月底上线）",
+        "type": "赛季联动·机甲IP",
+        "releaseDate": "2026.6月底",
+        "brief": "高达联动（FPS品类），含机甲风格角色皮肤Silver Chrome Dome等+Legendary M4蓝图，配合Double CP全赛季促销",
+        "sourceUrl": "https://www.fragster.com/cod-mobile-season-6-battle-pass-rewards-release-date-double-cp-event-and-more/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=CODM+%E7%AC%AC%E5%85%AD%E8%B5%9B%E5%AD%A3+%E9%AB%98%E8%BE%BE+%E7%9A%AE%E8%82%A4&order=pubdate",
+        "imageUrl": "http://i0.hdslb.com/bfs/archive/eae2501e0806adbacf17a2f8b2eefc4fc1b32b62.jpg"
+      },
+      {
+        "game": "PUBG Mobile",
+        "skinName": "Italian Brainrot联动皮肤（Tung Tung Tung Sahur/Bombardino Crocodilo等）",
+        "type": "限时联动·网络梗文化IP",
+        "releaseDate": "2026.6.19",
+        "brief": "射击BR品类首次联动网络梗文化IP，含梗角色套装+武器皮肤+语音包+Lucky Spin",
+        "sourceUrl": "https://www.bluestacks.com/blog/news/pubg-mobile-latest-events-leaks-en.html",
+        "biliSearch": "https://search.bilibili.com/all?keyword=PUBG+Mobile+Brainrot+%E8%81%94%E5%8A%A8&order=pubdate",
+        "imageUrl": ""
+      }
+    ]
+  },
+  {
     "date": "2026-06-15",
     "entries": [
       {

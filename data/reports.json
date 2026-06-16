@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-06-16-01",
+    "date": "2026-06-16",
+    "game": "行业数据 (Appmagic)",
+    "title": "【5月全球手游畅销榜：Last War暴跌40%至$8200万，Kingshot创历史新高$9100万】—— 头部格局剧变：SLG品类的【增长瓶颈】与【新王崛起】",
+    "highlights": "Appmagic 5月数据：王者荣耀$1.61亿居首，Whiteout Survival ~$1.1亿稳定，Last War从$1.25亿连续三月跌至$8200万（-34%）。Kingshot $9100万创历史新高，持续增长。Delta Force（三角洲行动）$5720万居第11位。Monopoly Go因Web Shop分流降至$8000万。",
+    "designAnalysis": "- Last War连续三月下滑原因不明，可能是UA疲劳或竞品分流\\n- Kingshot证明SLG赛道仍有增量：精细化运营可以后来居上\\n- Monopoly Go的Web Shop分流效应：IAP数据不再反映真实收入\\n- Delta Force $5720万稳居FPS手游收入第一梯队",
+    "bsInsight": "Last War的暴跌是最大警示：即使是$1.3亿/月的产品也可能快速衰退，说明UA驱动型产品的生命周期脆弱性。BS应关注的信号是：Delta Force $5720万说明FPS品类变现天花板仍在——关键是能否持续做好Live Ops保持用户活跃。",
+    "sourceUrl": "https://mobilegamer.biz/mays-top-grossing-mobile-games-honor-of-kings-whiteout-survival-royal-match-more/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-16-02",
+    "date": "2026-06-16",
+    "game": "Fortnite (Epic Games)",
+    "title": "【Fortnite×Amazing Digital Circus 6.12上线】—— YouTube动画IP×BR品类的【Z世代流量收割】：Pomni+Jax双皮肤1500V-Bucks低门槛设计",
+    "highlights": "Epic Games 6月12日上线Amazing Digital Circus联动（BR品类），含Pomni和Jax两款皮肤各1500 V-Bucks，附赠Back Bling。GLITCH Productions网络动画IP，YouTube超50亿播放，Z世代核心受众与Fortnite高度重合。",
+    "designAnalysis": "- YouTube原生IP联动成本远低于传统影视IP：无经纪公司中间层\\n- 1500 V-Bucks低定价策略：降低决策门槛，走量而非走单价\\n- 双角色拆卖：粉丝选择困难=两个都买\\n- 网络动画社区自带UGC二创能力：联动素材会被粉丝免费传播",
+    "bsInsight": "Fortnite联动TADC证明【YouTube/网络动画IP是低成本高回报的联动选择】。这类IP授权费低、粉丝年轻且活跃、自带社交传播力。BS如果要做联动，不必只盯着大影视IP——Z世代网络文化IP（动画/VTuber/梗文化）可能ROI更高。",
+    "sourceUrl": "https://www.vice.com/en/article/amazing-digital-circus-fortnite-skins-revealed-by-epic-games-release-date-first-look/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-16-03",
+    "date": "2026-06-16",
+    "game": "绝区零 (miHoYo)",
+    "title": "【绝区零3.0「回归丽都」邀请好友活动】—— 二游的【社交裂变+回流】双引擎设计：邀请码绑定最高340菲林+实物抽奖",
+    "highlights": "绝区零3.0版本6月6日开启「回归丽都：共启新章」（动作RPG品类）。邀请好友回归/注册绑定邀请码得60菲林，最高累计340菲林。网页抽奖含游戏手办、游戏机、周边等实物奖励。配合周年庆+新角色维琳娜/诺姆卡池同步推出。",
+    "designAnalysis": "- 邀请码机制=社交裂变：每个老玩家变成免费UA渠道\\n- 340菲林≈约2-3抽价值：足够做hook但不伤付费生态\\n- 实物抽奖做传播钩子：手办/游戏机的社交展示价值远超虚拟奖励\\n- 回归+注册双通道：既拉新又拉回流，一个活动覆盖两个目标",
+    "bsInsight": "绝区零的思路是【把拉新成本转化为玩家奖励】——用340菲林的成本让老玩家做UA，比买量便宜得多。BS可以参考：邀请好友得抽奖券/通行证经验这类机制，核心是让邀请行为对双方都有即时回报。实物抽奖是社交传播的最强加速器。",
+    "sourceUrl": "https://zzz.mihoyo.com/news/164640",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-15-01",
     "date": "2026-06-15",
     "game": "38-0-0 (独立开发)",
