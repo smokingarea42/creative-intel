@@ -1,5 +1,33 @@
 [
   {
+    "id": "2026-06-17-act-01",
+    "date": "2026-06-17",
+    "game": "Pokemon Champions",
+    "title": "【Pokemon Champions今日移动端上线：.99/.99/.99三层订阅分带】—— 从主机到手机的【进度同步+订阅分层】变现设计",
+    "heat": "🔥 全球第IP Pokemon | 今日上线 | Switch进度无缝同步",
+    "tag": "🌟 最新活动",
+    "mechanismType": "三层订阅分带+跨平台进度同步",
+    "mechanism": "- F2P基础免费玩+战令.99做轻度付费入口\\n- 月会员.99做中度日常价值（每日奖励+折扣）\\n- 年会员.99锁定重度用户全年LTV\\n- 任天堂账号进度同步：已付费Switch用户零成本迁移手机",
+    "whyHot": "- Pokemon是全球IP价值第一，自带巨量自然流量\\n- 今日上线=时效性最强\\n- 三层分带给每个付费意愿档位的用户都有入口",
+    "insight": "- 三层订阅的核心是【价格键】：//三个心理关口精准覆盖\\n- 跨平台进度同步=已付费用户的迁移成本为零：最低摩擦力获客\\n- 年卡.99 vs 月卡.99×12=.88，给用户【赚到了】的感觉",
+    "sourceUrl": "https://mobilegamer.biz/pokemon-champions-is-coming-to-mobile-on-june-17/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-17-act-02",
+    "date": "2026-06-17",
+    "game": "Apple (WWDC 2026)",
+    "title": "【WWDC 2026：Apple AI Foundation Models免费开放给游戏开发者】—— 200万下载以下免费用Private Cloud Compute，手游AI化的基础设施时刻",
+    "heat": "🔥 WWDC 2026重磅发布 | AI免费开放 | 影响所有iOS游戏",
+    "tag": "🏆 讨论度高",
+    "mechanismType": "平台级AI基建免费开放",
+    "mechanism": "- Apple Foundation Models对首次下载<200万的App免费开放\\n- 含 Private Cloud Compute推理能力，零成本接入AI\\n- App Intents允许游戏功能被 Siri AI调用\\n- Siri AI进入Beta，个人助理可直接操作游戏功能",
+    "whyHot": "- Apple平台级变动影响所有iOS游戏开发者\\n- 免费AI=中小游戏公司也能做AI个性化推荐\\n- 开发者社区讨论热度极高",
+    "insight": "- AI个性化商店推荐的技术门槛已降为零：根据玩家行为推荐皮肤可提升转化\\n- App Intents意味着Siri可以帮玩家买皮肤/领奖励，减少路径摩擦\\n- 200万门槛对大多数手游几乎无限制",
+    "sourceUrl": "https://mobilegamer.biz/what-apple-developers-really-thought-of-wwdc-2026/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-16-act-01",
     "date": "2026-06-16",
     "game": "绝区零 (miHoYo)",

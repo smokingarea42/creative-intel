@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-06-17-01",
+    "date": "2026-06-17",
+    "game": "Apple (WWDC 2026)",
+    "title": "【WWDC 2026: Apple AI Foundation Models免费开放给游戏开发者】—— 200万下载以下免费用Private Cloud Compute：手游AI化的【基础设施平权】时刻",
+    "highlights": "Apple WWDC 2026（6.8）官宣AI Foundation Models免费向开发者开放，条件是App首次下载<200万时免费使用Private Cloud Compute。游戏开发者可轻松达标。无专门游戏功能发布，但AI能力>AR/VR对手游影响更大。Siri AI进入Beta。",
+    "designAnalysis": "- 200万下载门槛对中小手游几乎无限制：绝大多数游戏都能免费用\\n- Private Cloud Compute=AI推理成本归零：个性化推荐/AI NPC/智能客服成为标配\\n- 没有游戏专属功能=Apple仍不重视游戏平台，但AI基建对游戏间接利好巨大\\n- Liquid Glass UI改版对游戏商店/IAP界面有视觉变化",
+    "bsInsight": "核心机会：Apple免费AI意味着手游可以零成本接入AI推荐系统/个性化商店/智能NPC。BS应关注的是：用AI做个性化商店推荐（根据玩家行为推荐皮肤）的技术门槛已降为零，这是提升转化率最低成本的方式。",
+    "sourceUrl": "https://mobilegamer.biz/what-apple-developers-really-thought-of-wwdc-2026/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-17-02",
+    "date": "2026-06-17",
+    "game": "行业数据 (Digital in Asia)",
+    "title": "【亚太游戏变现报告：亿占全球游戏46%，Gacha占日本榓93%头部产品】—— 亚洲模式=全球模式：IAP+广告+订阅混合变现的【结构性拆解】",
+    "highlights": "亚太游戏2025年亿，占全球游戏46%。中国市场>RMB 3508亿(+7.68%)，6.83亿玩家。移动端占中国73%/东南亚70%+。Gacha系统占日本93%头部产品。日本/中国分别IAP 亿/亿。Krafton年收入KRW 3.3万亿(+22.8%)。",
+    "designAnalysis": "- Gacha占日本93%头部说明随机奖励机制仍是最强变现引擎\\n- 混合变现（IAP+广告）是增速最快模式：混合休闲驱动\\n- 战令本质是「从免费到IAP的过渡药」：低价入口培养付费习惯\\n- 中国玩家规模创历史新高6.83亿=存量市场仍有用户增量",
+    "bsInsight": "Gacha占日本93%头部就是答案：随机奖励机制的变现效率远超确定性购买。BS的抽奖/转盘机制应该是变现主力而非补充。战令作为「付费入口药」的定位意味着它的价格应该极低，核心功能是培养付费习惯而非直接赚钱。",
+    "sourceUrl": "https://digitalinasia.com/how-gaming-monetisation-works-in-asia/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-17-03",
+    "date": "2026-06-17",
+    "game": "Dave the Diver / FIFA World Cup (手游新品潮)",
+    "title": "【6月手游新品潮：Dave the Diver手游8月上线+FIFA World Cup已上Netflix+Soccer Clash软发布】—— 世界杯窗口的【IP变现+事件营销】机会",
+    "highlights": "Dave the Diver 8月上线手机（中国已上线）。FIFA World Cup: Launch Edition已登录Netflix免费玩。Soccer Clash（Wildlife）在英国等地区软发布。Don’t Starve Together 7.21上线.99。全部绑定FIFA世界杯热点窗口。",
+    "designAnalysis": "- 世界杯窗口催生足球手游密集上线：事件营销的典型应用\\n- Netflix游戏分发渠道越来越实：FIFA官方授权产品选择入驻\\n- Dave the Diver中国先行再全球：中国市场作为验证场\\n- .99买断制手游仍有空间：Don’t Starve Together走买断+内购混合",
+    "bsInsight": "世界杯是全年最大的体育事件营销窗口。三角洲行动已经做了Soccer Frenzy足球活动，BS也应考虑世界杯期间推出主题活动/皮肤。Netflix游戏成为新的发行渠道值得关注，但对FPS品类尚不适用。",
+    "sourceUrl": "https://mobilegamer.biz/new-game-digest-dave-the-diver-one-piece-fifa-world-cup-soccer-clash-dont-starve-new-subway-surfers-and-more/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-16-01",
     "date": "2026-06-16",
     "game": "行业数据 (Appmagic)",

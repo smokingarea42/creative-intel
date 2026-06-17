@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-06-17",
+    "entries": [
+      {
+        "game": "Pokemon Champions",
+        "skinName": "Pokemon Champions移动端今日上线（战令.99+月卡.99+年卡.99三层订阅）",
+        "type": "跨平台上线·三层订阅变现",
+        "releaseDate": "2026.6.17",
+        "brief": "今日正式登录iOS/Android（竞技品类），Switch进度同步，F2P+战令+月卡+年卡三层分带变现架构",
+        "sourceUrl": "https://mobilegamer.biz/pokemon-champions-is-coming-to-mobile-on-june-17/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=Pokemon+Champions+%E6%89%8B%E6%9C%BA%E7%89%88+%E4%B8%8A%E7%BA%BF&order=pubdate",
+        "imageUrl": ""
+      },
+      {
+        "game": "Valorant",
+        "skinName": "Give Back V26 Bundle限时售卖中（剩余7天，6.24截止）",
+        "type": "慈善返场合集·在售中",
+        "releaseDate": "2026.6.11上架（至6.24）",
+        "brief": "FPS品类年度慈善返场包进入后半程，Prime Vandal+Reaver OP五把经典皮肤组合，14天窗口剩余7天",
+        "sourceUrl": "https://www.talkesport.com/news/valorant/valorant-give-back-bundle-2026-leak/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=Valorant+Give+Back+V26&order=pubdate",
+        "imageUrl": ""
+      },
+      {
+        "game": "PUBG Mobile",
+        "skinName": "Brainrot梳联动皮肤即将上线（6.19）",
+        "type": "限时联动·网络梳文化IP",
+        "releaseDate": "2026.6.19",
+        "brief": "后天上线（射击BR品类），含Tung Tung Tung Sahur等病毒角色套装，配合aespa联动同期进行",
+        "sourceUrl": "https://www.bluestacks.com/blog/news/pubg-mobile-latest-events-leaks-en.html",
+        "biliSearch": "https://search.bilibili.com/all?keyword=PUBG+Mobile+Brainrot+%E8%81%94%E5%8A%A8&order=pubdate",
+        "imageUrl": ""
+      },
+      {
+        "game": "三角洲行动",
+        "skinName": "S10【核子裂变】新赛季通行证皮肤预热（6.26上线）",
+        "type": "赛季通行证·辐射科技风",
+        "releaseDate": "2026.6.26",
+        "brief": "距离S10上线还有9天（FPS撤离品类），核电站辐射主题全套枪械+干员限定皆肤预热中",
+        "sourceUrl": "https://www.gamersky.com/handbook/202606/2152098.shtml",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8A%A8+S10+%E6%A0%B8%E5%AD%90%E8%A3%82%E5%8F%98&order=pubdate",
+        "imageUrl": "https://img1.gamersky.com/image2026/06/20260605_wjl_646_3/1119.jpg"
+      }
+    ]
+  },
+  {
     "date": "2026-06-16",
     "entries": [
       {
