@@ -1,5 +1,33 @@
 [
   {
+    "id": "2026-06-18-act-01",
+    "date": "2026-06-18",
+    "game": "PUBG Mobile",
+    "title": "【PUBG Mobile×意大利Brainrot梗联动明日6.19上线】—— 射击BR品类首次联动网络梗文化：用病毒式传播做免费UA的【极限快反】模式",
+    "heat": "🔥 明日正式上线 | 多家媒体确认 | Brainrot全球现象级梗文化",
+    "tag": "🌟 最新活动",
+    "mechanismType": "网络梗IP联动+限时角色套装",
+    "mechanism": "- Tung Tung Tung Sahur/Bombardino Crocodilo等病毒角色套装明日上架\n- 联动内容包含角色套装+武器涂装+语音包\n- 限时上架配合梗热度窗口，错过即无",
+    "whyHot": "- Brainrot是2025-2026年全球最大网络文化现象\n- 射击手游联动梗属业界首次，新鲜感即传播素材\n- 用户截图分享=免费社交媒体广告",
+    "insight": "- 梗文化的核心价值是【免费流量】：玩家截图就是做广告\n- 快反管线的核心是【1-2周内上线】：跟梗热度同步\n- BS可参考：建立轻量联动快反机制，小成本追热点做日活峰值",
+    "sourceUrl": "https://www.bluestacks.com/blog/news/pubg-mobile-latest-events-leaks-en.html",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-18-act-02",
+    "date": "2026-06-18",
+    "game": "38-0 / 38-0-0 (独立开发)",
+    "title": "【第二款AI业余足球选秀游戏38-0也冲入英国Top10】—— AI工具推动的【经济型游戏开发】浪潮：几天做出10万+下载的应用",
+    "heat": "🔥 上线一周即突码10万下载 | 英国App Store Top10 | 广告人业余开发",
+    "tag": "🏆 讨论度高",
+    "mechanismType": "AI开发+社交裂变+世界杯热点借势",
+    "mechanism": "- 广告人 Josh Pavey用Opus+Gemini+Cursor几天做出足球选秀游戏\n- Cloudflare Workers实现多人对战，无服务器成本\n- Wordle式结果分享裂变，世界杯窗口自然流量\n- 目前零变现，纯享受用户增长，后续可接入广告+IAP",
+    "whyHot": "- 继上周38-0-0后第二个业余AI足球游戏冲榜\n- 证明【热点+AI工具+社交裂变】公式可复制\n- 对传统游戏开发范式的激进挑战",
+    "insight": "- 连续两款同类产品验证了公式而非运气：热点+社交裂变+极速交付\n- 对游戏公司的启示：小游戏/活动用AI压缩开发周期到天级\n- BS可考虑用AI工具快速做事件营销小游戏配合赛事节点",
+    "sourceUrl": "https://mobilegamer.biz/38-0-is-the-second-amateur-made-football-drafting-game-to-break-into-the-uk-app-store-top-ten/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-17-act-01",
     "date": "2026-06-17",
     "game": "Pokemon Champions",

@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-06-18",
+    "entries": [
+      {
+        "game": "PUBG Mobile",
+        "skinName": "Selection Lucky Spin上架（神话级套装+传说级武器涂装）",
+        "type": "转盘·神话级套装",
+        "releaseDate": "2026.6.17",
+        "brief": "4.4版本Selection系列转盘上架（射击BR品类），含多款神话级套装和传说级武器涂装，古希腊神话主题延续",
+        "sourceUrl": "https://www.bluestacks.com/blog/news/pubg-mobile-latest-events-leaks-en.html",
+        "biliSearch": "https://search.bilibili.com/all?keyword=PUBG+Mobile+Selection+Lucky+Spin+6%E6%9C%88&order=pubdate",
+        "imageUrl": ""
+      },
+      {
+        "game": "CODM (国际版)",
+        "skinName": "S6【Gundams Arrive】赛季确认7月2日上线（高达联动角色+机甲蓝图+Double CP）",
+        "type": "赛季联动·确认日期",
+        "releaseDate": "2026.7.2",
+        "brief": "S6高达赛季正式确认7.2上线（FPS品类），含Chrome Dome/Science Pilot等角色皮肤+M4传说级蓝图，Double CP全赛季双倍充值",
+        "sourceUrl": "https://www.fragster.com/cod-mobile-season-6-battle-pass-rewards-release-date-double-cp-event-and-more/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=CODM+S6+%E9%AB%98%E8%BE%BE+Gundams+Arrive&order=pubdate",
+        "imageUrl": ""
+      },
+      {
+        "game": "PUBG Mobile",
+        "skinName": "4.4版本第二弹Ultimate Set即将上架（6.26）",
+        "type": "Ultimate级套装·预告",
+        "releaseDate": "2026.6.26",
+        "brief": "4.4版本第二弹也是最后一弹Ultimate级套装即将上架（射击BR品类），含可升级武器涂装，具体名称待官宣",
+        "sourceUrl": "https://www.bluestacks.com/blog/news/pubg-mobile-latest-events-leaks-en.html",
+        "biliSearch": "https://search.bilibili.com/all?keyword=PUBG+Mobile+Ultimate+Set+6%E6%9C%88&order=pubdate",
+        "imageUrl": ""
+      },
+      {
+        "game": "Valorant",
+        "skinName": "Give Back V26 Bundle限时售卖中（剩余6天，6.24截止）",
+        "type": "慈善返场合集·倒计时",
+        "releaseDate": "2026.6.11上架（至6.24）",
+        "brief": "FPS品类年度慈善返场包进入最后一周，Prime Vandal+Reaver OP五把经典皮肤，剩余6天窗口期",
+        "sourceUrl": "https://www.talkesport.com/news/valorant/valorant-give-back-bundle-2026-leak/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=Valorant+Give+Back+V26+%E8%BF%98%E5%89%A96%E5%A4%A9&order=pubdate",
+        "imageUrl": ""
+      }
+    ]
+  },
+  {
     "date": "2026-06-17",
     "entries": [
       {

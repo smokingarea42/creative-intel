@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-06-18-01",
+    "date": "2026-06-18",
+    "game": "行业数据 (Sensor Tower)",
+    "title": "【5月全球手游消费$66亿(+2% MoM)：王者荣耀蝉联榜首，鸣潮收入增速第一】—— Live Ops驱动的【存量博弈】格局深化",
+    "highlights": "Sensor Tower 5月数据：全球手游消费$66亿(+2% MoM)。王者荣耀凭哪吒2联动蝉联收入榜首，Royal Match升至第2。鸣潮收入增速全球第1（角色卡池驱动），NTE第2（S-Rank限定角色），DNF手游第3（二周年）。下载量37.7亿(+5% MoM)，Arrows Puzzle登顶。",
+    "designAnalysis": "- 王者荣耀哪吒2联动证明【国产影视IP+限时皮肤】是中国市场最强收入引擎\n- 鸣潮/NTE靠角色卡池登增速榜：二游变现=限定角色周期性投放\n- Royal Match升至全球第2：休闲品类Live Ops密度（挑战+赛季+关卡扩展）可匹敌重度游戏\n- 下载量回升5%但仍以休闲/超休闲为主：中重度获客依旧困难",
+    "bsInsight": "王者荣耀哪吒2联动=中国市场最佳实践：国产电影IP热度窗口+限时皮肤。鸣潮增速第一靠的是角色限定池节奏——对BS的启示是：限时内容的【节奏感】比单次内容质量更重要，稳定的版本更新周期才能持续激活付费。",
+    "sourceUrl": "https://sensortower.com/blog/top-10-worldwide-mobile-games-by-revenue-and-downloads-in-may-2026",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-18-02",
+    "date": "2026-06-18",
+    "game": "Pixel Flow / 混合休闲品类",
+    "title": "【Pixel Flow上线10个月破$1亿IAP：混合休闲拼图品类Top3门槛确认】—— 简单循环+深度变现的【天花板还在升】",
+    "highlights": "Loom Games的Pixel Flow自2025.8上线以来IAP收入达$1.05亿，成为第3个破亿的混合休闲拼图游戏（前两名：Color Block Jam $1.48亿、Screwdom $1.2亿）。2026前5个月Top10混合休闲拼图合计$2.7亿，已超2025全年$3.4亿的79%。",
+    "designAnalysis": "- 混合休闲10个月破亿=品类爆发期仍在加速，2026增速远超2025\n- 变现结构：IAP+广告混合，激励视频绑定核心痛点（复活/跳关）\n- 三款破亿产品验证品类天花板远未到达：后来者仍有机会\n- Pixel Flow的差异化：像素艺术主题+涂色满足感+社交分享截图",
+    "bsInsight": "混合休闲品类的启示不在于【BS也做拼图】，而在于变现结构：简单核心循环+多层变现（IAP+广告+订阅）的组合效率极高。BS可以借鉴的是【把简单重复行为变现化】的思路——比如每日签到/每日任务的奖励结构，用免费内容培养付费习惯。",
+    "sourceUrl": "https://mobilegamer.biz/data-digest-pixel-flow-hits-100m-mays-top-games-neverness-to-everness-pokemon-go-more/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-18-03",
+    "date": "2026-06-18",
+    "game": "Orna (Northern Forge)",
+    "title": "【独立LBS RPG Orna存活8年·450万下载·9人团队·零Gacha】—— 社区优先变现的【反行业共识】生存案例",
+    "highlights": "位置RPG Orna运营8年，超越了Harry Potter/Minecraft Earth/Witcher等大IP LBS竞品。9人团队，450万下载。承诺永不加入Gacha/体力/付费墙。从玩家社区直接招聘员工，社区翻译18种语言。变现靠可选装饰性付费内容。",
+    "designAnalysis": "- 反Gacha路线存活8年：证明【社区信任】可以替代短期变现效率\n- 从玩家社区招聘=零onboarding成本+天然产品理解力\n- 大IP竞品全部死亡而小独立活着：说明LBS品类的核心是社区粘性不是IP\n- 拒绝AI开发作为差异化定位：在AI泛滥时代反而成为卖点",
+    "bsInsight": "Orna的案例对BS的启示是【社区信任是最低成本的留存工具】。它证明了一个极端：只要社区足够忠诚，即使不做Gacha也能存活。BS不需要走这个极端，但【建立社区信任感】（比如玩家投票选皮肤、透明的概率公示）可以显著降低用户流失率。",
+    "sourceUrl": "https://mobilegamer.biz/indie-pokemon-go-like-rpg-orna-has-defied-trends-and-turbulence-to-survive-for-eight-years/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-17-01",
     "date": "2026-06-17",
     "game": "Apple (WWDC 2026)",
