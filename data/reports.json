@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-06-19-01",
+    "date": "2026-06-19",
+    "game": "Queen Digital Entertainment (ex-King)",
+    "title": "【King联创 Digital关闭】—— 3年4款软发布全失败：休闲品类的【高估值陷阱】与创业悖论",
+    "highlights": "King联合创始人Knutsson和前COO Kurgan 2022年创办QDE Studio，累计融资约（Accel+Index Ventures）。3年开发4款King-style拼图手游（Pet Panic/Tail Team/Block Hero/Wild Joker Poker），全部软发布未正式上线。团队仅25人现已关闭。Knutsson曾见证King 。",
+    "designAnalysis": "- +3年+4款产品全军覆没：证明即使是品类发明人也无法复制过去的成功\\n- 25人团队规模过小：无法与King/Scopely等百人团队的A/B测试密度竞争\\n- 休闲拼图赛道2026年竞争白热化：Color Block Jam/Screwdom等新贵已占领用户心智\\n- VC高估了【创始人光环】的可迁移性",
+    "bsInsight": "这是对所有游戏创业者的警示：King创始人+King前COO+ Crush。核心教训是【品类红利不可逆】——当年的成功条件（低竞争+App Store红利+品类空白期）已经消失。对BS的启示：存量运营的确定性远高于从零做新品。",
+    "sourceUrl": "https://mobilegamer.biz/the-new-studio-from-two-former-king-execs-queen-digital-entertainment-has-closed/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-19-02",
+    "date": "2026-06-19",
+    "game": "行业趋势 (ejaw.net)",
+    "title": "【2026手游变现四大范式转移：混合变现+Web Shop+AI动态定价+社交层货币化】—— 从【选边站】到【全都要】的变现架构革命",
+    "highlights": "2026年头部手游收入结构已从90/10（IAP:广告）变为60/40混合模式。四大趋势：①混合变现（Brawl Stars式进度卡点+Survivor.io式前三局攻击性offer）；②Web Shop绕过30%平台税（DTC直营）；③AI个性化定价（根据玩家行为动态调价）；④社交层（公会/排行榜）作为变现基建。",
+    "designAnalysis": "- 进度卡点付费（progression-gated）比商店展示付费转化率高数倍：情绪上下文决定一切\\n- 社交层先于商店建设：公会战/排行榜让付费变成社交行为而非私密行为\\n- AI动态定价是下一个战场：根据个人行为数据定制offer内容和价格\\n- Web Shop的核心不是省税，是获得用户数据和付费关系的所有权",
+    "bsInsight": "对BS最直接的启示有两个：①付费触点应嵌入玩法流程（比如连败后弹出限时皮肤折扣），而非仅放在商店tab等人来逛；②社交层是变现基建——当玩家为了在队友面前有面子而买皮肤时，转化率远高于独自浏览商店。",
+    "sourceUrl": "https://ejaw.net/new-monetization-models-shaping-mobile-games/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-19-03",
+    "date": "2026-06-19",
+    "game": "PUBG Mobile (Level Infinite)",
+    "title": "【PUBG Mobile×意大利Brainrot联动今日正式上线】—— 射击BR首次联动网络梗IP的【D-Day】：从泄露到上线的完整执行节奏复盘",
+    "highlights": "PUBG Mobile 4.4版本今日（6.19）正式上线意大利Brainrot梗联动（射击BR品类）。含Tung Tung Tung Sahur、Bombardino Crocodilo等多个梗角色套装+武器涂装+语音包。与aespa联动、世界杯活动并行运营，6月三大IP活动叠加。从5月底泄露到6.19上线约3周预热期。",
+    "designAnalysis": "- 3周预热期是梗联动的最佳节奏：太早失去新鲜感，太晚错过热度窗口\\n- 多IP并行（梗+K-Pop+体育）证明大DAU产品可同时消化多条变现线\\n- 梗联动用Lucky Spin而非直购：转盘增加随机性刺激+提高单用户付费深度\\n- 语音包是梗联动最有价值的付费点：社交展示频率最高",
+    "bsInsight": "今日上线意味着我们可以追踪其首周数据表现。核心观察点：①梗联动的首日下载量峰值有多高；②社交媒体UGC截图传播量。对BS的启示是：如果PUBGM梗联动数据证明有效，BS应建立类似的【快反联动管线】——关键能力是2-3周内完成从选题到上线的全流程。",
+    "sourceUrl": "https://gamingonphone.com/news/pubg-mobile-upcoming-new-skins-events-cosmetics-2026-leaks/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-18-01",
     "date": "2026-06-18",
     "game": "行业数据 (Sensor Tower)",
