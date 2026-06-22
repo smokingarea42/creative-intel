@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-06-22-01",
+    "date": "2026-06-22",
+    "game": "Valorant (Riot)",
+    "title": "【Valorant V26 Act 4明日上线：Blackspyre暗黑奇幻皮肤系列+Summit新地图+Retake模式】—— FPS品类的【赛季重置+新皮肤+新内容】三合一节奏",
+    "highlights": "V26 Act 4（Patch 13.0）6月23-24日全球上线（FPS品类）。新增Blackspyre皮肤系列（Phantom/Sheriff/Spectre/Ares+双形态近战The Divide），融合科幻+暗黑奇幻风格。新地图Summit+Retake 3v3模式。战令含Sky Reaper Sword近战+Tacti-Guild Phantom+Boom Ball Flex新品类道具。",
+    "designAnalysis": "- Blackspyre暗黑奇幻风格打破Valorant常见的科技美学惯性，拓展审美边界\\n- 双形态近战（剑+镰刀）=一把皮肤两种体验，提升感知价值\\n- 赛季重置+新地图+新模式+新皮肤四合一：让每个内容都为其他内容引流\\n- 战令免费Ghost枪皮做轻度钩子，付费线的Sky Reaper Sword做核心卖点",
+    "bsInsight": "赛季更新是最大的集中变现窗口。Valorant的模板很清晰：段位重置拉回流→新地图/模式拉留存→新皮肤系列做转化。BS赛季更新应该保证三者同步到位而非分散发布。Blackspyre的暗黑奇幻路线也证明FPS皮肤不必只做军事/科技，风格破圈能创造增量需求。",
+    "sourceUrl": "https://www.strafe.com/news/read/valorant-introduces-new-battlepass-and-blackspyre-skin-collection-in-v26-act-4/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-22-02",
+    "date": "2026-06-22",
+    "game": "三角洲行动 (腾讯)",
+    "title": "【三角洲行动S10核子裂变本周四上线完整攻略：冰冻干员Gabriel+Predator Nepal近战+AZ3核电站辐射机制】—— FPS撤离品类的【环境威胁+新干员+新武器】三轮驱动",
+    "highlights": "S10【核子裂变】6月26日上线（FPS撤离品类）。新工程师干员Gabriel（液氮），被动冰冻控制+Dewar罐区域封锁+追踪冰震弹+6连发冰冻榴弹炮。新武器SVTH DMR+RM277突击步枪。新近战Predator Nepal格斗刀（3连击高伤+长距离）。AZ3核电站全域辐射+Boss德毁灭者。7月10日确认×彩虹六号联动。",
+    "designAnalysis": "- 冰冻干员=环境控制流新品类：区域封锁能力直接影响撤离路线博弈\\n- Predator Nepal刀做付费近战旗舰款：黑蓝科幻配色+3连击动画=社交展示强\\n- 辐射环境制造消耗品刚需：防辐射药品成为常驻消耗→稳定商城流水\\n- 7月10日R6联动预告=S10赛季中期制造第二波付费高潮",
+    "bsInsight": "S10的设计逻辑是【用环境机制创造必要性消耗】。辐射药品/防寒装备不是锦上添花而是生存必需，这比纯装饰性变现更稳定。Gabriel的冰冻控制代表了FPS干员设计的新方向：从纯DPS转向战场控制，对应的是限定干员皮肤的付费深度。7月R6联动是赛季中期的【第二引擎】，保证S10全周期有两个付费波峰。",
+    "sourceUrl": "https://deltaforcetools.gg/blog/delta-force-s10-nuclear-fission-season-update-guide",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-22-03",
+    "date": "2026-06-22",
+    "game": "CODM (Activision)",
+    "title": "【CODM S6高达联动赛季7月2日上线倒计时10天】—— 4v4 Gundam Team Deathmatch+Series Armory双商店+免费活动：FPS×机甲IP的【全链路变现】复盘",
+    "highlights": "CODM S6【Gundams Arrive】7月2日下午5点PT上线（FPS品类）。高达主题4v4机甲团队死斗模式+两套Series Armory商店限定（高达主题干员皮肤/武器蓝图）+免费游戏内高达活动奖励。Double CP全赛季持续。新BR地图Coastal City。玩家投票皮肤Your Season Your Vote结果将同步揭晓。",
+    "designAnalysis": "- 4v4机甲模式=IP深度体验层：不只贴皮还做了专属玩法，联动说服力极强\\n- 双Series Armory独立商店：分流不同审美偏好用户，两套各自付费不蚕食\\n- 免费活动做联动体验入口：降低门槛让所有人感受IP→付费转化更顺滑\\n- Double CP叠加联动期=付费意愿最强时充值折扣最大，双重刺激",
+    "bsInsight": "高达联动的核心学习点是【IP体验层vs付费层的分离设计】。免费模式让所有人体验高达→产生情感连接→付费皮肤成为情感延续。BS做联动应该保证免费玩法体验足够好，而不是把所有联动内容锁在付费墙后面。玩家投票Your Season Your Vote是零成本社区运营神器——投票本身就是内容。",
+    "sourceUrl": "https://www.callofduty.com/blog/2025/06/call-of-duty-mobile-season-six-gundams-arrive",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-19-01",
     "date": "2026-06-19",
     "game": "Queen Digital Entertainment (ex-King)",
