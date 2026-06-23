@@ -1,5 +1,40 @@
 [
   {
+    "date": "2026-06-23",
+    "entries": [
+      {
+        "game": "Valorant",
+        "skinName": "V26 Act 4今日上线：Patch 13.0段位重置+Summit新地图+Retake 3v3模式全球开服",
+        "type": "赛季正式上线·今日D-Day",
+        "releaseDate": "2026.6.23",
+        "brief": "FPS品类赛季D-Day，NA/LATAM/BR服今日6AM PT更新，新地图Summit+新模式Retake 3v3+段位全重置",
+        "sourceUrl": "https://www.gfinityesports.com/article/valorant-season-2026-act-4-everything-we-know",
+        "biliSearch": "https://search.bilibili.com/all?keyword=Valorant+Act4+%E4%BB%8A%E6%97%A5%E4%B8%8A%E7%BA%BF+Patch+13.0&order=pubdate",
+        "imageUrl": ""
+      },
+      {
+        "game": "Fortnite",
+        "skinName": "Fortnite×Supergirl DC联动确认6.26上架（Milly Alcock超女+Krypto超犬宠物）",
+        "type": "电影联动·首映日同步",
+        "releaseDate": "2026.6.26",
+        "brief": "BR品类DC电影联动（6.26电影首映日同步），含Supergirl皮肤+Krypto宠物Sidekick，可能追加Lobo",
+        "sourceUrl": "https://thefutureoftheforce.com/2026/06/22/fortnite-x-supergirl-milly-alcocks-supergirl-arrives-in-explosive-new-crossover-reveal/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=Fortnite+Supergirl+%E8%B6%85%E5%A5%B3+%E7%9A%AE%E8%82%A4&order=pubdate",
+        "imageUrl": ""
+      },
+      {
+        "game": "PUBG (端游)",
+        "skinName": "Black Market 2026+Double G-Coin促销+PNC 2026电竞限定道具（6月商店更新）",
+        "type": "月度商店更新·电竞限定",
+        "releaseDate": "2026.6月",
+        "brief": "端游6月商店大更新（射击品类），Black Market 2026全新物品阵容+G-Coin双倍促销+PNC 2026电竞纪念道具",
+        "sourceUrl": "https://pubg.com/en/news/10180",
+        "biliSearch": "https://search.bilibili.com/all?keyword=PUBG+Black+Market+2026+6%E6%9C%88&order=pubdate",
+        "imageUrl": ""
+      }
+    ]
+  },
+  {
     "date": "2026-06-22",
     "entries": [
       {

@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-06-23-01",
+    "date": "2026-06-23",
+    "game": "AppsFlyer (行业基建)",
+    "title": "【Google/Meta/Unity/Moloco联合投资AppsFlyer超，估值】—— 广告归因基建的【AI化+独立化】转型：手游买量生态的底层板块移动",
+    "highlights": "6月22日官宣（广告归因品类），Google、Meta、Unity、Moloco四大广告平台联合投资AppsFlyer超 E，估值。投资方承诺不获得优先API访问、归因逻辑或商业条款特权。资金用于AI驱动归因、跨平台测量、自主营销Agent工作流。",
+    "designAnalysis": "- 四大竞争对手同时投资同一归因平台=行业对【独立测量】的共识前所未有地强\\n- AI归因工作流意味着买量将从人工优化走向Agent自动决策\\n- 跨平台归因是Web Shop绕税后的刚需：DTC渠道需要独立于Apple/Google的测量\\n- ",
+    "bsInsight": "这笔投资的核心信号：买量的未来是AI Agent自动优化，人工运营将被替代。对BS的直接影响是——AppsFlyer的AI归因能力升级后，精细化用户分层投放将更容易实现。短期BS应确保自身的归因SDK是最新版本；中期应关注AppsFlyer的Agentic工作流如何帮助自动化买量决策。",
+    "sourceUrl": "https://mobilegamer.biz/google-unity-meta-and-moloco-partner-to-invest-1bn-in-appsflyer/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-23-02",
+    "date": "2026-06-23",
+    "game": "Valorant (Riot)",
+    "title": "【Valorant V26 Act 4今日正式上线：Patch 13.0+Summit新地图+Retake 3v3+Blackspyre明日上架】—— FPS品类赛季D-Day的【内容+竞技+变现】三同步执行",
+    "highlights": "V26 Act 4 Patch 13.0今日（6.23）NA/LATAM/BR服率先上线（FPS品类）。新地图Summit+新模式Retake 3v3+段位重置三重内容同步。Blackspyre暗黑奇幻皮肤系列6月24日上架（Phantom/Sheriff/Spectre/Ares+双形态近战The Divide）。战令1000VP含Sky Reaper Sword+Boom Ball Flex。",
+    "designAnalysis": "- D-Day执行：地图+模式+段位重置+皮肤四件事隔天到位，信息密度最大化\\n- Blackspyre暗黑奇幻风在FPS中少见：打破科技/军事审美惯性制造讨论度\\n- Boom Ball Flex新品类道具持续拓展付费内容类型边界\\n- Summit地图做免费拉新钩子，Blackspyre做付费转化出口",
+    "bsInsight": "今天是Valorant赛季D-Day的实际观察日。Riot的执行节奏是教科书：周二段位重置+新地图拉回流→周三新皮肤上架收割回流用户的付费冲动。BS赛季更新应参考这个【先内容后付费】的24h节奏差，而非同时上线所有东西导致信息过载。",
+    "sourceUrl": "https://www.gfinityesports.com/article/valorant-season-2026-act-4-everything-we-know",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-23-03",
+    "date": "2026-06-23",
+    "game": "Fortnite (Epic Games)",
+    "title": "【Fortnite×Supergirl DC联动6.26上架确认：Milly Alcock超女+Krypto超犬同步电影首映日】—— BR品类的【电影首映日=皮肤上架日】精准卡点变现",
+    "highlights": "6月22日官方预告确认（BR品类）：Fortnite×Supergirl联动皮肤6月26日上架Item Shop，与DC超女电影全球首映同日。含Supergirl（Milly Alcock版）皮肤+Krypto超犬Sidekick宠物。可能追加Lobo反派皮肤。C7S3 Runners赛季进行中。",
+    "designAnalysis": "- 电影首映日=皮肤上架日的精准卡点：观众从影院出来就能在游戏里买同款\\n- Krypto宠物做附加品类：主皮肤+宠物组合提高客单价\\n- Lobo可能追加=分时上架拉长变现窗口\\n- 2026年Fortnite每周一个联动：工业化联动管线的极致效率",
+    "bsInsight": "核心学习点是【卡点精准】。Fortnite把皮肤上架时间精确对齐电影首映日，利用的是玩家从电影院出来的情绪高点——这个时刻的购买冲动最强。BS如果做联动，应把上架时间精确对齐IP热度的峰值时刻（预告片发布/电影上映/赛事决赛），而非提前或延后。",
+    "sourceUrl": "https://thefutureoftheforce.com/2026/06/22/fortnite-x-supergirl-milly-alcocks-supergirl-arrives-in-explosive-new-crossover-reveal/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-22-01",
     "date": "2026-06-22",
     "game": "Valorant (Riot)",
