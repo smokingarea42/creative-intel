@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-06-24-01",
+    "date": "2026-06-24",
+    "game": "Valorant (Riot)",
+    "title": "【Valorant Blackspyre Collection今日上架：8700VP暗黑奇幻风Exclusive级套装】—— FPS品类的【风格破圈】变现实验：用奇幻美学打破科技/军事审美惯性",
+    "highlights": "V26 Act 4今日(6.24)全球上线，Blackspyre Collection同步上架（FPS品类）。Exclusive级定价约8700VP套装/单把2300-2700VP/近战The Divide约5350VP。含Phantom/Ares/Spectre/Sheriff+双形态近战武器（剑↔镰刀）。暗黑奇幻×科幻融合风格，含独特终结动画和特效音效。",
+    "designAnalysis": "- 暗黑奇幻风格在FPS品类极为少见：打破Valorant常见的霓虹/科技美学，制造话题讨论\\n- 双形态近战(The Divide)一皮两用：剑和镰刀可切换，提升单品感知价值\\n- 8700VP定价对标Rogue系列：Exclusive级已成Valorant稳定的高端付费带\\n- 配合赛季D-Day上架：回流用户第一眼看到新皮肤，转化窗口最佳",
+    "bsInsight": "核心启示：FPS皮肤的审美不必局限于军事/科技。Blackspyre证明奇幻/暗黑风格同样能支撑Exclusive级定价。BS应考虑在常规军事主题之外开辟1-2条差异化审美线（东方玄幻/暗黑哥特等），用风格破圈创造增量需求而非在同一审美赛道内卷。",
+    "sourceUrl": "https://www.talkesport.com/news/valorant/valorant-blackspyre-bundle-price-release-date/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-24-02",
+    "date": "2026-06-24",
+    "game": "Kingshot / Century Games",
+    "title": "【Kingshot世界杯期间签约8位足球明星+Fabrizio Romano做UA】—— SLG品类的【体育赛事×名人矩阵】买量策略：用足球巨星的信任背书做区域精准投放",
+    "highlights": "Century Games（SLG品类，Kingshot/Whiteout Survival母公司）世界杯期间签约Harry Maguire/Michael Owen/John Terry做英国市场UA，Gabriel Jesus/Jorginho/Marquinhos/Thiago Silva做巴西市场，转会记者Fabrizio Romano做TikTok投放。Kingshot 5月收入，正加速冲击全球SLG头部。",
+    "designAnalysis": "- 区域化名人策略：英国用英格兰球星、巴西用巴西球星，文化认同感最大化\\n- Fabrizio Romano（足球转会KOL）做TikTok：精准触达年轻男性足球受众\\n- 世界杯窗口借势：全球足球热度免费放大名人广告的传播效率\\n- ：Century的UA方法论已跑通",
+    "bsInsight": "核心学习点是【名人UA的区域化精准投放】。Century不是找一个全球明星，而是按市场分配本地球星——英格兰球星只投英国、巴西球星只投巴西。BS如果做名人营销，应按核心市场分配预算，而非押注单一全球名人。世界杯窗口是FPS品类做体育主题活动的天然时机。",
+    "sourceUrl": "https://mobilegamer.biz/century-hires-a-flurry-of-footballers-for-kingshot-ad-spots-during-world-cup/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-24-03",
+    "date": "2026-06-24",
+    "game": "Hoyoverse (miHoYo)",
+    "title": "【Honkai: Nexus Anima 7.9开启第二轮Beta：米哈游进军宝可梦品类】—— 二游厂商的【品类扩张】与自我蚕食困境：",
+    "highlights": "Hoyoverse官宣Honkai: Nexus Anima（生物收集RPG品类）7月9日开启iOS/Android/PC封闭Beta。这是崩坏系列第三款游戏，对标宝可梦玩法。Appmagic数据显示Hoyoverse四款游戏累计IAP近（原神+星穹铁道+崩坏3 .8亿+绝区零.2亿），但新品并未带来组合总收入增长。",
+    "designAnalysis": "- 生物收集RPG是全新品类尝试：从动作RPG/回合RPG拓展到宝可梦式收集养成\\n- 自我蚕食已被数据证实：星穹铁道/绝区零上线后原神收入下滑，组合总量未增\\n- ：说明同类审美的用户池有天花板\\n- 宝可梦品类门槛更低，可能触达新用户群而非蚕食现有玩家",
+    "bsInsight": "米哈游的困境对所有游戏公司有参考价值：同品类扩张容易自我蚕食，跨品类扩张才能带来真增量。Nexus Anima选择生物收集方向正是为了触达非二游用户。对BS的启示：如果做新模式/新玩法，核心目标应是触达现有产品覆盖不到的用户群，而非让现有用户在不同内容间切换。",
+    "sourceUrl": "https://mobilegamer.biz/honkai-nexus-anima-is-hoyoverses-take-on-the-pokemon-formula/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-23-01",
     "date": "2026-06-23",
     "game": "AppsFlyer (行业基建)",

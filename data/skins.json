@@ -1,5 +1,40 @@
 [
   {
+    "date": "2026-06-24",
+    "entries": [
+      {
+        "game": "Valorant",
+        "skinName": "Blackspyre Collection今日上架（Phantom/Ares/Spectre/Sheriff + The Divide双形态近战）",
+        "type": "Exclusive级新品系列·暗黑奇幻风",
+        "releaseDate": "2026.6.24",
+        "brief": "V26 Act 4首发付费系列（FPS品类），约8700VP套装。暗黑奇幻×科幻融合，双形态近战The Divide可切换剑/镰刀",
+        "sourceUrl": "https://www.talkesport.com/news/valorant/valorant-blackspyre-bundle-price-release-date/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=Valorant+Blackspyre+%E4%BB%8A%E6%97%A5%E4%B8%8A%E6%9E%B6&order=pubdate",
+        "imageUrl": ""
+      },
+      {
+        "game": "三角洲行动",
+        "skinName": "S10×彩虹六号围攻 Black Ice联动系列皮肤（7月10日上线，含MP5登录奖励）",
+        "type": "赛季中期联动·FPS经典IP",
+        "releaseDate": "2026.7.10",
+        "brief": "S10赛季中期联动彩虹六号围攻（FPS撤离品类），Black Ice经典冰封系列皮肤+登录送MP5",
+        "sourceUrl": "https://www.topuplive.com/news/delta-force-season-10-nuclear-fission-update.html",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8A%A8+%E5%BD%A9%E8%99%B9%E5%85%AD%E5%8F%B7+Black+Ice&order=pubdate",
+        "imageUrl": ""
+      },
+      {
+        "game": "Valorant",
+        "skinName": "V26 Act 4战令今日开启（Sky Reaper Sword+Tacti-Guild Phantom+Boom Ball Flex）",
+        "type": "赛季战令·1000VP",
+        "releaseDate": "2026.6.24",
+        "brief": "Act 4战令今日开启（FPS品类），付费线Sky Reaper Sword近战+Boom Ball Flex新品类道具",
+        "sourceUrl": "https://www.talkesport.com/news/valorant/valorant-season-2026-act-4-battle-pass-rewards-release-date/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=Valorant+Act4+%E6%88%98%E4%BB%A4+%E4%BB%8A%E6%97%A5%E5%BC%80%E5%90%AF&order=pubdate",
+        "imageUrl": ""
+      }
+    ]
+  },
+  {
     "date": "2026-06-23",
     "entries": [
       {
