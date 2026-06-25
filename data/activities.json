@@ -1,5 +1,33 @@
 [
   {
+    "id": "2026-06-25-act-01",
+    "date": "2026-06-25",
+    "game": "Fortnite (Epic Games)",
+    "title": "【Fortnite Supergirl Cup竞技赛今日开打：免费送DC联动皮肤+电影首映日商城转化】—— BR品类的【赛事送皮→FOMO→商城购买】三步链路设计",
+    "heat": "🔥 6.24-25全球开打 | DC超女电影同步 | 竞技赛+免费送皮",
+    "tag": "🌟 最新活动",
+    "mechanismType": "竞技赛免费送皮+电影联动商城转化",
+    "mechanism": "- Supergirl Cup: Duos+Zero Build Duos，分区域前275名免费获得Supergirl皮肤\n- 移动端独立Solo赛道，前30-200名可获得\n- 6.26电影首映日同日上架Item Shop，未赢得者可购买\n- Krypto超犬宠物Sidekick同步上架提升客单价",
+    "whyHot": "- 竞技赛免费送皮=社交货币，炫耀价值极高\n- DC超女电影全球关注度高，联动自带流量\n- 免费获得者成为行走广告，刺激未获得者去FOMO购买",
+    "insight": "- 【赛前竞技赛送皮】是最低成本的预热方式：零皮肤生产成本换巨量话题\n- 竞技赛结果→商城转化的时序设计是关键：先让少数人有→多数人想买\n- BS可参考：联动皮肤上架前办竞技赛送少量免费份额，用稀缺性拉动商城转化",
+    "sourceUrl": "https://fandomwire.com/how-to-get-supergirl-skin-for-free-in-fortnite/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-25-act-02",
+    "date": "2026-06-25",
+    "game": "Google Play (Google)",
+    "title": "【Google Play 6.30降费正式落地：25%新费率+Level Up 20%+DTC开放】—— 全球手游变现基建的【结构性降本】时刻",
+    "heat": "🔥 6.30正式生效 | 影响所有安卓游戏 | 费率从30%降至25%",
+    "tag": "🏆 讨论度高",
+    "mechanismType": "平台税改革+DTC开放+生态绑定",
+    "mechanism": "- 6.30起GP计费费率降至25%（新用户）/20%（旧用户）\n- 第三方支付/DTC费率也降低约5%\n- Level Up计划再减5%，但要求集成AI Sidekick+云存档+PC适配\n- 美/欧/英先行，澳洲/日韩年底跟进，其他地区2027.9",
+    "whyHot": "- 影响所有安卓游戏开发者的利润结构\n- Google vs Apple的平台税竞争白热化\n- DTC开放加速手游Web Shop布局节奏",
+    "insight": "- 对BS直接影响：同等流水下利润提升5-8%，这是纯增量\n- Level Up要求PC适配=Google在推“Play Games on PC”，可考虑是否值得\n- 结合DTC开放，BS应评估Web Shop的ROI是否已到临界点",
+    "sourceUrl": "https://mobilegamer.biz/google-play-opens-up-billing-options-and-drops-store-fees-from-june-30/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-24-act-01",
     "date": "2026-06-24",
     "game": "Valorant (Riot)",

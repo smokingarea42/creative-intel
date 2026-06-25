@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-06-25-01",
+    "date": "2026-06-25",
+    "game": "Google Play (Google)",
+    "title": "【Google Play 6月30日降费+开放第三方支付正式落地】—— 手游变现基建的【平台税改革】: 25%新费率+Level Up再减5%",
+    "highlights": "Google Play 6月30日起在美/欧/英生效新费率（行业基建品类）。使用GP计费的开发者费率降至25%（新用户）/20%（旧用户）。加入Level Up计划可再减5%。DTC降幅约减5%。Level Up要求集成Play Games SDK v2+AI Sidekick+云存档+PC适配。",
+    "designAnalysis": "- 25%费率vs Apple 30%：Google用价格差抢开发者忠诚度\n- Level Up绑定Google生态（AI/云/PC）：用技术锁定换折扣\n- DTC降幅仅约5%：Google仍在控制第三方支付的吸引力\n- 新/旧用户分层费率精巧：保护存量收入同时激励增量",
+    "bsInsight": "6月30日是分水岭。对BS直接影响：Google Play分成降低意味着同等流水下利润提升约5-8%。但Level Up的技术要求（AI Sidekick/PC适配/云存档）需要开发投入。短期确保符合25%基础费率条件；中期评估Level Up的20%费率是否值得额外集成成本。",
+    "sourceUrl": "https://mobilegamer.biz/google-play-opens-up-billing-options-and-drops-store-fees-from-june-30/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-25-02",
+    "date": "2026-06-25",
+    "game": "Fortnite (Epic Games)",
+    "title": "【Fortnite Supergirl Cup今日开打：竞技赛免费送联动皮肤+明日商城上架】—— BR品类的【竞技赛→免费送皮→商城转化】三步变现链路",
+    "highlights": "Fortnite Supergirl Cup 6月24-25日分区域开打（BR品类）。Duos+Zero Build Duos竞赛，排名前275（NAE）即免费获Supergirl皮肤+Cape Back Bling。移动端独立Solo赛道（前30-200名）。6月26日正式上架Item Shop（电影同日首映）。Krypto超犬Sidekick同步上架。",
+    "designAnalysis": "- 竞技赛免费送皮=高端玩家的社交货币：稀缺性制造炫耀价值\n- 免费赢取→商城购买的转化链路：看到别人拿到→自己买的FOMO\n- 移动端独立赛道=全平台用户公平参与\n- 电影首映日=商城上架日：情绪高点×商业节点精准对齐",
+    "bsInsight": "核心学习点是【竞技赛免费送联动皮肤】的三重价值：①赛前预热制造话题；②免费获得者成为行走广告；③未获得者产生FOMO去商城购买。BS做联动皮肤可考虑赛前办竞技赛送少量免费份额——成本极低但传播价值极高，且直接拉动赛后商城转化。",
+    "sourceUrl": "https://fandomwire.com/how-to-get-supergirl-skin-for-free-in-fortnite/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-25-03",
+    "date": "2026-06-25",
+    "game": "行业数据 (Appmagic/GDC)",
+    "title": "【世界杯效应量化：足球游戏下载+71%/收入+24%，DTC市场达$170亿占IAP 15%】—— 体育赛事窗口的【确定性红利】与DTC结构性崛起",
+    "highlights": "Appmagic复盘2022卡塔尔世界杯数据：足球相关手游下载+71%、收入+24%（行业数据品类）。2026美加墨世界杯进行中，Coin Master/Royal Match等非足球游戏也在借势做Live Ops。GDC×Appcharge报告：DTC市场达$170亿，占全球手游IAP（$1133亿）的15%。42%开发商正在探索DTC。",
+    "designAnalysis": "- 世界杯+71%下载是硬数据：体育赛事窗口确定性红利已被量化\n- 非足球游戏也在借势：世界杯是全品类营销窗口非只限体育游戏\n- DTC 15%且加速增长：绕过平台税趋势不可逆\n- 42%探索但67%预期增长：大部分仍在早期阶段",
+    "bsInsight": "两个核心数据对BS有直接意义：①世界杯期间足球游戏收入+24%——BS当前是否有世界杯主题活动在跑？如果没有就是浪费了确定性红利窗口；②DTC达15%且加速——结合Google Play 6.30降费，BS应评估Web Shop的ROI是否已到临界点。",
+    "sourceUrl": "https://mobilegamer.biz/data-digest-world-cup-numbers-dtc-hits-17bn-uefn-payouts-mays-top-ads-more/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-24-01",
     "date": "2026-06-24",
     "game": "Valorant (Riot)",
