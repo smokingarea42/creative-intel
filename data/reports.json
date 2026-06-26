@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-06-26-03",
+    "date": "2026-06-26",
+    "game": "HoYoverse",
+    "title": "HoYoverse官宣崩坏：星穹铁道衍生新作Honkai: Nexus Anima 7月9日开启Evolution Test——进军宝可梦品类",
+    "highlights": "- 6月24日正式招募测试玩家，7.9开启PC/iOS/Android封测\n- 定位【宠物收集+自走棋策略+轻度开放世界】，Honkai宇宙IP衍生\n- mobilegamer.biz评价为【HoYoverse版宝可梦】，行业高度关注\n- 2025年多轮内测口碑正面，正式上线预计2026下半年",
+    "designAnalysis": "- 米哈游首次跳出动作RPG舒适区进入宠物收集赛道，说明头部厂商在寻找新增长曲线\n- Gacha系统+宠物收集天然契合：养成+收集=双重付费深度\n- 自走棋战斗降低操作门槛，可能吸引更广泛的非核心玩家群体\n- 对标Pokemon Champions的订阅制，HoYoverse大概率仍走Gacha路线",
+    "bsInsight": "米哈游品类扩张信号明确：当二游增长见顶时，头部厂商开始用IP+新品类寻找第二曲线。BS作为射击品类同样需要思考：核心玩法之外还能延伸什么轻度玩法做用户扩圈。",
+    "sourceUrl": "https://mobilegamer.biz/honkai-nexus-anima-is-hoyoverses-take-on-the-pokemon-formula/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-26-02",
+    "date": "2026-06-26",
+    "game": "行业数据 (GDC × Appcharge)",
+    "title": "GDC×Appcharge报告：手游DTC（绕开应用商店）已达$170亿市场规模，占全球手游IAP 15%",
+    "highlights": "- 6月24日发布，基于1200+游戏从业者调研\n- DTC（Web Shop等直接付费渠道）已达$170亿，占$1133亿全球手游IAP的15%\n- 领先工作室DTC收入是落后工作室的7倍差距\n- 92%受访发行商预期DTC在2026年继续增长",
+    "designAnalysis": "- $170亿验证了Web Shop不再是实验性渠道，而是核心收入柱\n- 7倍收入差距说明DTC不是【有没有】的问题而是【做得好不好】的问题\n- Google Play 6.30降费+DTC开放形成组合拳，加速Web Shop布局紧迫性\n- 组织层面：报告指出DTC需要独立团队而非附加在现有运营上",
+    "bsInsight": "BS海外版应评估Web Shop的投入优先级。$170亿规模+7倍收入差距意味着DTC已是必选项而非加分项。结合GP 6.30降费，现在是建立Web Shop基础设施的最佳窗口。",
+    "sourceUrl": "https://www.businesswire.com/news/home/20260624293221/en/New-Appcharge-Research-Direct-to-Consumer-is-Already-a-%2417Bn-Market-in-Mobile-Gaming-and-the-Rest-of-the-App-Economy-is-Set-to-Follow",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-26-01",
+    "date": "2026-06-26",
+    "game": "Epic Games (Unreal Engine 6)",
+    "title": "Epic官宣UE6跨游戏皮肤互通：Fortnite皮肤可带入其他UE6游戏，开发者也可反向接入",
+    "highlights": "- Epic在Unreal Fest芝加哥State of Unreal演讲中正式公布UE6跨游戏皮肤系统\n- Fortnite7500万MAU的皮肤资产可被其他UE6游戏调用，开发者也可创建在Fortnite内生效的皮肤\n- 预计2028年UE6正式上线后全面铺开，目前已在Fortnite生态内小规模测试\n- The Verge/IGN/Eurogamer等主流媒体集中报道，行业级关注度",
+    "designAnalysis": "- 本质是用Fortnite作为【皮肤银行】构建跨游戏经济体，锁定用户资产价值\n- 对中小开发者是引流工具：接入Fortnite皮肤=免费获得Epic生态7500万用户的潜在导流\n- 挑战在于美术标准统一和收入分成模型，目前Epic尚未公布具体商业条款\n- 竞争层面直接对标Steam Workshop和Roblox UGC经济",
+    "bsInsight": "跨游戏皮肤互通对所有非UE6引擎项目是战略威胁：一旦用户皮肤资产绑定Epic生态，迁移成本急剧上升。BS需关注腾讯系引擎是否跟进类似方案，否则长期面临用户资产锁定的竞争劣势。",
+    "sourceUrl": "https://www.theverge.com/games/951785/epic-games-fortnite-unreal-fest-2026-unreal-engine-6-ai-metaverse",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-25-01",
     "date": "2026-06-25",
     "game": "Google Play (Google)",
