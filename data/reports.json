@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-06-30-01",
+    "date": "2026-06-30",
+    "game": "Google Play (Epic诉讼结果)",
+    "title": "【今日生效】Google Play新计费政策正式落地：美/欧/英25%费率+第三方支付全面开放",
+    "highlights": "- 6月30日正式生效，覆盖美国、EEA、英国开发者\n- GP计费费率降至25%（首$1M仅10%），第三方支付/外链同步开放\n- Epic诉讼直接结果：Google被迫开放侧载和替代计费系统\n- 澳洲/日韩年底跟进，其余市场2027年9月",
+    "designAnalysis": "- 从30%降至25%是结构性利好：所有安卓游戏利润率直接提升\n- 第三方支付开放=Web Shop合法化：DTC不再是灰色地带\n- 首$1M仅10%对独立/中小开发者是巨大利好\n- Level Up计划(再减5%)绑定Google生态(AI/PC)：用技术锁定换费率",
+    "bsInsight": "今天是分水岭。BS安卓端利润率直接提升约5%。更重要的是第三方支付合法化——现在建立Web Shop的合规风险已清零。建议立即评估：①确认当前账户是否自动适用25%费率；②Web Shop的技术方案是否可以加速推进。",
+    "sourceUrl": "https://android-developers.googleblog.com/2026/06/play-expanded-billing.html",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-30-02",
+    "date": "2026-06-30",
+    "game": "Fortnite (Epic Games)",
+    "title": "【Fortnite Unvaulted计划6.28启动：战令皮肤18个月后可返场商城购买】—— BR品类的【稀缺性经济重构】",
+    "highlights": "- 6月24日官宣Unvaulted计划，6月28日首批皮肤回归商城\n- 规则：战令皮肤18个月后可单独在商城购买（非战令本身返场）\n- 首批含Doctor Doom/Gwenpool/Peelverine等8款Marvel皮肤\n- Instagram官方帖66K赞+1610评论，社区反响两极分化",
+    "designAnalysis": "- 打破【战令永不返场】承诺=短期争议但长期收入增量巨大\n- 18个月冷却期保护了早期购买者的稀缺感\n- 单皮肤商城购买(非战令整体返场)=精准变现每个IP\n- Marvel皮肤首批试水=用最强IP降低争议，因为需求最大",
+    "bsInsight": "Fortnite的决策说明一件事：【永久稀缺性】对长期收入是巨大的机会成本。BS应重新评估历史限定皮肤的返场策略——设定明确的冷却期(如12-18个月)后返场，既保护早期用户感受，又释放长期变现潜力。",
+    "sourceUrl": "https://www.lotkeys.com/en/blog/detail/fortnite-unvaulted-iconic-battle-pass-skins-return-this-june",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-06-30-03",
+    "date": "2026-06-30",
+    "game": "三角洲行动×彩虹六号 (腾讯×育碧)",
+    "title": "【三角洲行动S10×彩虹六号联动正式开启：免费送3套捆绑包+墨冰系列传说皮肤】—— FPS同品类联动的【互相引流】新范式",
+    "highlights": "- S10上线后首个联动活动正式开启，免费登录送3套R6捆绑包\n- 墨冰(Black Ice)经典系列传说级枪械皮肤上架\n- 配合彩虹六号国服6.17首测，双向引流\n- B站多条视频超10万播放，社区热度高",
+    "designAnalysis": "- 同品类FPS联动=用户画像100%重合，转化效率最高\n- 免费送3套做体验层，墨冰传说做付费层：经典的免费钩子+付费出口\n- 配合R6国服首测=为育碧做引流，换取IP授权优惠条件\n- 墨冰是R6最iconic皮肤系列：IP辨识度极高",
+    "bsInsight": "同品类联动的核心逻辑是【用户池完全重合时，联动=零成本获客】。三角洲×R6的用户画像几乎完全重叠，免费送皮肤=从R6用户池抽水。BS应考虑：哪些FPS竞品的用户与BS高度重合？联动的本质是互相借用户池。",
+    "sourceUrl": "https://news.17173.com/content/06282026/141220000.shtml",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-26-03",
     "date": "2026-06-26",
     "game": "HoYoverse",
