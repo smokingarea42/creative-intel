@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-07-01-01",
+    "date": "2026-07-01",
+    "game": "CODM × Persona 5 Royal (Activision/TiMi)",
+    "title": "【今日上线】CODM S6 Take Your Heart×Persona 5 Royal正式上线：Plunder玩法改造+双Armory+Mythic Draw+Throwable Frenzy新模式",
+    "highlights": "- 7月1日5PM PT全球正式上线，FPS手游×JRPG IP年度最大联动\n- Plunder Treasure Hunt：BR地图出现P5R认知Domain，击败Shadow敌人3波+对抗真人获取Persona面具Buff\n- 双Series Armory独立商店：怪盗团干员+P5主题武器蓝图\n- FSS Hurricane新SMG+Mythic Draw变体做付费天花板，VTOL Jet新连杀",
+    "designAnalysis": "- FPS×JRPG跨品类改造=BR出现PvE Domain是真正的玩法层联动而非贴皮\n- 双Armory分离=两套独立付费漏斗覆盖不同消费偏好\n- Throwable Frenzy纯飞斧模式+Summer Event=免费内容做回流，Mythic Draw做变现\n- Persona面具Buff=联动内容影响gameplay而非纯装饰",
+    "bsInsight": "今天CODM正式验证了一个命题：FPS联动JRPG不仅可行而且有天然话题性。核心启发：①联动深度在于是否改动了核心循环（P5 Domain进入BR=玩法联动），BS联动应追求改玩法而非只换皮；②双独立Armory是成熟的付费分流设计。",
+    "sourceUrl": "https://gamingonphone.com/news/cod-mobile-season-6-2026-take-your-heart-brings-persona-5-royal-collaboration-new-multiplayer-mode-seasonal-events-and-more/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-07-01-02",
+    "date": "2026-07-01",
+    "game": "eFootball (Konami)",
+    "title": "【Konami eFootball移动端累计收入突破$15亿】—— 足球品类的【本土化极致变现】：日本市场贡献58%收入，$75+单下载收入",
+    "highlights": "- eFootball移动端2017年至今累计收入超$15亿，下载超3亿\n- 日本市场贡献58%收入（约$9.15亿），仅1200万下载=单下载收入$75+\n- 4-5月月收入约$35M，是EA FC Mobile的3倍\n- 世界杯期间足球品类整体上升",
+    "designAnalysis": "- 本土化极致=不追求全球平均而是深耕高ARPU市场\n- 足球IP+日本高付费意愿=完美匹配，$75/download是射击品类5-10倍\n- 持续Live Ops（联赛/球员更新）保证长期留存\n- 产品力相近时本土化运营决定收入差距",
+    "bsInsight": "eFootball的案例说明【集中火力深耕高价值市场】比【全球平均铺开】更赚钱。BS应审视各区域的ARPU数据——如果某些市场单下载收入远超平均，值得为该市场做定制化内容和运营。",
+    "sourceUrl": "https://mobilegamer.biz/konamis-efootball-is-racing-ahead-of-ea-fc-mobile/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-07-01-03",
+    "date": "2026-07-01",
+    "game": "Skich / AltStore (第三方商店)",
+    "title": "【7月起Skich第三方商店统一15%佣金正式启用】—— 手游分发费率竞争加速：从30%到15%的结构性转变",
+    "highlights": "- Skich从7月起通过Xsolla作为支付方，统一15%佣金率上线\n- AltStore获Pace Capital $6M融资，准备向更多国家扩展\n- Skich已超70万下载，月新增10万+用户\n- 费率对比：Apple 30% / Google 25% / Skich 15% / Epic 12%",
+    "designAnalysis": "- 15%佣金=Apple一半，对开发者利润率直接提升15%\n- 发现问题是Skich核心卖点：AI推荐匹配替代付费推广位\n- 目前仅EU iOS可用，规模有限但趋势明确\n- 第三方商店存活关键：发现+支付+信任三个问题都要解决",
+    "bsInsight": "短期对BS直接影响有限（仅EU iOS），但长期趋势明确：分发费率竞争将持续压低平台抽成。结合昨日GP 25%新政生效，手游利润结构正在系统性改善。BS应建立多渠道分发能力储备。",
+    "sourceUrl": "https://mobilegamer.biz/are-developers-actually-making-money-on-third-party-app-stores/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-06-30-01",
     "date": "2026-06-30",
     "game": "Google Play (Epic诉讼结果)",
