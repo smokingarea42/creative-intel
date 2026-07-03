@@ -1,5 +1,33 @@
 [
   {
+    "id": "2026-07-03-act-01",
+    "date": "2026-07-03",
+    "game": "三角洲行动 x 彩虹六号 (腾讯/育碧)",
+    "title": "【三角洲行动7.3-7.10联动两阶段设计】—— FPS品类的【预热红皮→正式联动→免费自选传说】三步释放节奏",
+    "heat": "🔥 7.3今日预热 | 7.10全面上线 | B站12.9万播放 | 免费自选两款传说",
+    "tag": "🌟 最新活动",
+    "mechanismType": "两阶段预热+免费自选+金皮付费天花板",
+    "mechanism": "- 7.3乌鲁鲁暴怒红皮独立上线做预热：不是联动内容但制造话题\n- 7.10联动全面开启：三款联动皮肤（金皮Doc+红皮Vigil+红皮Montagne）同步解锁\n- 免费自选两款传说干员皮肤+一款墨冰武器：零付费玩家也有极高参与度\n- 蜂医xDoc金皮做最高付费天花板，需要额外付费获取",
+    "whyHot": "- 两个FPS头部产品联动=行业事件级别话题\n- 免费自选两款传说的慷慨度前所未有\n- R6国服同期测试形成双向导流闭环",
+    "insight": "- 两阶段释放的核心：制造一周期待窗口而非一次性信息过载\n- 免费自选=玩家有选择权时满意度远高于随机发放\n- 对BS启发：联动慷慨度决定社交传播力，免费内容是最好的广告",
+    "sourceUrl": "https://gl.ali213.net/html/2026-6/1782485.html",
+    "imageUrl": "http://i2.hdslb.com/bfs/archive/3d749e1d3a6092ef4a5648a7ad1318f970dda1c9.jpg"
+  },
+  {
+    "id": "2026-07-03-act-02",
+    "date": "2026-07-03",
+    "game": "PUBG Mobile x Naruto Shippuden (Tencent)",
+    "title": "【PUBG Mobile 4.5版本火影忍者联动7.9上线：Prize Path进度系统+Lucky Spin+三IP并行运营】—— 射击BR品类的【动漫IP工业化联动】新标杆",
+    "heat": "🔥 火影忍者全球顶级动漫IP | 7.9全球上线 | 5个Mythic角色 | 三大IP并行",
+    "tag": "🏆 讨论度高",
+    "mechanismType": "Prize Path任务进度+Lucky Spin+多IP并行",
+    "mechanism": "- Prize Path系统：通过完成对局和每日任务推进进度，解锁Mythic级忍者皮肤\n- Lucky Spin做补充：付费加速获取限定武器涂装和配件\n- 5个Mythic角色（鸣人/佐助/鼬/斑/卡卡西）分批投放拉长变现窗口\n- 与Ferrari+蜘蛛侠并行：三条变现线互不蚕食覆盖不同用户偏好",
+    "whyHot": "- 火影忍者是全球动漫IP价值Top5，自带数亿粉丝基础\n- 射击手游联动日本动漫正在成为标准操作（继Brainrot/aespa后）\n- 5个Mythic同时曝光=前所未有的联动深度",
+    "insight": "- Prize Path模式优于纯抽奖：玩家觉得【努力有回报】而非【运气决定一切】\n- 5角色分批投放=每批都是一个付费peak，赛季全周期收入曲线更平滑\n- 对BS启发：联动皮肤获取方式可以做【任务进度+付费加速】双轨，比纯Lucky Spin更健康",
+    "sourceUrl": "https://www.topuplive.com/news/pubg-mobile-x-naruto-shippuden-collaboration.html",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-07-01-act-01",
     "date": "2026-07-01",
     "game": "CODM × Persona 5 Royal (Activision/TiMi)",
