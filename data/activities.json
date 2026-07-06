@@ -1,5 +1,33 @@
 [
   {
+    "id": "2026-07-06-act-01",
+    "date": "2026-07-06",
+    "game": "Fortnite (Epic Games)",
+    "title": "【Fortnite动画喜剧IP工业化联动管线：每周一个IP+NPC交互+4天短窗口FOMO】—— BR品类的【联动流水线】运营范本",
+    "heat": "🔥 7.3上架 | 7.7下架 | 第5个动画喜剧IP | 2700 V-Bucks",
+    "tag": "🌟 最新活动",
+    "mechanismType": "动画IP联动工业化+NPC交互+短窗口FOMO",
+    "mechanism": "- 工业化节奏：每周至少一个联动IP上架（American Dad 7.3 → Scooby-Doo 7.4 → DC Batman 7.16）\\n- NPC交互层：Stan Smith作为地图NPC，遇Peter Griffin触发专属对话\\n- 4天短窗口（7.3-7.7）比常规7天更短，FOMO压力极强\\n- Bundle 2700 V-Bucks含10个变现元素：双皮肤+背饭+锶子+指套+表情+音乐",
+    "whyHot": "- 继Family Guy/Simpsons/Futurama/King of the Hill后第五个，已形成“动画喜剧宇宙”系列收藏心理\\n- NPC专属对词被大量截图传播，社交媒体免费曝光\\n- 4天窗口=异常短，极大刺激冲动购买",
+    "insight": "- 工业化管线的核心：可复制的模板（双皮肤+NPC+表情+短窗口）降低每次联动的决策成本\\n- NPC对话彼蛋=“可发现内容”而非“推送内容”，玩家主动探索感更强\\n- BS可参考：建立联动模板（皮肤+地图元素+社交触发）降低单次联动开发成本",
+    "sourceUrl": "https://thefutureoftheforce.com/2026/07/02/fortnite-x-american-dad-collaboration-officially-revealed/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-07-06-act-02",
+    "date": "2026-07-06",
+    "game": "General Intuition / Medal (AI游戏基建)",
+    "title": "【.2亿融资的AI“世界模型”公司：用数十亿游戏录像训练AI】—— 游戏行业的【AI基建设施】时刻：从买量归因到内容生产全链路AI化",
+    "heat": "🔥 .2亿 Series A | 估值亿 | Khosla+Bezos领投 | 数十亿clips训练数据",
+    "tag": "🏆 讨论度高",
+    "mechanismType": "AI基建融资+游戏录像训练+世界模型",
+    "mechanism": "- Medal平台数十亿游戏录像作为训练数据，构建AI“世界模型”\\n- 目标应用：自动测试/内容生成/AI NPC/个性化推荐\\n- Khosla Ventures领投，General Catalyst+Bezos Expeditions跟投\\n- 估值从2020年到亿，资本市场对游戏AI信心极强",
+    "whyHot": "- .2亿是游戏AI基建领域最大单笔融资之一\\n- 游戏录像作为训练数据的模式此前没有先例\\n- 对所有游戏公司的QA/内容/买量都有潜在影响",
+    "insight": "- 游戏录像=最丰富的AI训练数据：含视觉+操作+结果的完整闭环\\n- 短期影响：QA自动化+商店推荐个性化；中期：生成式关卡/皮肤\\n- BS应关注：确保游戏录像SDK能实时采集玩家行为数据，这是未来AI优化的基础",
+    "sourceUrl": "https://mobilegamer.biz/data-digest-pokemon-champions-the-top-us-earners-funding-news-sensor-towers-big-ad-report-more/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-07-03-act-01",
     "date": "2026-07-03",
     "game": "三角洲行动 x 彩虹六号 (腾讯/育碧)",

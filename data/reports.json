@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-07-06-01",
+    "date": "2026-07-06",
+    "game": "Fortnite x American Dad (Epic Games/Fox)",
+    "title": "【Fortnite×American Dad 7.3上架：Stan+Francine双皮肤+NPC交互+Good Morning USA表情+7.7下架】",
+    "highlights": "- 7月3日上架Item Shop，BR品类第五个动画喜剧联动（继Family Guy/Simpsons/Futurama/King of the Hill）\n- Bundle含 Stan+Francine双皮肤+Klaus背饭+Good Morning USA表情/音乐+Purse锶子+#1 Dad指套，套装2700 V-Bucks\n- Stan作为NPC出现在地图上，遇到Peter Griffin有专属台词：「We’ve met before… I shot you, right?」\n- 7月7日下架，4天窗口期",
+    "designAnalysis": "- 动画喜剧IP工业化联动管线已经跑通：每月至少一个动画IP上架\n- NPC交互+专属对话=在游戏内制造社交话题，玩家截图即传播\n- 4天短窗口=极强FOMO，比常规7天更短\n- 2700 V-Bucks定价包含双皮肤+多配件，客单价适中但有10个变现元素",
+    "bsInsight": "Fortnite的动画喜剧联动已形成工业化模板：双角色皮肤+NPC交互+专属表情/音乐+短窗口FOMO。对BS启发：联动可以超越纯皮肤进入交互层（NPC对话、地图元素），每个额外层都是社交传播点。",
+    "sourceUrl": "https://beebom.com/how-to-get-american-dad-skins-in-fortnite/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-07-06-02",
+    "date": "2026-07-06",
+    "game": "Pokemon Champions (Nintendo/The Pokemon Company)",
+    "title": "【Pokemon Champions手游版上线19天突破1000万下载：三层订阅+跨平台同步的数据验证】",
+    "highlights": "- 手游版6.17上线后约19天突破1000万下载，官方发布庆祝+送100 Fast Coupons\n- 核心变现架构验证：战令.99+月卡.99+年卡.99三层分带\n- Switch账号进度无缝同步手机：已付费Switch用户零成本迁移\n- Sensor Tower数据：美国5月Top 10畅销榜未入但下载量极大，后续转化率待观察",
+    "designAnalysis": "- 1000万下载/19天=全球第一IP的自然流量红利，几乎零UA成本\n- 跨平台进度同步是最低摩擦力获客：Switch用户已有情感投入和付费习惯\n- 三层订阅的//定价覆盖轻/中/重度付费用户\n- 打成小局游戏（对战制）天然适合手游碎片化场景",
+    "bsInsight": "关键数据：1000万下载但未进畅销Top 10，说明转化率还在爵坡期。对BS的参考：①跨平台同步是强大的用户迁移工具；②三层订阅的价格键设计值得研究；③先有主机用户基础再做手游的路径比反过来容易得多。",
+    "sourceUrl": "https://mobilegamer.biz/data-digest-pokemon-champions-the-top-us-earners-funding-news-sensor-towers-big-ad-report-more/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-07-06-03",
+    "date": "2026-07-06",
+    "game": "General Intuition / AI Gaming ( Series A)",
+    "title": "【AI“世界模型”公司General Intuition融资.2亿：用数十亿游戏录像训练AI，对游戏行业的三层影响】",
+    "highlights": "- General Intuition获Khosla Ventures领投.2亿 Series A，估值亿\n- 核心技术：用Medal平台数十亿游戏录像训练AI“世界模型”\n- 投资方含General Catalyst/Bezos Expeditions/Nico Rosberg\n- 目标：让AI理解游戏环境并生成内容/测试/代理行为",
+    "designAnalysis": "- AI世界模型对游戏的三层影响：①自动测试降本QA②生成式内容加速Live Ops③AI NPC/对手提升留存\n- Medal的数据护城河：数十亿游戏录像是不可复制的训练数据\n- 亿估值=资本市场对“游戏AI”赛道的巨大信心\n- 全行业影响：皮肤设计/关卡生成/AB测试都可能AI化",
+    "bsInsight": "这笔融资的核心启示：AI正在从Live Ops执行层向内容生产层渗透。对BS的短期影响是AB测试和用户分层将变得更容易，中期影响是皮肤设计和关卡生成可能被加速。建议关注Medal平台是否开放游戏开发者接入。",
+    "sourceUrl": "https://mobilegamer.biz/data-digest-pokemon-champions-the-top-us-earners-funding-news-sensor-towers-big-ad-report-more/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-07-03-01",
     "date": "2026-07-03",
     "game": "PUBG Mobile x Naruto Shippuden (Tencent/Bandai Namco)",
