@@ -1,5 +1,50 @@
 [
   {
+    "date": "2026-07-07",
+    "entries": [
+      {
+        "game": "Fortnite",
+        "skinName": "Scooby-Doo联动皮肤已上架Item Shop（Shaggy/Velma/Fred/Daphne+Scooby宠物+Mystery Machine滑翔伞）",
+        "type": "动画IP联动·7.4上架",
+        "releaseDate": "2026.7.4",
+        "brief": "BR品类继American Dad后连续第二周动画IP联动，神秘公司全阵容上架，延续每周一个IP的工业化联动节奏",
+        "sourceUrl": "https://fortnite.gg/shop",
+        "biliSearch": "https://search.bilibili.com/all?keyword=Fortnite+Scooby+Doo+%E5%8F%B2%E9%85%B7%E6%AF%94+%E7%9A%AE%E8%82%A4&order=pubdate",
+        "imageUrl": ""
+      },
+      {
+        "game": "CODM (国际版)",
+        "skinName": "S6 Persona 5 Royal联动首周运营中：Phantom Thieves Armory四角色（Joker/Panther/Queen/Violet）+Mythic FSS Hurricane Draw",
+        "type": "JRPG联动赛季·首周运营",
+        "releaseDate": "2026.7.1",
+        "brief": "FPS品类×P5R联动正式运营第一周，四位怪盗团角色Operator皮肤通过Series Armory获取，Mythic Draw限时中",
+        "sourceUrl": "https://gamemarket.gg/news/call-of-duty-mobile/call-of-duty-mobile-season-6-launch-persona-5-royal-complete-overview",
+        "biliSearch": "https://search.bilibili.com/all?keyword=CODM+S6+Persona+5+%E8%81%94%E5%8A%A8+%E9%A6%96%E5%91%A8&order=pubdate",
+        "imageUrl": ""
+      },
+      {
+        "game": "三角洲行动",
+        "skinName": "彩虹六号联动倒计时3天（7.10正式开启：金皮Doc+红皮Vigil/Montagne+墨冰武器+免费自选两款传说）",
+        "type": "FPS同品类联动·D-3倒计时",
+        "releaseDate": "2026.7.10",
+        "brief": "FPS撤离品类×R6联动正式服进入最后3天倒计时，社区热度持续攀升，B站相关视频播放量持续上涨",
+        "sourceUrl": "https://gl.ali213.net/html/2026-6/1782485.html",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8A%A8+%E5%BD%A9%E8%99%B9%E5%85%AD%E5%8F%B7+%E8%81%94%E5%8A%A8+%E5%80%92%E8%AE%A1%E6%97%B6&order=pubdate",
+        "imageUrl": "http://i2.hdslb.com/bfs/archive/3d749e1d3a6092ef4a5648a7ad1318f970dda1c9.jpg"
+      },
+      {
+        "game": "PUBG Mobile",
+        "skinName": "火影忍者疾风传联动倒计时2天（7.9上线：5个Mythic级忍者套装+Prize Path系统+查克拉特效）",
+        "type": "顶级动漫IP联动·D-2倒计时",
+        "releaseDate": "2026.7.9",
+        "brief": "射击BR品类4.5版本核心联动进入最后2天倒计时，Mythic级鸣人/佐助/鼬/斑/卡卡西全阵容确认",
+        "sourceUrl": "https://www.topuplive.com/news/pubg-mobile-x-naruto-shippuden-collaboration.html",
+        "biliSearch": "https://search.bilibili.com/all?keyword=PUBG+Mobile+%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85+%E8%81%94%E5%8A%A8+%E5%80%92%E8%AE%A1%E6%97%B6&order=pubdate",
+        "imageUrl": ""
+      }
+    ]
+  },
+  {
     "date": "2026-07-06",
     "entries": [
       {

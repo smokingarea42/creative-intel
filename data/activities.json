@@ -1,5 +1,33 @@
 [
   {
+    "id": "2026-07-07-act-01",
+    "date": "2026-07-07",
+    "game": "CODM × Persona 5 Royal (Activision/TiMi)",
+    "title": "【CODM S6 Plunder Treasure Hunt首周运营复盘：PvE Domain+面具Buff+双Armory轮转节奏】",
+    "heat": "🔥 7.1上线运营第7天 | Persona 5全球2500万销量IP | 年度最大联动",
+    "tag": "🏆 讨论度高",
+    "mechanismType": "IP玩法改造+双Armory商店+Mythic Draw限时",
+    "mechanism": "- Plunder模式内出现P5R红色Domain，击败Shadow 3波获取Persona面具Buff（强化弹道/速度）\n- 双Series Armory独立商店每周轮转不同怪盗团角色+武器蓝图\n- Mythic FSS Hurricane Draw做最高付费天花板，限时6周窗口",
+    "whyHot": "- FPS×JRPG跨品类联动极其罕见，话题性爆棚\n- 面具Buff影响gameplay=不是贴皮而是玩法层联动\n- 双Armory分开收费互不蚕食，ARPU天花板翻倍",
+    "insight": "- 【改玩法而非贴皮】是高质量联动的分水岭\n- 双Armory分流=两套独立付费漏斗覆盖不同偏好\n- 对BS启发：联动深度取决于是否改动了核心循环",
+    "sourceUrl": "https://gamemarket.gg/news/call-of-duty-mobile/call-of-duty-mobile-season-6-launch-persona-5-royal-complete-overview",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-07-07-act-02",
+    "date": "2026-07-07",
+    "game": "Riot Games (Valorant/LoL)",
+    "title": "【Riot推出Vanguard On-Demand模式：反作弊从常驻变为按需启动】—— 游戏基建层的【用户体验vs安全性】平衡术",
+    "heat": "🔥 35%玩家已符合条件 | Win11 25H2+ | 行业首创按需反作弊",
+    "tag": "🌟 最新活动",
+    "mechanismType": "反作弊体验优化+硬件门槛筛选+信任分层",
+    "mechanism": "- Vanguard新增On-Demand模式：内核驱动仅在启动游戏时加载，结束后自动卸载\n- 硬件门槛：Win11 25H2+UEFI Secure Boot+TPM 2.0+VBS+HVCI+IOMMU\n- 约35%玩家已满足条件，新硬件普及后比例持续上升\n- 不强制切换，现有模式可继续使用",
+    "whyHot": "- Vanguard常驻争议持续多年，这是Riot首次实质让步\n- 硬件门槛筛选=高端用户优先体验，制造升级动力\n- 竞品（EAC/BattlEye）尚无类似方案",
+    "insight": "- 用硬件安全替代软件常驻=技术演进解决用户体验问题\n- 35%符合率说明Win11渗透已到临界点\n- 对BS启发：反作弊体验优化本身可以是营销事件（玩家好感度直接提升）",
+    "sourceUrl": "https://www.talkesport.com/news/valorant/riot-vanguard-on-demand-anti-cheat-update/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-07-06-act-01",
     "date": "2026-07-06",
     "game": "Fortnite (Epic Games)",

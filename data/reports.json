@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-07-07-01",
+    "date": "2026-07-07",
+    "game": "Xbox / Microsoft",
+    "title": "【Xbox裁员3200人：King和Mojang直接向CEO Asha Sharma汇报】—— 手游巨头重组对行业的三层信号",
+    "highlights": "- Xbox宣布裁员3200人，4家主机工作室被剥离（Ninja Theory/Double Fine/Compulsion/Undead Labs）\n- King（Candy Crush）和Mojang（Minecraft）将直接向CEO Asha Sharma汇报，被定义为【平台级资产】\n- Sharma明确表示管理层级压缩至3-5层，新COO Helen Chiang拥有端到端P&L权\n- 承诺2027年恢复增长，今年投资规模不减但方向更聚焦",
+    "designAnalysis": "- King直接向CEO汇报=手游在微软体系内地位史上最高，不再是边缘业务\n- 4家主机工作室剥离而手游保留=资源向高ROI业务倾斜\n- 管理层级压缩=决策速度加快，对King的Live Ops节奏是利好",
+    "bsInsight": "核心信号：手游在平台巨头内的战略地位持续上升。King被定义为【平台级】说明Candy Crush的变现能力已被视为Xbox生态的核心引擎之一。对BS的启示：手游的商业确定性远高于主机游戏，这是行业共识的又一次确认。",
+    "sourceUrl": "https://mobilegamer.biz/xbox-axes-3200-jobs-king-and-mojang-to-report-directly-to-boss-asha-sharma/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-07-07-02",
+    "date": "2026-07-07",
+    "game": "Scopely / Studio Auknow (日本市场)",
+    "title": "【Scopely战略投资赛马娘创始人新工作室Studio Auknow】—— 日本手游市场的【顶级创作者+全球发行】新范式",
+    "highlights": "- Scopely（Monopoly Go母公司）宣布战略投资Studio Auknow，由赛马娘前总监创立\n- 赛马娘累计1800万下载、$24亿收入，95%来自日本市场\n- Scopely日本总裁明确表态：长期投资日本市场，支持顶级创作者从日本走向世界\n- 英语版赛马娘美国已获220万下载，证明IP全球化潜力",
+    "designAnalysis": "- $24亿/95%来自日本=单一市场ARPU极致化的又一案例（对标eFootball）\n- Scopely投资逻辑：用全球发行能力+日本顶级创作者的组合打破地域限制\n- 赛马娘的成功公式：养成+收集+强叙事=超深度付费",
+    "bsInsight": "这笔投资再次证明：日本市场的单用户价值远超全球平均。赛马娘$24亿/1800万下载=$133/下载。对BS的参考：如果日本市场ARPU显著高于其他区域，值得为日本做深度本地化内容和定价策略。",
+    "sourceUrl": "https://mobilegamer.biz/scopely-helps-fund-the-new-studio-from-the-mind-behind-umamusume-pretty-derby/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-07-07-03",
+    "date": "2026-07-07",
+    "game": "行业数据 (AppMagic/GamingonPhone)",
+    "title": "【6月全球手游收入榜：王者荣耀$1.1亿蝉联榜首，Whiteout Survival $1.09亿紧追，足球游戏借世界杯窗口集体上升】",
+    "highlights": "- 王者荣耀6月约$1.1亿居收入榜首（MOBA品类），Whiteout Survival $1.09亿紧随其后\n- 下载榜Arrows Puzzle Escape蝉联第一（2520万安装），Roblox升至第四\n- 足球相关游戏（Soccer Superstar/EA FC Mobile/Football League）集体进入下载Top15\n- Free Fire MAX稳居下载第三，证明BR品类在新兴市场依然强劲",
+    "designAnalysis": "- 王者+Whiteout差距缩小至$100万：SLG品类持续逼近MOBA霸主\n- 足球游戏集体上升=世界杯窗口效应的实时验证（对标此前+71%下载数据）\n- 下载榜被休闲拼图主导但收入榜全是中重度：获客和变现是两个世界",
+    "bsInsight": "两个核心观察：①世界杯窗口正在实时生效，足球游戏集体进入下载榜——BS如果有体育主题活动应该正在运行中；②收入榜头部格局稳定说明存量运营决定一切，新品很难在短期内冲击Top10。",
+    "sourceUrl": "https://gamingonphone.com/news/top-15-mobile-games-for-june-2026/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-07-06-01",
     "date": "2026-07-06",
     "game": "Fortnite x American Dad (Epic Games/Fox)",
