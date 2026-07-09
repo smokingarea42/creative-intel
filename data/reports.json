@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-07-09-01",
+    "date": "2026-07-09",
+    "game": "PUBG Mobile x Naruto Shippuden (Tencent/Bandai Namco)",
+    "title": "【今日D-Day】PUBG Mobile 4.5版本×火影忍者疾风传正式上线：查克拉战斗系统+忍者奔跑+Prize Path+5个Mythic级皮肤",
+    "highlights": "- 7月9日全球正式上线，射击BR品类首次日漫顶级IP联动进入实际运营阶段（射击BR品类）\n- 查克拉战斗系统：能量条积攒后释放忍术改变战斗节奏，Ninja Sprint被动技能全员可用\n- 5个Mythic级忍者套装（鸣人/佐助/鼬/斑/卡卡西）通过Prize Path+Lucky Spin双路径获取\n- 7.30还将上线蜘蛛侠Brand New Day联动+Ferrari超跑皮肤，4.5版本三IP并行",
+    "designAnalysis": "- 查克拉系统进入BR=真正的玩法层联动，不是贴皮而是改了核心循环\n- Prize Path替代纯抽奖=降低博彩感知，行为投入驱动消费\n- Ninja Sprint被动全员可用=联动内容渗透基础gameplay，所有人都能感受到\n- 三IP并行（火影/蜘蛛侠/Ferrari）证明大DAU产品的多线变现消化能力",
+    "bsInsight": "今日上线是观察联动效果的最佳窗口。核心学习：①查克拉系统让所有人体验到联动而非只有付费玩家——这是最强的免费预热转化路径；②Prize Path+Lucky Spin双轨比纯抽奖更健康；③BS做联动应追求【改gameplay】而非只做皮肤。",
+    "sourceUrl": "https://gamingonphone.com/news/pubg-mobile-x-naruto-shippuden-collaboration/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-07-09-02",
+    "date": "2026-07-09",
+    "game": "Nintendo (Mario Kart Tour)",
+    "title": "【Mario Kart Tour 9.29关服确认】—— 7年.7亿手游的终局：无离线模式+免费Gold Pass最后两月",
+    "highlights": "- Nintendo官宣Mario Kart Tour 9月29日永久关服，无离线模式，7年运营数据全部清零\n- AppMagic估算累计IAP收入约.7亿，峰值期月收入超\n- 7.7起停止Gold Pass续费，8.4-9.29免费开放Gold Pass给所有玩家\n- 无任何主机端迁移方案——玩家资产完全归零",
+    "designAnalysis": "- 手游关服的标准流程：提前3个月预告+最后阶段免费开放付费内容=降低舆论反弹\n- 无离线模式=当服务器消失，7年的投入全部蒸发——这是GaaS模式的终极风险\n- .7亿/7年≈年均：对Nintendo体量而言ROI不够，但对任何中小公司已是巨大成功\n- Gold Pass免费=最后2个月用免费内容维持日活，为Switch新Mario Kart做导流",
+    "bsInsight": "核心观察：.7亿的游戏说关就关，原因是相对Nintendo整体盘子太小。对BS的启示有两个：①任何GaaS产品都有生命周期终点，应提前规划资产迁移方案（如跨游戏皮肤/账号体系）；②关服前免费开放是降低舆论风险的标准操作。",
+    "sourceUrl": "https://mobilesyrup.com/2026/07/08/nintendo-mario-kart-tour-september-2026-shutdown/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-07-09-03",
+    "date": "2026-07-09",
+    "game": "Meta (Pocket App)",
+    "title": "【Meta推出Pocket：AI生成小游戏社交平台】—— 用户文字描述即可生成可玩小游戏，TikTok式信息流分发",
+    "highlights": "- Meta 6月29日软发布Pocket App（iOS/Android），用AI提示词即可生成互动小游戏/gizmo\n- 交互模式类TikTok短视频流：滑动浏览→发现→Remix→分享\n- 前身是收购的Gizmo团队，零代码门槛即可创建游戏内容\n- 行业定位为【AI时代的Flash游戏平台】，用户既是玩家也是创作者",
+    "designAnalysis": "- Vibe Coding+社交分发=游戏创作民主化的新载体\n- TikTok式信息流=发现效率极高，UGC游戏不需要传统UA\n- 对手游行业的潜在威胁：如果碎片时间被AI小游戏吸走，传统手游留存压力增大\n- 目前无变现体系，但社交裂变+创作者经济是清晰方向",
+    "bsInsight": "Meta进入AI游戏分发是中长期信号：当用户可以随时生成定制小游戏时，传统手游的注意力竞争对手将不再只是其他手游。短期对BS无直接影响，但应持续关注Pocket的用户增长曲线——如果DAU快速突破千万，说明碎片化游戏的形态正在被重新定义。",
+    "sourceUrl": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-07-08-01",
     "date": "2026-07-08",
     "game": "Fortnite x DC (Epic Games)",
