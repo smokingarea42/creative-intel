@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-07-10-01",
+    "date": "2026-07-10",
+    "game": "和平精英 (Tencent)",
+    "title": "【今日D-Day】和平精英新神装【幻音九尾·璃】7.10零点上线：九尾狐主题+娜扎Cos大使+璀璨转盘变现",
+    "highlights": "- 7月10日0点正式上线，射击BR品类7周年活动矩阵最高端付费出口（射击BR品类）\n- 九尾狐主题神装含全套特效+专属动作+语音，配套璀璨转盘同步开启\n- 演员娜扎出任Cos大使，7.6悬念海报→7.8 CG动画→7.10上线，3天预热节奏\n- 继帕修斯/龙鳞之后的第N款神装，单价天花板级定价",
+    "designAnalysis": "- 明星Cos大使=借用明星流量做游戏内容破圈，非代言但效果接近\n- 悬念海报→CG→上线的3天节奏：信息释放节奏快，保持讨论热度不断层\n- 璀璨转盘=独立付费通道，与常规军需分离避免蚕食\n- 九尾狐主题在国风审美中认知度极高，降低玩家理解成本",
+    "bsInsight": "核心学习：①明星Cos大使比传统代言轻量但传播效果接近，成本可控；②神装级产品的预热应该是递进式信息释放（悬念→细节→上线），而非一次性曝光；③独立转盘通道避免与日常商城互相干扰。",
+    "sourceUrl": "https://news.qq.com/rain/a/20260709A053SN00",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-07-10-02",
+    "date": "2026-07-10",
+    "game": "Square Enix (FF7 Ever Crisis)",
+    "title": "【FF7 Ever Crisis 10月关服】$1亿/3年的GaaS产品被放弃——SE对手游ROI标准的残酷裁决",
+    "highlights": "- 7月8日官宣10月7日永久关服，370万下载/$1亿累计收入/近3年运营（RPG品类）\n- 最近30天收入仅$68万，月收入从峰值骤降至不足百万\n- 无离线模式无资产迁移，停止Red Crystal Sales充值\n- 日本占1/3下载，北美占1/4；SE全移动端矩阵累计$68.8亿",
+    "designAnalysis": "- $1亿/3年≈年均$3300万对SE而言ROI不达标，但对多数公司已是成功\n- 月收入$68万=日均$2.3万，运维成本可能已倒挂\n- 继Mario Kart Tour后一周内第二个大IP手游宣布关服=行业趋势信号\n- SE移动端$68.8亿说明整体盘子够大，单品ROI不够就砍",
+    "bsInsight": "一周内两个大IP关服（Mario Kart+FF7EC）释放明确信号：大厂对手游的ROI容忍度在快速收紧。对BS的启示：①收入曲线下行时必须有止损线；②$1亿级产品都会被砍说明IP不是护身符——持续运营能力才是；③无离线模式再次成为玩家痛点，应考虑账号资产跨产品可迁移性。",
+    "sourceUrl": "https://mobilegamer.biz/final-fantasy-7-ever-crisis-closes-in-october/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-07-10-03",
+    "date": "2026-07-10",
+    "game": "行业数据 (Sensor Tower/AppMagic)",
+    "title": "【6月全球手游收入榜】Whiteout Survival登顶，PUBG Mobile/Candy Crush/LastWar骤降——世界杯效应+暑期档重塑格局",
+    "highlights": "- Sensor Tower数据：Whiteout Survival(SLG)夺得6月全球手游收入冠军，eFootball因世界杯强势上升\n- Honor of Kings因Unbound Destiny版本表现良好，Gossip Harbor叙事活动驱动增长\n- PUBG Mobile/Candy Crush Saga/LastWar三款产品月收入出现明显骤降\n- 下载榜：Roblox第一，Arrows系列3款进入Top10，Block Blast持续下滑",
+    "designAnalysis": "- Whiteout Survival登顶=SLG品类头部集中度进一步提升\n- eFootball世界杯期间强势=体育赛事窗口对足球类产品有决定性影响\n- PUBG Mobile骤降可能与火影联动7.9上线前的观望期有关\n- Arrows系列3款进入下载Top10=超休闲品类仍有爆发空间",
+    "bsInsight": "核心观察：①世界杯窗口期足球类产品收入暴增（eFootball），BS应预判体育赛事对竞品的影响并做错峰策略；②PUBG Mobile骤降后紧接火影联动=经典的【低谷蓄力→联动爆发】节奏，BS的版本节奏也应有意制造期待窗口；③SLG登顶说明高ARPU品类在头部效应下仍在增长。",
+    "sourceUrl": "https://mobilegamer.biz/data-digest-pokemon-go-turns-10-junes-top-performers-funding-news-supercity-stats-more/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-07-09-01",
     "date": "2026-07-09",
     "game": "PUBG Mobile x Naruto Shippuden (Tencent/Bandai Namco)",
