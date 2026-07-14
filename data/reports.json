@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-07-14-01",
+    "date": "2026-07-14",
+    "game": "Marvel Rivals (NetEase)",
+    "title": "【Marvel Rivals Summer Festival】Pop & Win+Krakoan Reels双轨变现：10款泳装皮肤+2500免费Units+钓鱼兑换系统",
+    "highlights": "- 6.18开启的夏日活动仍在进行中，Hero Shooter品类S8.5赛季最大付费事件\n- 10款泳装皮肤覆盖Black Widow/Emma Frost/Doctor Strange/Spider-Man等热门角色\n- Pop & Win(概率抽取)+Krakoan Reels(钓鱼兑币)+X-Press Juice(每日登录)+Tandem Tides四活动并行\n- 免费2500 Units通过每日登录+活动挑战获取，降低付费门槛做转化漏斗",
+    "designAnalysis": "- Pop & Win=经典转盘变体但包装成【弹珠机】视觉，心理暗示从赌博到趣味游戏\n- Krakoan Reels钓鱼到鱼币到兑换皮肤=行为投入包装，本质是任务进度但体验更沉浸\n- 四活动并行=不同玩家类型都有入口（日活党/付费党/社交党/收集党）\n- 泳装皮肤性感路线引发社区热度，争议本身=免费曝光",
+    "bsInsight": "核心学习：Marvel Rivals把抽奖包装成【弹珠机Pop & Win】降低负面感知，钓鱼兑换系统让重复行为变得有趣。BS可以参考：付费活动的UI包装直接影响玩家感知（赌博感 vs 游戏感）；四线并行让每种玩家都有参与理由=最大化活动DAU。",
+    "sourceUrl": "https://marvelrivals.gg/summer-festival-2026-event-skins-rewards-more/",
+    "imageUrl": "http://i1.hdslb.com/bfs/archive/3a808a46437afa97d20687f36068e3c745989179.jpg"
+  },
+  {
+    "id": "2026-07-14-02",
+    "date": "2026-07-14",
+    "game": "CODM (Activision)",
+    "title": "【CODM S7 Phantom Current 7.30上线预告】少女前线联动+Mythic Dark Shepherd+首个Gulag BR模式",
+    "highlights": "- S7 Phantom Current确认7月30日5PM PT上线，距S6 P5R联动仅30天（FPS品类）\n- 少女前线联动（Lucky Draw+活动奖励）+Mythic Operator Dark Shepherd做付费天花板\n- 首次引入Gulag 1v1淘汰复活机制到CODM BR模式\n- 战令含MG 82 LMG新武器+Bomb Drone战术道具+RC-XD赛车新模式",
+    "designAnalysis": "- S6到S7仅30天间隔=激进赛季节奏保持持续新鲜感\n- Gulag是端游COD经典机制首次下放手游=怀旧+新鲜感双重驱动\n- 少女前线联动=二次元IP拓展非传统FPS用户群\n- Mythic Draw做天花板+Lucky Draw做中层=双付费通道",
+    "bsInsight": "CODM的30天赛季轮转节奏：短赛季=持续新内容可营销，FOMO更强但开发压力也更大。对BS启示：赛季缩短可提高新鲜感；端游经典机制下放手游是低成本高回报差异化策略。",
+    "sourceUrl": "https://www.callofduty.com/blog/2025/07/call-of-duty-mobile-season-7-phantom-current",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-07-14-03",
+    "date": "2026-07-14",
+    "game": "Fortnite (Epic Games)",
+    "title": "【Fortnite DC Summer Event D-2】后天7.16上线：夏日DC四皮肤+Batman Sprite新品类+Batmobile载具",
+    "highlights": "- DC Summer Event确认7.16上线，BR品类DC月第三波重磅内容（后天D-Day）\n- 4款夏日沙滩版DC角色：Batman/Harley Quinn/Catwoman/Poison Ivy休闲重绘\n- Batman Sprite=C7S3新品类追踪宠物道具的DC联动版本\n- Nintendo eShop提前泄露引发全网讨论=零成本事件营销效果",
+    "designAnalysis": "- 夏日版经典角色=同一IP不同主题反复变现的教科书操作\n- Sprite新品类+联动=用大IP带新品类首发付费意愿\n- 7月DC月连续三周输出（超女/Scooby/DC Summer）=IP工业化排期\n- 泄露制造话题热度，降低正式发布时的营销成本",
+    "bsInsight": "Fortnite同一DC IP做三次不同主题包装每次都能卖=【主题换皮】策略验证成功。对BS：核心角色可多次出售不同主题版本，关键是主题差异够大+间隔够长。后天上线，关注首日表现。",
+    "sourceUrl": "https://esports.gg/news/fortnite/batman-fortnite-summer-event-skins/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-07-10-01",
     "date": "2026-07-10",
     "game": "和平精英 (Tencent)",

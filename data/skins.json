@@ -1,5 +1,40 @@
 [
   {
+    "date": "2026-07-14",
+    "entries": [
+      {
+        "game": "CODM (国际版)",
+        "skinName": "S7 Phantom Current 7.30上线确认：Mythic Dark Shepherd+少女前线Lucky Draw+战令MG 82/Bomb Drone+Gulag首次登场",
+        "type": "FPS新赛季预告·D-16·少女前线联动+Mythic",
+        "releaseDate": "2026.7.30",
+        "brief": "FPS品类S7确认7.30上线，Mythic Draw Dark Shepherd做付费天花板+少女前线Lucky Draw联动+首个Gulag BR模式",
+        "sourceUrl": "https://www.callofduty.com/blog/2025/07/call-of-duty-mobile-season-7-phantom-current",
+        "biliSearch": "https://search.bilibili.com/all?keyword=CODM+S7+Phantom+Current+%E5%B0%91%E5%A5%B3%E5%89%8D%E7%BA%BF+Dark+Shepherd&order=pubdate",
+        "imageUrl": ""
+      },
+      {
+        "game": "逆战未来",
+        "skinName": "S3「无主之地」联动赛季运营中：赛季金枪+绿钒兑换传说角色+战双联动七实-芒星之迹免费给+超限猎场7.10上线",
+        "type": "FPS PVE赛季联动·运营中",
+        "releaseDate": "2026.7.2",
+        "brief": "FPS PVE品类S3联动无主之地运营中，绿钒兑传说角色+战双联动皮肤免费送+超限猎场肉鸿玩法7.10上线",
+        "sourceUrl": "https://www.bilibili.com/video/BV1EZjU61EBb/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=%E9%80%86%E6%88%98%E6%9C%AA%E6%9D%A5+S3+%E6%97%A0%E4%B8%BB%E4%B9%8B%E5%9C%B0+%E7%9A%AE%E8%82%A4+%E8%B6%85%E9%99%90%E7%8C%8E%E5%9C%BA&order=pubdate",
+        "imageUrl": "http://i0.hdslb.com/bfs/archive/f5c0f1dbc867b856fb8b0936aab02fcc768e4698.jpg"
+      },
+      {
+        "game": "Fortnite",
+        "skinName": "DC Summer Event D-2倒计时（7.16上线）：夏日沙滩版Batman/Harley Quinn/Catwoman/Poison Ivy+Batman Sprite新品类道具+Batmobile",
+        "type": "DC夏日IP联动·D-2倒计时",
+        "releaseDate": "2026.7.16",
+        "brief": "BR品类DC月第三波后天上线，4款夏日沙滩版DC角色重绘+Batman Sprite新品类追踪宠物道具",
+        "sourceUrl": "https://esports.gg/news/fortnite/batman-fortnite-summer-event-skins/",
+        "biliSearch": "https://search.bilibili.com/all?keyword=Fortnite+DC+Summer+Batman+Harley+%E5%A4%8F%E6%97%A5+7.16&order=pubdate",
+        "imageUrl": ""
+      }
+    ]
+  },
+  {
     "date": "2026-07-10",
     "entries": [
       {

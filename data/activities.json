@@ -1,5 +1,33 @@
 [
   {
+    "id": "2026-07-14-act-01",
+    "date": "2026-07-14",
+    "game": "Marvel Rivals (NetEase)",
+    "title": "【Marvel Rivals Summer Festival双轨变现拆解：Pop & Win弹珠机+Krakoan Reels钓鱼兑币+每日登录四线并行】",
+    "heat": "🔥 6.18开启运营中 | 10款泳装皮肤 | Hero Shooter品类最大夏日活动",
+    "tag": "🏆 讨论度高",
+    "mechanismType": "Pop & Win弹珠机+钓鱼兑币+每日登录+双人任务",
+    "mechanism": "- Pop & Win：弹珠机视觉包装的概率抽取，Emma Frost/Doctor Strange泳装为头奖\n- Krakoan Reels：钓鱼→收集鱼币→兑换限定皮肤/道具，行为投入驱动付费\n- X-Press Juice：每日登录累积免费获2500 Units\n- Tandem Tides：双人组队任务解锁奖励，社交裂变",
+    "whyHot": "- 10款泳装皮肤性感路线引爆社区讨论，争议=免费曝光\n- 弹珠机视觉+钓鱼玩法让付费感知从赌博变为趣味游戏\n- 四线并行让不同类型玩家都有参与理由",
+    "insight": "- 抽奖UI包装直接影响玩家付费意愿：弹珠机>转盘>直接抽卡\n- 钓鱼兑币=行为投入包装，本质是任务进度但体验更沉浸\n- 四活动并行=最大化活动期DAU，每个玩家都能找到入口",
+    "sourceUrl": "https://marvelrivals.gg/summer-festival-2026-event-skins-rewards-more/",
+    "imageUrl": "http://i1.hdslb.com/bfs/archive/3a808a46437afa97d20687f36068e3c745989179.jpg"
+  },
+  {
+    "id": "2026-07-14-act-02",
+    "date": "2026-07-14",
+    "game": "逆战未来 x 无主之地 (腾讯)",
+    "title": "【逆战未来S3「无主之地」联动赛季运营拆解：绿钞兑奖+赌城BOSS+肉鸽随机升级+双人抽卡塔防】",
+    "heat": "🔥 7.2上线运营中 | FPS PVE品类×刷宝神作IP | 绿钞货币体系+赌局玄学",
+    "tag": "🌟 最新活动",
+    "mechanismType": "赛季货币兑奖+赌城BOSS+肉鸽随机升级+双人抽卡塔防",
+    "mechanism": "- 绿钞货币：对局拾取+通关结算获取，兑换传说角色/限定武器外观=刷宝兑奖核心循环\n- 销金之城BOSS：融入无主之地赌局玩法，告别站桩打BOSS\n- 超限猎场：肉鸽向随机buff/词条组合，每局不同提升重玩度\n- 欢乐防线：双人联机抽卡塔防，随机获取陷阱，运气+战术双重博弈",
+    "whyHot": "- FPS PVE+刷宝神作IP梦幻联动，受众重合度极高\n- 绿钞兑奖对平民玩家友好，不用重度氪金就能解锁全部奖励\n- B站前瞻视频播放量超5万，社区讨论度高",
+    "insight": "- 绿钞对标无主之地核心循环=联动要融入IP核心乐趣而非贴皮\n- 肉鸽随机性提升重玩度，但需平行提供经典固定图给硬核玩家\n- 双人抽卡塔防=社交+随机性结合，休闲开黑场景下的活跃度拉升神器",
+    "sourceUrl": "https://www.bilibili.com/video/BV1EZjU61EBb/",
+    "imageUrl": "http://i0.hdslb.com/bfs/archive/f5c0f1dbc867b856fb8b0936aab02fcc768e4698.jpg"
+  },
+  {
     "id": "2026-07-10-act-01",
     "date": "2026-07-10",
     "game": "和平精英 (Tencent)",
