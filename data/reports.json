@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-07-16-01",
+    "date": "2026-07-16",
+    "game": "Fortnite (Epic Games)",
+    "title": "【Fortnite v41.20 Hot Bat Summer今日D-Day正式上线】DC夏日四皮肤+Batman Sprite+Bat Cave地标+Beckham世界杯联动同周爆发",
+    "highlights": "- v41.20今日(7.16) 4AM ET正式上线，BR品类C7S3第二个大版本更新\\n- Hot Bat Summer: Summer Batman/Summer Catwoman/High Tide Harley/Sunflower Ivy四款泳装DC皮肤\\n- Batman Sprite+Air Sprite+Seven Sprite三款新Sprite导入，Bat Cave作为新地标点\\n- Beckham Icon Series球衣+西装双皮肤预计7.18上架，卡世界杯决赛(7.19)前一天",
+    "designAnalysis": "- 单次更新埋入一周商城节奏(DC D-Day→Beckham D+2→海绵宝宝后续)=一次停机多次收入peak\\n- Bat Cave地标让所有玩家体验联动而非只有付费用户\\n- Beckham世界杯决赛前天上架=足球情绪顶点变现\\n- DC+足球+动画(海绵宝宝)三线并行覆盖不同用户画像",
+    "bsInsight": "v41.20验证了[版本更新做商业节奏载体]策略：一次停机埋入一周商城节奏。BS可参考：版本更新不只是技术节点而是商业化载体，用一次更新实现一周多次付费高潮。",
+    "sourceUrl": "https://www.theclick.gg/fortnite-41-20-update-patch-notes/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-07-16-02",
+    "date": "2026-07-16",
+    "game": "MLBB × Street Fighter 6 (Moonton/Capcom)",
+    "title": "【MLBB×街霼6联动运营中】Crest兑换店取代Bingo+双Outfit系统+Premium Supply双阶段——MOBA品类抽卡改良实验",
+    "highlights": "- 7.3上线运营中(~8月中)，继KOF后第二个格斗IP联动（MOBA品类）\\n- 4款皮肤: Paquito×Ryu/Chou×Ken/Guinevere×Chun-Li/Dyrroth×Guile\\n- 每款含双Outfit(主体+完全重绘变体)，非简单换色\\n- Crest兑换店: 重复抽到自动转Crest，玩家可定向兑换目标皮肤；10抽保底永久联动道具",
+    "designAnalysis": "- Crest兑换店=抽卡+定向选择的混合体，降低博彩感知同时保留抽卡乐趣\\n- 双Outfit让单款皮肤感知价值翻倍: 买一得二心理\\n- Premium Supply双阶段(7.10+7.17)创造多次付费peak\\n- 10抽保底永久联动道具=极低门槛入口",
+    "bsInsight": "核心创新：Crest兑换店是抽卡改良最佳实践——保留随机性兴奋感但给予玩家定向选择权。双Outfit系统让单皮肤价值感提升而无额外开发成本。BS可参考：抽奖重复道具转代币→定向兑换，比纯保底体验更好。",
+    "sourceUrl": "https://www.u7buy.com/blog/mlbb-street-fighter-6-collab-guide/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-07-16-03",
+    "date": "2026-07-16",
+    "game": "Fortnite × David Beckham (Epic Games)",
+    "title": "【Fortnite×Beckham Icon Series 7.18上架预告】球衣+西装双皮肤卡世界杯决赛前天——体育赛事情绪变现精准打法",
+    "highlights": "- Beckham 7.14 Instagram官宣(109K赞/1485评论)，预计7.18上架Item Shop\\n- 双皮肤: 球衣版+Inter Miami西装版，Icon Series级别\\n- 精确卡点: 7.18上架 vs 7.19世界杯决赛=足球情绪最高点D-1\\n- 配合v41.20同周更新形成DC+足球双线爆发",
+    "designAnalysis": "- 明星本人Instagram官宣=免费触达亿级粉丝池，零UA成本\\n- 球衣+西装双形态=一款皮肤触达两个用户场景(足球粉/潮流党)\\n- 世界杯决赛前天上架=全球足球情绪最高时刻\\n- 同周DC+足球双线证明BR品类内容消化能力极强",
+    "bsInsight": "Beckham卡点核心逻辑：体育赛事窗口不仅对体育游戏有效，任何游戏都能借势。决赛前天D-1上架>决赛D-Day，因为比赛当天用户在看球而非玩游戏。BS体育联动应在赛事前D-1上架而非D-Day。",
+    "sourceUrl": "https://beebom.com/fortnite-david-beckham-skin-revealed/",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-07-15-01",
     "date": "2026-07-15",
     "game": "Fortnite (Epic Games)",

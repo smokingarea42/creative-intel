@@ -1,5 +1,33 @@
 [
   {
+    "id": "2026-07-16-act-01",
+    "date": "2026-07-16",
+    "game": "MLBB x Street Fighter 6 (Moonton/Capcom)",
+    "title": "【MLBB x SF6 Premium Supply第二阶段7.17开启】Crest兑换店+双Outfit系统+充值返抽券——MOBA品类抽卡改良范本",
+    "heat": "7.3上线运营中 | 7.17 Phase 2开启 | 4款双Outfit皮肤 | MOBA品类最大格斗联动",
+    "tag": "讨论度高",
+    "mechanismType": "Crest兑换店+双Outfit+Premium Supply双阶段+10抽保底",
+    "mechanism": "- Crest兑换店: 抽到重复自动转Crest代币，可在专属商店定向兑换目标皮肤/道具\n- 双Outfit系统: 每款皮肤含主体SF6造型+完全重绘变体，非换色而是全新设计\n- Premium Supply双阶段(7.10+7.17): 充值达标返免费抽券，制造两次付费峰值",
+    "whyHot": "- Crest定向兑换比纯Bingo矩阵更友好，玩家有控制感\n- 双Outfit让单皮肤价值感翻倍，社区反馈积极\n- 继KOF后第二个格斗IP，形成系列收藏心理",
+    "insight": "- Crest兑换是抽卡改良最佳实践: 保留随机性+给予选择权=降低博彩感知\n- 双Outfit的开发成本远低于新皮肤但感知价值接近\n- Premium Supply双阶段是制造多次付费峰值的标准操作",
+    "sourceUrl": "https://www.u7buy.com/blog/mlbb-street-fighter-6-collab-guide/",
+    "imageUrl": ""
+  },
+  {
+    "id": "2026-07-16-act-02",
+    "date": "2026-07-16",
+    "game": "三角洲行动 (Tencent)",
+    "title": "【三角洲行动夏日作战7.17开启】累计对局时长免费解锁海滩假日主题外观——FPS品类的【时长换皮肤】夏日DAU工具",
+    "heat": "明日7.17开启 | 7.17-7.23限时 | 海滩假日主题 | 免费福利",
+    "tag": "最新活动",
+    "mechanismType": "累计时长解锁+夏日主题免费外观",
+    "mechanism": "- 双模式玩法: 全面战争+危机行动均可累计时长\n- 累计对局时长达标解锁海滩假日主题干员/武器外观\n- 7.17-7.23仅一周窗口期，错过即无",
+    "whyHot": "- 完全免费活动，降低所有玩家参与门槛\n- 夏日主题外观在暑假窗口有天然吸引力\n- 一周短窗口制造每日登录紧迫感",
+    "insight": "- 时长换皮肤是最纯粹的DAU工具: 零付费但强制每日登录并游玩\n- 夏日主题外观做免费层，为同期付费内容做流量基础\n- 一周限时+双模式可累计=覆盖最多玩家类型",
+    "sourceUrl": "https://www.msn.cn/zh-cn/news/other/%E4%B8%89%E8%A7%92%E6%B4%B2%E8%A1%8C%E5%8A%A8%E6%96%B0%E6%B4%BB%E5%8A%A8%E5%A4%8F%E6%97%A5%E4%BD%9C%E6%88%98%E4%B8%8A%E7%BA%BF-%E6%8B%BF%E6%B5%B7%E6%BB%A9%E5%81%87%E6%97%A5%E4%B8%BB%E9%A2%98%E5%A4%96%E8%A7%82/ar-AA27Wj6b",
+    "imageUrl": ""
+  },
+  {
     "id": "2026-07-15-act-01",
     "date": "2026-07-15",
     "game": "CFM 穿越火线手游 (腾讯)",
